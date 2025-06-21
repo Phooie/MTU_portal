@@ -1,0 +1,368 @@
+{% load static %} 
+{% load i18n lang_switcher %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% load static %} 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% trans "AI-Powered Smart MTU Website" %}</title>
+  <link rel="stylesheet" href="{% static 'why.css' %}">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #333;
+      background-color:#002B5C ;
+      height: 100%;
+
+    }
+
+    /* Header Styles (matches your existing header) */
+    .main-header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      z-index: 1000;
+    }
+
+    /* Main Content Area */
+    main {
+      padding: 140px 20px 60px;
+      min-height: calc(100vh - 200px);
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    /* Upload Container */
+    .upload-container {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 20px rgba(0, 43, 92, 0.1);
+      padding: 40px;
+      margin: 0 auto;
+      max-width: 800px;
+      border-top: 4px solid #a10000;
+    }
+
+    .upload-header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .upload-header h2 {
+      color: #002B5C;
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+
+    .upload-header p {
+      color: #6c757d;
+      font-size: 1.1rem;
+    }
+
+    /* Form Styles */
+    .upload-form {
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+    }
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .form-group label {
+      font-weight: 600;
+      color: #002B5C;
+      font-size: 1rem;
+    }
+
+    .form-control {
+      padding: 12px 15px;
+      border: 1px solid #ced4da;
+      border-radius: 6px;
+      font-size: 1rem;
+      transition: all 0.3s;
+    }
+
+    .form-control:focus {
+      border-color: #002B5C;
+      box-shadow: 0 0 0 0.2rem rgba(0, 43, 92, 0.25);
+      outline: none;
+    }
+
+    /* File Input Styling */
+    .file-input-wrapper {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .file-input-label {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 12px 15px;
+      background-color: #f8f9fa;
+      border: 1px dashed #ced4da;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: all 0.3s;
+    }
+
+    .file-input-label:hover {
+      background-color: #e9ecef;
+    }
+
+    .file-input-text {
+      color: #495057;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .file-input-icon {
+      color: #a10000;
+      font-size: 1.2rem;
+      flex-shrink: 0;
+    }
+
+    input[type="file"] {
+      position: absolute;
+      left: 0;
+      top: 0;
+      opacity: 0;
+      width: 100%;
+      height: 100%;
+      cursor: pointer;
+    }
+
+    /* Button Styles */
+    .submit-btn {
+      background-color: #a10000;
+      color: white;
+      border: none;
+      padding: 14px 20px;
+      border-radius: 6px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s;
+      margin-top: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      width: 100%;
+    }
+
+    .submit-btn:hover {
+      background-color: #800000;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 8px rgba(161, 0, 0, 0.2);
+    }
+
+    /* Footer Styles (matches your existing footer) */
+    .mtu-footer {
+      background-color: #002B5C;
+      color: white;
+      padding: 40px 0 20px;
+    }
+
+    /* Responsive Adjustments */
+    @media (max-width: 768px) {
+      main {
+        padding: 120px 15px 40px;
+      }
+      
+      .upload-container {
+        padding: 30px 20px;
+      }
+      
+      .upload-header h2 {
+        font-size: 1.6rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      main {
+        padding: 100px 10px 30px;
+      }
+      
+      .upload-container {
+        padding: 25px 15px;
+      }
+      
+      .upload-header h2 {
+        font-size: 1.4rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Navigation Header -->
+  <header class="main-header">
+    <div class="header-container">
+      <div class="left-section">
+        <div class="logo-section">
+          <img src="{% static 'images/Logo_of_MTU.png' %}" alt="{% trans 'University Logo' %}" class="logo">
+          <div class="university-name">
+            <span class="line1">{% trans "Mandalay" %}</span>
+            <span class="line2">{% trans "Technological" %}</span>
+            <span class="line3">{% trans "University" %}</span>
+          </div>
+        </div>
+
+        <div class="nav-links">
+          <div class="top-links">
+            <a href="{% url 'news' %}" class="btn btn-sm btn-outline-warning">{% trans "News & Events" %}</a>
+            <a href="{% url 'libiary' %}" class="btn btn-sm btn-outline-warning">{% trans "Library" %}</a>
+            <a href="{% url 'research' %}" class="btn btn-sm btn-outline-warning">{% trans "Research" %}</a>
+          </div>
+          <div class="bottom-links">
+            <a href="{% url 'home' %}">{% trans "Home" %}</a>
+            <a href="{% url 'departments' %}">{% trans "Departments" %}</a>
+            <a href="#footer">{% trans "Contact us" %}</a>
+            <a onclick="openChatbot()">{% trans "Admission" %}</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="right-section">
+        <a href="{% url 'logout' %}" class="logout-link"><i class='bx bxs-user'></i>{% trans "Logout" %}</a>
+
+        <div class="language-switcher">
+          <button class="lang-btn">
+            <img src="https://flagcdn.com/w40/us.png" alt="EN" class="flag-icon">English<i class='bx bx-chevron-down arrow'></i>
+          </button>
+          <div class="dropdown">
+            <a href="{% change_lang 'us' %}" class="lang-option">
+              <img src="https://flagcdn.com/w40/us.png" alt="EN" class="flag-icon"> English</a>
+            <a href="{% change_lang 'my' %}" class="lang-option">
+              <img src="https://flagcdn.com/w40/mm.png" alt="MM" class="flag-icon"> မြန်မာ</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <div class="upload-container">
+      <div class="upload-header">
+        <h2>{% trans "Upload PDF for Summarization" %}</h2>
+        <p>{% trans "Upload your research documents to generate AI-powered summaries" %}</p>
+      </div>
+      <form method="post" enctype="multipart/form-data" id="uploadForm" class="upload-form">
+        {% csrf_token %}
+        <div class="form-group">
+          <label for="title">{% trans "Document Title" %}</label>
+          <input type="text" id="title" name="title" class="form-control" required placeholder="{% trans 'Enter document title' %}">
+        </div>
+        <div class="form-group">
+          <label for="pdf_file">{% trans "PDF File" %}</label>
+          <div class="file-input-wrapper">
+            <input type="file" id="pdf_file" name="pdf_file" accept=".pdf" required>
+            <label for="pdf_file" class="file-input-label">
+              <span class="file-input-text" id="file-name">{% trans "Choose a PDF file" %}</span>
+              <i class='bx bx-cloud-upload file-input-icon'></i>
+            </label>
+          </div>
+          <small>{% trans "Only PDF files are accepted (max 10MB)" %}</small>
+        </div>
+        <button type="submit" class="submit-btn">
+          {% trans "Upload and Summarize" %}
+        </button>
+      </form>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer id="mtu-footer" class="mtu-footer">
+    <div class="footer-container">
+      <div class="footer-column">
+        <h4>{% trans "Explore MTU" %}</h4>
+        <ul>
+          <li><a href="#about-mtu">{% trans "About MTU" %}</a></li>
+          <li><a onclick="openChatbot()">{% trans "Admissions" %}</a></li>
+          <li><a href="{% url 'departments' %}">{% trans "Departments" %}</a></li>
+          <li><a href="{% url 'research' %}">{% trans "Research" %}</a></li>
+          <li><a href="{% url 'campus' %}">{% trans "Campus Life" %}</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h4>{% trans "Contact Details" %}</h4>
+        <p><strong>{% trans "Phone" %}:</strong> +95 9 123456789</p>
+        <p><strong>{% trans "Email" %}:</strong> info@mtu.edu.mm</p>
+        <p><strong>{% trans "Address" %}:</strong><br>
+          {% trans "Mandalay Technological University" %}<br>
+          {% trans "Patheingyi Township, Mandalay" %}<br>
+          {% trans "Myanmar" %}
+        </p>
+      </div>
+
+      <div class="footer-column">
+        <h4>{% trans "Connect With Us" %}</h4>
+        <div class="social-icons">
+          <a href="#"><i class='bx bxl-facebook'></i></a>
+          <a href="#"><i class='bx bxl-instagram'></i></a>
+          <a href="#"><i class='bx bxl-youtube'></i></a>
+        </div>
+        <div class="mtu-logo">
+          <img src="{% static 'images/Logo_of_MTU.png' %}" alt="MTU Logo">
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2025 {% trans "Mandalay Technological University. All rights reserved." %}</p>
+      <div class="footer-links">
+        <a href="#">{% trans "Terms & Privacy" %}</a>
+        <a href="#">{% trans "Accessibility" %}</a>
+        <a href="#">{% trans "Contact" %}</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Chatbot Integration -->
+  <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+  <df-messenger
+    intent="WELCOME"
+    chat-title="UniAssist"
+    agent-id="cf85d824-470d-409b-9a50-38b12b8672fc"
+    language-code="en">
+  </df-messenger>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    // Display selected file name
+    document.getElementById('pdf_file').addEventListener('change', function(e) {
+      const fileName = e.target.files[0] ? e.target.files[0].name : "{% trans 'Choose a PDF file' %}";
+      document.getElementById('file-name').textContent = fileName;
+    });
+    
+    // Chatbot function
+    function openChatbot() {
+      const dfMessenger = document.querySelector('df-messenger');
+      if (dfMessenger) {
+        dfMessenger.shadowRoot.querySelector('button').click();
+      } else {
+        console.error('Dialogflow messenger not found');
+      }
+    }
+
+    // Form submission handling (optional)
+    document.getElementById('uploadForm').addEventListener('submit', function(e) {
+      // You can add form validation or loading indicators here
+      console.log('Form submitted');
+    });
+  </script>
+</body>
+</html>

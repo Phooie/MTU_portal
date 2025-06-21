@@ -1,0 +1,17 @@
+001 Fundamentals_of_Structural_Analysis Comprehensive guide to structural analysis basics for civil engineers #CE #structures
+002 Surveying_for_Civil_Engineers Essential surveying concepts and practices for civil engineering #CE #surveying
+003 Engineering_Thermodynamics Core thermodynamics principles for mechanical engineers #ME #thermodynamics
+004 Strength_of_Materials Fundamental concepts of material strength and mechanics #ME #materials
+005 Introduction_to_Algorithms Comprehensive algorithms textbook with mathematical rigor #CEIT #algorithms #programming
+006 Computer_Networks Complete guide to computer networking principles #CEIT #networking #systems
+007 Operating_Systems_Concepts Foundational operating systems knowledge #CEIT #OS #systems
+008 Effective_Study_Techniques Proven methods for academic success #attendance #study #CEIT
+009 Design_of_Reinforced_Concrete Principles of structural concrete design #CE #concrete #structures
+010 Engineering_Mechanics_Dynamics Core mechanical engineering dynamics concepts #ME #dynamics
+011 Electrical_Engineering_Principles Comprehensive electrical engineering fundamentals #EP #electrical
+012 Microelectronic_Circuits Complete electronics engineering textbook #EC #electronics
+013 Mechatronics_Principles Integration of mechanical/electrical/computer systems #MC #mechatronics
+014 Chemical_Processes_Fundamentals Foundational chemical engineering processes #ChE #chemical
+015 Nuclear_Reactor_Physics Physics behind nuclear reactors and systems #NT #nuclear
+016 Introductory_Mining_Engineering Fundamental mining practices and engineering #MinE #mining
+017 Architecture_Form_Space Foundational architecture textbook on design #Arch #architecture

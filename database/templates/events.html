@@ -1,0 +1,40 @@
+{% load static %} {% load i18n lang_switcher %}
+
+{% block content %}
+<div class="container">
+    
+
+    <!-- Resources List -->
+    <div class="row">
+        {% for item1 in data1 %}
+        <div class="col-md-6 mb-3">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">{{ item1.title }}</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">
+                        {{ item1.instructor }}
+                    </h6>
+                    <p class="card-text">{{ item1.description }}</p>
+                    
+                    {% if item1.start_date %}
+                        <p class="text-muted">
+                            <small>{{ item1.start_date|date:"M d, Y" }}</small>
+                        </p>
+                    {% endif %}
+                    
+                    {% if item1.link %}
+                        <a href="{{ item.link }}" class="btn btn-sm btn-primary" target="_blank">
+                            {{ item1.link }}
+                        </a>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+        {% empty %}
+        <div class="col-12">
+            <div class="alert alert-info">No {{ current_filter|lower }} found.</div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}

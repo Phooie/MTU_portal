@@ -1,0 +1,1539 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-06-18 23:39+0630\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: .\database\templates\campus.html:9 .\database\templates\course.html:10
+#: .\database\templates\course2.html:10 .\database\templates\home.html:11
+#: .\database\templates\login.html:10 .\database\templates\results.html:11
+#: .\database\templates\sample.html:11 .\database\templates\search.html:11
+#: .\database\templates\upload.html:10
+msgid "AI-Powered Smart MTU Website"
+msgstr "AI စွမ်းပကားအသုံးပြု အဆင့်မြင့် MTU ဝက်ဘ်ဆိုဒ် "
+
+#: .\database\templates\campus.html:102 .\database\templates\course.html:25
+#: .\database\templates\course2.html:25
+#: .\database\templates\departments.html:138 .\database\templates\home.html:23
+#: .\database\templates\libiary.html:20 .\database\templates\login.html:125
+#: .\database\templates\news.html:127 .\database\templates\register.html:130
+#: .\database\templates\research.html:203 .\database\templates\results.html:33
+#: .\database\templates\sample.html:23 .\database\templates\scores.html:27
+#: .\database\templates\scores2.html:27 .\database\templates\search.html:23
+#: .\database\templates\upload.html:214
+msgid "University Logo"
+msgstr "တက္ကသိုလ်အမှတ်တံဆိပ်"
+
+#: .\database\templates\campus.html:104 .\database\templates\course.html:27
+#: .\database\templates\course2.html:27
+#: .\database\templates\departments.html:140 .\database\templates\home.html:25
+#: .\database\templates\libiary.html:22 .\database\templates\login.html:127
+#: .\database\templates\news.html:129 .\database\templates\register.html:132
+#: .\database\templates\research.html:205 .\database\templates\results.html:35
+#: .\database\templates\sample.html:25 .\database\templates\scores.html:29
+#: .\database\templates\scores2.html:29 .\database\templates\search.html:25
+#: .\database\templates\upload.html:216
+msgid "Mandalay"
+msgstr "မန္တလေး"
+
+#: .\database\templates\campus.html:105 .\database\templates\course.html:28
+#: .\database\templates\course2.html:28
+#: .\database\templates\departments.html:141 .\database\templates\home.html:26
+#: .\database\templates\libiary.html:23 .\database\templates\login.html:128
+#: .\database\templates\news.html:130 .\database\templates\register.html:133
+#: .\database\templates\research.html:206 .\database\templates\results.html:36
+#: .\database\templates\sample.html:26 .\database\templates\scores.html:30
+#: .\database\templates\scores2.html:30 .\database\templates\search.html:26
+#: .\database\templates\upload.html:217
+msgid "Technological"
+msgstr "နည်းပညာ"
+
+#: .\database\templates\campus.html:106 .\database\templates\course.html:29
+#: .\database\templates\course2.html:29
+#: .\database\templates\departments.html:142 .\database\templates\home.html:27
+#: .\database\templates\libiary.html:24 .\database\templates\login.html:129
+#: .\database\templates\news.html:131 .\database\templates\register.html:134
+#: .\database\templates\research.html:207 .\database\templates\results.html:37
+#: .\database\templates\sample.html:27 .\database\templates\scores.html:31
+#: .\database\templates\scores2.html:31 .\database\templates\search.html:27
+#: .\database\templates\upload.html:218
+msgid "University"
+msgstr "တက္ကသိုလ်"
+
+#: .\database\templates\campus.html:112 .\database\templates\course.html:35
+#: .\database\templates\course2.html:35
+#: .\database\templates\departments.html:148 .\database\templates\home.html:33
+#: .\database\templates\libiary.html:30 .\database\templates\login.html:135
+#: .\database\templates\news.html:10 .\database\templates\news.html:137
+#: .\database\templates\register.html:140
+#: .\database\templates\research.html:213 .\database\templates\results.html:43
+#: .\database\templates\sample.html:33 .\database\templates\scores.html:37
+#: .\database\templates\scores2.html:37 .\database\templates\search.html:33
+#: .\database\templates\upload.html:224
+msgid "News & Events"
+msgstr "သတင်းများ"
+
+#: .\database\templates\campus.html:113 .\database\templates\course.html:36
+#: .\database\templates\course2.html:36
+#: .\database\templates\departments.html:149 .\database\templates\home.html:34
+#: .\database\templates\home.html:183 .\database\templates\libiary.html:31
+#: .\database\templates\login.html:136 .\database\templates\news.html:138
+#: .\database\templates\register.html:141
+#: .\database\templates\research.html:214 .\database\templates\results.html:44
+#: .\database\templates\sample.html:34 .\database\templates\scores.html:38
+#: .\database\templates\scores2.html:38 .\database\templates\search.html:34
+#: .\database\templates\search.html:183 .\database\templates\upload.html:225
+msgid "Library"
+msgstr "စာကြည့်တိုက်"
+
+#: .\database\templates\campus.html:114 .\database\templates\course.html:37
+#: .\database\templates\course.html:187 .\database\templates\course2.html:37
+#: .\database\templates\course2.html:145
+#: .\database\templates\departments.html:150
+#: .\database\templates\departments.html:305 .\database\templates\home.html:35
+#: .\database\templates\home.html:140 .\database\templates\home.html:264
+#: .\database\templates\libiary.html:32 .\database\templates\libiary.html:125
+#: .\database\templates\login.html:137 .\database\templates\news.html:139
+#: .\database\templates\news.html:204 .\database\templates\register.html:142
+#: .\database\templates\research.html:215 .\database\templates\results.html:45
+#: .\database\templates\results.html:111 .\database\templates\sample.html:35
+#: .\database\templates\scores.html:39 .\database\templates\scores.html:127
+#: .\database\templates\scores2.html:39 .\database\templates\scores2.html:127
+#: .\database\templates\search.html:35 .\database\templates\search.html:140
+#: .\database\templates\search.html:264 .\database\templates\upload.html:226
+#: .\database\templates\upload.html:295
+msgid "Research"
+msgstr "သုတေသနများ"
+
+#: .\database\templates\campus.html:115 .\database\templates\course.html:188
+#: .\database\templates\course2.html:146
+#: .\database\templates\departments.html:306 .\database\templates\home.html:36
+#: .\database\templates\home.html:265 .\database\templates\libiary.html:126
+#: .\database\templates\news.html:205 .\database\templates\results.html:112
+#: .\database\templates\scores.html:128 .\database\templates\scores2.html:128
+#: .\database\templates\search.html:36 .\database\templates\search.html:265
+#: .\database\templates\upload.html:296
+msgid "Campus Life"
+msgstr "ကျောင်းပရနဝုဏ်"
+
+#: .\database\templates\campus.html:119 .\database\templates\course.html:40
+#: .\database\templates\course2.html:40
+#: .\database\templates\departments.html:153 .\database\templates\home.html:40
+#: .\database\templates\libiary.html:35 .\database\templates\login.html:140
+#: .\database\templates\news.html:142 .\database\templates\register.html:145
+#: .\database\templates\research.html:218 .\database\templates\results.html:48
+#: .\database\templates\sample.html:38 .\database\templates\scores.html:42
+#: .\database\templates\scores2.html:42 .\database\templates\search.html:40
+#: .\database\templates\upload.html:229
+msgid "Home"
+msgstr "ပင်မစာမျက်နှာ"
+
+#: .\database\templates\campus.html:120 .\database\templates\course.html:41
+#: .\database\templates\course.html:186 .\database\templates\course2.html:41
+#: .\database\templates\course2.html:144
+#: .\database\templates\departments.html:154
+#: .\database\templates\departments.html:304 .\database\templates\home.html:41
+#: .\database\templates\home.html:119 .\database\templates\home.html:263
+#: .\database\templates\libiary.html:36 .\database\templates\libiary.html:124
+#: .\database\templates\login.html:141 .\database\templates\news.html:143
+#: .\database\templates\news.html:203 .\database\templates\register.html:146
+#: .\database\templates\research.html:219 .\database\templates\results.html:49
+#: .\database\templates\results.html:110 .\database\templates\sample.html:39
+#: .\database\templates\scores.html:43 .\database\templates\scores.html:126
+#: .\database\templates\scores2.html:43 .\database\templates\scores2.html:126
+#: .\database\templates\search.html:41 .\database\templates\search.html:119
+#: .\database\templates\search.html:263 .\database\templates\upload.html:230
+#: .\database\templates\upload.html:294
+msgid "Departments"
+msgstr "ဌာနများ"
+
+#: .\database\templates\campus.html:121 .\database\templates\course.html:42
+#: .\database\templates\course2.html:42
+#: .\database\templates\departments.html:155 .\database\templates\home.html:42
+#: .\database\templates\libiary.html:37 .\database\templates\login.html:142
+#: .\database\templates\news.html:144 .\database\templates\register.html:147
+#: .\database\templates\research.html:220 .\database\templates\results.html:50
+#: .\database\templates\sample.html:40 .\database\templates\scores.html:44
+#: .\database\templates\scores2.html:44 .\database\templates\search.html:42
+#: .\database\templates\upload.html:231
+msgid "Contact us"
+msgstr "ဆက်သွယ်ရန်"
+
+#: .\database\templates\campus.html:122 .\database\templates\course.html:43
+#: .\database\templates\course2.html:43
+#: .\database\templates\departments.html:156 .\database\templates\home.html:43
+#: .\database\templates\libiary.html:38 .\database\templates\login.html:143
+#: .\database\templates\news.html:145 .\database\templates\register.html:148
+#: .\database\templates\research.html:221 .\database\templates\results.html:51
+#: .\database\templates\sample.html:41 .\database\templates\scores.html:45
+#: .\database\templates\scores2.html:45 .\database\templates\search.html:43
+#: .\database\templates\upload.html:232
+msgid "Admission"
+msgstr "တက္ကသိုလ်ဝင်ခွင့်လျှောက်လွှာ"
+
+#: .\database\templates\campus.html:129 .\database\templates\course.html:49
+#: .\database\templates\course2.html:49
+#: .\database\templates\departments.html:163 .\database\templates\home.html:50
+#: .\database\templates\libiary.html:44 .\database\templates\login.html:149
+#: .\database\templates\news.html:152 .\database\templates\register.html:154
+#: .\database\templates\research.html:227 .\database\templates\results.html:58
+#: .\database\templates\sample.html:48 .\database\templates\scores.html:51
+#: .\database\templates\scores2.html:51 .\database\templates\search.html:50
+#: .\database\templates\upload.html:238
+msgid "Logout"
+msgstr "အကောင့်မှထွက်မည်"
+
+#: .\database\templates\campus.html:134 .\database\templates\course.html:54
+#: .\database\templates\course.html:62 .\database\templates\course.html:66
+#: .\database\templates\course2.html:54 .\database\templates\course2.html:62
+#: .\database\templates\course2.html:66
+#: .\database\templates\departments.html:168 .\database\templates\home.html:55
+#: .\database\templates\news.html:157 .\database\templates\results.html:63
+#: .\database\templates\sample.html:53 .\database\templates\search.html:55
+msgid "English"
+msgstr "English"
+
+#: .\database\templates\campus.html:136 .\database\templates\course.html:56
+#: .\database\templates\course.html:68 .\database\templates\course2.html:56
+#: .\database\templates\course2.html:68
+#: .\database\templates\departments.html:170 .\database\templates\home.html:57
+#: .\database\templates\news.html:159 .\database\templates\results.html:65
+#: .\database\templates\sample.html:55 .\database\templates\search.html:57
+#: .\djangodb\settings.py:194
+msgid "မြန်မာ"
+msgstr "မြန်မာ"
+
+#: .\database\templates\campus.html:156
+#, fuzzy
+#| msgid "Mandalay Technological University"
+msgid "Campus Life | Mandalay Technological University"
+msgstr "မန္တလေးနည်းပညာတက္ကသိုလ်"
+
+#: .\database\templates\campus.html:158
+msgid ""
+"Mandalay Technological University offers a vibrant and diverse campus "
+"experience, blending academic pursuit with cultural, social, and "
+"extracurricular opportunities. Here's a glimpse into student life at MTU."
+msgstr ""
+
+#: .\database\templates\campus.html:164
+#, fuzzy
+#| msgid "Events"
+msgid "Campus Environment"
+msgstr "ပွဲအစီအစဉ်များ"
+
+#: .\database\templates\campus.html:181
+#, fuzzy
+#| msgid "Academic Records for %(student_name)s"
+msgid "Academic Culture"
+msgstr "%(student_name)s ၏ပညာရေးမှတ်တမ်းများ"
+
+#: .\database\templates\campus.html:182
+msgid ""
+"Students engage in innovative research, hands-on lab work, and collaborative "
+"projects that prepare them for real-world challenges in engineering and "
+"technology fields."
+msgstr ""
+
+#: .\database\templates\campus.html:194
+#, fuzzy
+#| msgid "Course Recommendation Page"
+msgid "Sports & Recreation"
+msgstr "ဘာသာရပ်အကြံပြုချက်"
+
+#: .\database\templates\campus.html:195
+msgid ""
+"Our campus includes modern sports facilities, from basketball courts to a "
+"full fitness center. Students actively participate in intramural and inter-"
+"university competitions."
+msgstr ""
+
+#: .\database\templates\campus.html:207
+msgid "Cultural Activities"
+msgstr ""
+
+#: .\database\templates\campus.html:208
+msgid ""
+"From traditional Myanmar festivals to modern art showcases, MTU celebrates "
+"cultural diversity and creativity through year-round student-led events."
+msgstr ""
+
+#: .\database\templates\course.html:78 .\database\templates\course2.html:78
+#, fuzzy
+#| msgid "Search"
+msgid "Course Search"
+msgstr "ဘာသာရပ်ရှာဖွေရန်"
+
+#: .\database\templates\course.html:87 .\database\templates\course2.html:87
+msgid "Search courses..."
+msgstr "ရှာဖွေပါ"
+
+#: .\database\templates\course.html:92 .\database\templates\course2.html:92
+#: .\database\templates\libiary.html:79 .\database\templates\research.html:259
+msgid "All Categories"
+msgstr "ဘာသာရပ်အားလုံး"
+
+#: .\database\templates\course.html:98 .\database\templates\course2.html:98
+#: .\database\templates\libiary.html:85 .\database\templates\research.html:264
+#: .\database\templates\sample.html:103
+msgid "Search"
+msgstr "ရှာဖွေပါ"
+
+#: .\database\templates\course.html:109 .\database\templates\course2.html:109
+#, fuzzy
+#| msgid "Search"
+msgid "Search Results"
+msgstr "ရှာဖွေပါ"
+
+#: .\database\templates\course.html:127 .\database\templates\course2.html:127
+#: .\database\templates\libiary.html:110 .\database\templates\sample.html:244
+msgid "No resources found."
+msgstr "ရှာဖွေလိုသောအကြောင်းအရာ မတွေ့ရှိပါ"
+
+#: .\database\templates\course.html:128 .\database\templates\course2.html:128
+#: .\database\templates\libiary.html:111 .\database\templates\sample.html:136
+#: .\database\templates\sample.html:162 .\database\templates\sample.html:188
+#: .\database\templates\sample.html:216 .\database\templates\sample.html:245
+msgid "Try another keyword or filter."
+msgstr "အခြားစကားလုံးအသုံးပြု၍ ပြန်ရှာကြည့်ပါ"
+
+#: .\database\templates\course.html:136
+msgid "Recommendations Based On Previous Courses Taken"
+msgstr "လေ့လာပြီးသားဘာသာရပ်များအပေါ်အခြေခံ၍အကြံပြုချက်များ"
+
+#: .\database\templates\course.html:158
+msgid "Recommended Based on Your Search History"
+msgstr ""
+
+#: .\database\templates\course.html:182 .\database\templates\course2.html:140
+#: .\database\templates\departments.html:300 .\database\templates\home.html:259
+#: .\database\templates\libiary.html:120 .\database\templates\news.html:199
+#: .\database\templates\results.html:106 .\database\templates\scores.html:122
+#: .\database\templates\scores2.html:122 .\database\templates\search.html:259
+#: .\database\templates\upload.html:290
+#, fuzzy
+#| msgid "Explore"
+msgid "Explore MTU"
+msgstr "အသေးစိတ်လေ့လာရန်"
+
+#: .\database\templates\course.html:184 .\database\templates\course2.html:142
+#: .\database\templates\departments.html:302 .\database\templates\home.html:261
+#: .\database\templates\libiary.html:122 .\database\templates\news.html:201
+#: .\database\templates\results.html:108 .\database\templates\scores.html:124
+#: .\database\templates\scores2.html:124 .\database\templates\search.html:261
+#: .\database\templates\upload.html:292
+msgid "About MTU"
+msgstr "MTU အကြောင်း တစေ့တစောင်း "
+
+#: .\database\templates\course.html:185 .\database\templates\course2.html:143
+#: .\database\templates\departments.html:303 .\database\templates\home.html:262
+#: .\database\templates\libiary.html:123 .\database\templates\news.html:202
+#: .\database\templates\results.html:109 .\database\templates\scores.html:125
+#: .\database\templates\scores2.html:125 .\database\templates\search.html:262
+#: .\database\templates\upload.html:293
+#, fuzzy
+#| msgid "Admission"
+msgid "Admissions"
+msgstr "တက္ကသိုလ်ဝင်ခွင့်လျှောက်လွှာ"
+
+#: .\database\templates\course.html:193 .\database\templates\course2.html:151
+#: .\database\templates\departments.html:311 .\database\templates\home.html:270
+#: .\database\templates\libiary.html:131 .\database\templates\news.html:210
+#: .\database\templates\results.html:117 .\database\templates\scores.html:133
+#: .\database\templates\scores2.html:133 .\database\templates\search.html:270
+#: .\database\templates\upload.html:301
+msgid "Contact Details"
+msgstr "အသေးစိတ်ဆက်သွယ်ရန်"
+
+#: .\database\templates\course.html:194 .\database\templates\course2.html:152
+#: .\database\templates\departments.html:312 .\database\templates\home.html:271
+#: .\database\templates\libiary.html:132 .\database\templates\news.html:211
+#: .\database\templates\results.html:118 .\database\templates\scores.html:134
+#: .\database\templates\scores2.html:134 .\database\templates\search.html:271
+#: .\database\templates\upload.html:302
+msgid "Phone"
+msgstr "ဖုန်းနံပါတ်"
+
+#: .\database\templates\course.html:195 .\database\templates\course2.html:153
+#: .\database\templates\departments.html:211
+#: .\database\templates\departments.html:230
+#: .\database\templates\departments.html:249
+#: .\database\templates\departments.html:267
+#: .\database\templates\departments.html:285
+#: .\database\templates\departments.html:313 .\database\templates\home.html:272
+#: .\database\templates\libiary.html:133 .\database\templates\news.html:212
+#: .\database\templates\results.html:119 .\database\templates\scores.html:135
+#: .\database\templates\scores2.html:135 .\database\templates\search.html:272
+#: .\database\templates\upload.html:303
+msgid "Email"
+msgstr "အီးမေးလ်"
+
+#: .\database\templates\course.html:196 .\database\templates\course2.html:154
+#: .\database\templates\departments.html:314 .\database\templates\home.html:273
+#: .\database\templates\libiary.html:134 .\database\templates\news.html:213
+#: .\database\templates\results.html:120 .\database\templates\scores.html:136
+#: .\database\templates\scores2.html:136 .\database\templates\search.html:273
+#: .\database\templates\upload.html:304
+msgid "Address"
+msgstr "တည်နေရာ"
+
+#: .\database\templates\course.html:197 .\database\templates\course2.html:155
+#: .\database\templates\departments.html:315 .\database\templates\home.html:274
+#: .\database\templates\libiary.html:135 .\database\templates\news.html:214
+#: .\database\templates\results.html:121 .\database\templates\scores.html:9
+#: .\database\templates\scores.html:137 .\database\templates\scores2.html:9
+#: .\database\templates\scores2.html:137 .\database\templates\search.html:274
+#: .\database\templates\upload.html:305
+msgid "Mandalay Technological University"
+msgstr "မန္တလေးနည်းပညာတက္ကသိုလ်"
+
+#: .\database\templates\course.html:198 .\database\templates\course2.html:156
+#: .\database\templates\departments.html:316 .\database\templates\home.html:275
+#: .\database\templates\libiary.html:136 .\database\templates\news.html:215
+#: .\database\templates\results.html:122 .\database\templates\scores.html:138
+#: .\database\templates\scores2.html:138 .\database\templates\search.html:275
+#: .\database\templates\upload.html:306
+msgid "Patheingyi Township, Mandalay"
+msgstr "ပုသိမ်ကြီးမြို့နယ်၊ မန္တလေးတိုင်းဒေသကြီး"
+
+#: .\database\templates\course.html:199 .\database\templates\course2.html:157
+#: .\database\templates\departments.html:317 .\database\templates\home.html:276
+#: .\database\templates\libiary.html:137 .\database\templates\news.html:216
+#: .\database\templates\results.html:123 .\database\templates\scores.html:139
+#: .\database\templates\scores2.html:139 .\database\templates\search.html:276
+#: .\database\templates\upload.html:307
+msgid "Myanmar"
+msgstr "မြန်မာ"
+
+#: .\database\templates\course.html:204 .\database\templates\course2.html:162
+#: .\database\templates\departments.html:322 .\database\templates\home.html:281
+#: .\database\templates\libiary.html:142 .\database\templates\news.html:221
+#: .\database\templates\results.html:128 .\database\templates\scores.html:144
+#: .\database\templates\scores2.html:144 .\database\templates\search.html:281
+#: .\database\templates\upload.html:312
+msgid "Connect With Us"
+msgstr "ဆက်သွယ်ရန်"
+
+#: .\database\templates\course.html:217 .\database\templates\course2.html:175
+#: .\database\templates\departments.html:335 .\database\templates\home.html:294
+#: .\database\templates\libiary.html:155 .\database\templates\news.html:234
+#: .\database\templates\results.html:141 .\database\templates\scores.html:157
+#: .\database\templates\scores2.html:157 .\database\templates\search.html:294
+#: .\database\templates\upload.html:325
+#, fuzzy
+#| msgid "Mandalay Technological University"
+msgid "Mandalay Technological University. All rights reserved."
+msgstr "မန္တလေးနည်းပညာတက္ကသိုလ်"
+
+#: .\database\templates\course.html:219 .\database\templates\course2.html:177
+#: .\database\templates\departments.html:337 .\database\templates\home.html:296
+#: .\database\templates\libiary.html:157 .\database\templates\news.html:236
+#: .\database\templates\results.html:143 .\database\templates\scores.html:159
+#: .\database\templates\scores2.html:159 .\database\templates\search.html:296
+#: .\database\templates\upload.html:327
+msgid "Terms & Privacy"
+msgstr "ဝန်ဆောင်မှုသတ်မှတ်ချက်များနှင့် ကိုယ်ရေးအချက်အလက်လုံခြုံရေး"
+
+#: .\database\templates\course.html:220 .\database\templates\course2.html:178
+#: .\database\templates\departments.html:338 .\database\templates\home.html:297
+#: .\database\templates\libiary.html:158 .\database\templates\news.html:237
+#: .\database\templates\results.html:144 .\database\templates\scores.html:160
+#: .\database\templates\scores2.html:160 .\database\templates\search.html:297
+#: .\database\templates\upload.html:328
+msgid "Accessibility"
+msgstr "အထွေထွေ"
+
+#: .\database\templates\course.html:221 .\database\templates\course2.html:179
+#: .\database\templates\departments.html:339 .\database\templates\home.html:298
+#: .\database\templates\libiary.html:159 .\database\templates\news.html:238
+#: .\database\templates\results.html:145 .\database\templates\scores.html:161
+#: .\database\templates\scores2.html:161 .\database\templates\search.html:298
+#: .\database\templates\upload.html:329
+msgid "Contact"
+msgstr "ဆက်သွယ်ရန်"
+
+#: .\database\templates\course.html:239 .\database\templates\course2.html:197
+#: .\database\templates\departments.html:357 .\database\templates\home.html:316
+#: .\database\templates\libiary.html:177 .\database\templates\news.html:256
+#: .\database\templates\results.html:163 .\database\templates\scores.html:179
+#: .\database\templates\scores2.html:179 .\database\templates\search.html:316
+msgid "Multilingual support coming soon!"
+msgstr "ဘာသာစကားအမျိုးမျိုးကို မကြာမီ ထည့်သွင်းပေးမည်"
+
+#: .\database\templates\course.html:273 .\database\templates\course2.html:231
+#: .\database\templates\departments.html:391 .\database\templates\home.html:350
+#: .\database\templates\libiary.html:211 .\database\templates\news.html:290
+#: .\database\templates\results.html:197 .\database\templates\scores.html:213
+#: .\database\templates\scores2.html:213 .\database\templates\search.html:350
+msgid "I'll connect you to our FAQ about"
+msgstr ""
+
+#: .\database\templates\course.html:287 .\database\templates\course2.html:245
+#: .\database\templates\departments.html:405 .\database\templates\home.html:364
+#: .\database\templates\libiary.html:225 .\database\templates\news.html:304
+#: .\database\templates\results.html:211 .\database\templates\scores.html:227
+#: .\database\templates\scores2.html:227 .\database\templates\search.html:364
+msgid "Searching our knowledge base..."
+msgstr "ကျွန်ုပ်တို့၏ အသိပညာအခြေခံစုစည်းမှုမှ ရှာဖွေနေသည်…"
+
+#: .\database\templates\course.html:296 .\database\templates\course2.html:254
+#: .\database\templates\departments.html:414 .\database\templates\home.html:373
+#: .\database\templates\libiary.html:234 .\database\templates\news.html:313
+#: .\database\templates\results.html:220 .\database\templates\scores.html:236
+#: .\database\templates\scores2.html:236 .\database\templates\search.html:373
+msgid "AI Workshop"
+msgstr "AI အလုပ်ရုံဆွေးနွေးပွဲ"
+
+#: .\database\templates\course.html:296 .\database\templates\course2.html:254
+#: .\database\templates\departments.html:414 .\database\templates\home.html:373
+#: .\database\templates\libiary.html:234 .\database\templates\news.html:313
+#: .\database\templates\results.html:220 .\database\templates\scores.html:236
+#: .\database\templates\scores2.html:236 .\database\templates\search.html:373
+msgid "June 10, 2025"
+msgstr "၂၀၂၅ ဇွန်လ ၁၀ ရက်"
+
+#: .\database\templates\course.html:297 .\database\templates\course2.html:255
+#: .\database\templates\departments.html:415 .\database\templates\home.html:374
+#: .\database\templates\libiary.html:235 .\database\templates\news.html:314
+#: .\database\templates\results.html:221 .\database\templates\scores.html:237
+#: .\database\templates\scores2.html:237 .\database\templates\search.html:374
+#, fuzzy
+#| msgid "Search"
+msgid "Research Symposium"
+msgstr "သုတေသနဆွေးနွေးပွဲ"
+
+#: .\database\templates\course.html:297 .\database\templates\course2.html:255
+#: .\database\templates\departments.html:415 .\database\templates\home.html:374
+#: .\database\templates\libiary.html:235 .\database\templates\news.html:314
+#: .\database\templates\results.html:221 .\database\templates\scores.html:237
+#: .\database\templates\scores2.html:237 .\database\templates\search.html:374
+msgid "July 5, 2025"
+msgstr "၂၀၂၅ ဇူလိုင် ၅ ရက်"
+
+#: .\database\templates\course.html:297 .\database\templates\course2.html:255
+#: .\database\templates\departments.html:415 .\database\templates\home.html:374
+#: .\database\templates\libiary.html:235 .\database\templates\news.html:314
+#: .\database\templates\results.html:221 .\database\templates\scores.html:237
+#: .\database\templates\scores2.html:237 .\database\templates\search.html:374
+msgid "All"
+msgstr ""
+
+#: .\database\templates\course.html:308 .\database\templates\course2.html:266
+#: .\database\templates\departments.html:426 .\database\templates\home.html:385
+#: .\database\templates\libiary.html:246 .\database\templates\news.html:325
+#: .\database\templates\results.html:232 .\database\templates\scores.html:248
+#: .\database\templates\scores2.html:248 .\database\templates\search.html:385
+#, fuzzy
+#| msgid "Departments"
+msgid "Department"
+msgstr "ဌာနများ"
+
+#: .\database\templates\departments.html:9
+#: .\database\templates\departments.html:192
+#, fuzzy
+#| msgid "Departments"
+msgid "Academic Departments"
+msgstr "ဌာနများ"
+
+#: .\database\templates\departments.html:193
+msgid "Leading innovation in science and engineering"
+msgstr "သိပ္ပံနှင့် အင်ဂျင်နီယာနည်းပညာအတွင်း ရှေ့ဆောင်တီထွင်မှု"
+
+#: .\database\templates\departments.html:199
+msgid "Computer Engineering and Information Technology"
+msgstr "ကွန်ပျူတာအင်ဂျင်နီယာနှင့် သတင်းအချက်အလက်နည်းပညာ"
+
+#: .\database\templates\departments.html:200
+msgid ""
+"The CEIT Department focuses on both hardware and software systems, equipping "
+"students with the knowledge to design intelligent computing solutions."
+msgstr ""
+"ကွန်ပျူတာအင်ဂျင်နီယာနှင့်သတင်းအချက်အလက်နည်းပညာဌာနသည် Hardware နှင့် Software နှစ်မျိုးလုံးကိုအခြေခံ၍ "
+"ကျောင်းသားများအား AI နည်းပညာပုံစံများ ဖန်တီးနိုင်ရန် ကွန်ပျူတာသိပ္ပံအခြေခံ နည်းလမ်းများဖြင့် "
+"သင်ကြားပေးပါသည်။"
+
+#: .\database\templates\departments.html:201
+msgid "Key Focus Areas"
+msgstr "အထူးပြုသင်ကြားသောဘာသာရပ်များ"
+
+#: .\database\templates\departments.html:203
+msgid "Software Development"
+msgstr "Software ဖန်တီးရေးသားခြင်း"
+
+#: .\database\templates\departments.html:204
+msgid "Cybersecurity Systems"
+msgstr "ဆိုက်ဘာလုံခြုံရေးစနစ်များ"
+
+#: .\database\templates\departments.html:205
+msgid "Databases"
+msgstr "Database စနစ်များ"
+
+#: .\database\templates\departments.html:206
+msgid "Artificial Intelligence"
+msgstr "AI နည်းပညာ"
+
+#: .\database\templates\departments.html:208
+msgid "Contact Info"
+msgstr "ဆက်သွယ်ရန်"
+
+#: .\database\templates\departments.html:210
+#: .\database\templates\departments.html:229
+#: .\database\templates\departments.html:248
+#: .\database\templates\departments.html:266
+#: .\database\templates\departments.html:284
+msgid "Head of Department"
+msgstr "ဌာနမှူး"
+
+#: .\database\templates\departments.html:218
+msgid "Civil Engineering Department"
+msgstr "မြို့ပြအင်ဂျင်နီယာဌာန"
+
+#: .\database\templates\departments.html:219
+msgid ""
+"The Civil Engineering Department trains students in planning, designing, and "
+"supervising infrastructure projects such as buildings, roads, and bridges. "
+"Emphasis is placed on structural integrity, sustainability, and "
+"environmental impact."
+msgstr ""
+"မြို့ပြအင်ဂျင်နီယာဌာနသည် အဆောက်အအုံများ၊ လမ်းများနှင့် တံတားများအပါအဝင် "
+"အခြေခံအဆောက်အအုံများကိုတည်တံ့ခိုင်မာမှု၊ တာရှည်ခံမှုနှင့် သဘာဝပတ်ဝန်းကျင်အပေါ်သက်ရောက်မှုတို့ကို "
+"အထူးအလေးပေးစီမံဆောင်ရွက်နိုင်ရန် ကျောင်းသားများကို လေ့ကျင့်သင်ကြားပေးသည်"
+
+#: .\database\templates\departments.html:220
+#: .\database\templates\departments.html:239
+#: .\database\templates\departments.html:257
+#: .\database\templates\departments.html:275
+#: .\database\templates\departments.html:293
+msgid "Key Focus Areas:"
+msgstr "အထူးပြုသင်ကြားသောဘာသာရပ်များ"
+
+#: .\database\templates\departments.html:222
+msgid "Structural Analysis"
+msgstr "Structural Analysis"
+
+#: .\database\templates\departments.html:223
+msgid "Construction Materials"
+msgstr "Construction Materials"
+
+#: .\database\templates\departments.html:224
+msgid "Transportation Engineering"
+msgstr "Transportation Engineering"
+
+#: .\database\templates\departments.html:225
+msgid "Geotechnical Engineering"
+msgstr "Geotechnical Engineering"
+
+#: .\database\templates\departments.html:227
+#: .\database\templates\departments.html:246
+#: .\database\templates\departments.html:264
+#: .\database\templates\departments.html:282
+msgid "Contact Info:"
+msgstr "ဆက်သွယ်ရန်"
+
+#: .\database\templates\departments.html:237
+msgid "Architectural Engineering Department"
+msgstr "ဗိသုကာအင်ဂျင်နီယာဌာန"
+
+#: .\database\templates\departments.html:238
+msgid ""
+"This department integrates architecture and engineering principles to "
+"produce functional, safe, and aesthetically pleasing structures. Students "
+"learn about building systems, materials, and design methods through creative "
+"and technical training."
+msgstr ""
+"ဗိသုကာအင်ဂျင်နီယာဌာနတွင် ဗိသုကာနှင့် အင်ဂျင်နီယာသဘောတရားများကို ပေါင်းစပ်အသုံးပြု၍ လှပတည်မြဲပြီး "
+"လုံခြုံသော အဆောက်အဦးများဖန်တီးနိုင်ရန်နှင့် ကျောင်းသားများအား ဖန်တီးမှုနှင့် နည်းပညာဆိုင်ရာ "
+"အတန်းများဖြင့် လေ့ကျင့်သင်ကြားပေးသည်"
+
+#: .\database\templates\departments.html:241
+msgid "Architectural Design"
+msgstr "ဗိသုကာဒီဇိုင်း"
+
+#: .\database\templates\departments.html:242
+msgid "Building Systems"
+msgstr "အဆောက်အဦးစနစ်များ"
+
+#: .\database\templates\departments.html:243
+msgid "Urban Planning"
+msgstr "မြို့ပြစီမံကိန်းရေးဆွဲမှု"
+
+#: .\database\templates\departments.html:244
+msgid "Construction Technology"
+msgstr "ဆောက်လုပ်ရေးနည်းပညာ"
+
+#: .\database\templates\departments.html:255
+msgid "Mechanical Engineering Department"
+msgstr "စက်မှုအင်ဂျင်နီယာဌာန"
+
+#: .\database\templates\departments.html:256
+msgid ""
+"The Mechanical Engineering Department prepares students to design, analyze, "
+"and maintain mechanical systems. It covers thermodynamics, fluid mechanics, "
+"and manufacturing to address modern engineering challenges."
+msgstr ""
+"စက်မှုအင်ဂျင်နီယာဌာနတွင် စက်မှုစနစ်များကို ဒီဇိုင်းဆွဲခြင်း၊ ခွဲခြမ်းစိတ်ဖြာခြင်းနှင့် ပြုပြင်ထိန်းသိမ်းခြင်းတို့ကို "
+"လေ့ကျင့်သင်ကြားသည်။ကျောင်းသားများအား အပူဗေဒ၊ အရည်ဗေဒနှင့် ထုတ်လုပ်မှုနည်းပညာတို့ဖြင့် "
+"နောက်ဆုံးပေါ်စက်မှုပြဿနာများကို ဖြေရှင်းနိုင်စွမ်းရှိစေရန် လေ့ကျင့်သင်ကြားပေးသည်"
+
+#: .\database\templates\departments.html:259
+msgid "Thermodynamics"
+msgstr "Thermodynamics"
+
+#: .\database\templates\departments.html:260
+msgid "Mechanical Design"
+msgstr "စက်မှုဒီဇိုင်းများ"
+
+#: .\database\templates\departments.html:261
+msgid "Fluid Mechanics"
+msgstr "Fluid Mechanics"
+
+#: .\database\templates\departments.html:262
+msgid "Manufacturing Processes"
+msgstr "စက်မှုထုတ်လုပ်မှုလုပ်ငန်းစဉ်များ"
+
+#: .\database\templates\departments.html:273
+msgid "Electrical Power Engineering Department"
+msgstr "လျှပ်စစ်စွမ်းအားအင်ဂျင်နီယာဌာန"
+
+#: .\database\templates\departments.html:274
+msgid ""
+"This department specializes in power generation, transmission, and "
+"distribution. Students learn to work with electrical systems and emerging "
+"technologies in sustainable energy and smart grids."
+msgstr ""
+"လျှပ်စစ်စွမ်းအားအင်ဂျင်နီယာဌာနသည် စွမ်းအင်ထုတ်လုပ်ခြင်း၊ လွှဲပြောင်းခြင်းနှင့် ဖြန့်ဝေခြင်းနယ်ပယ်များတွင် "
+"ကျွမ်းကျင်သူများဖြစ်လာစေရန်ကျောင်းသားများအား တိုးတက်လာသည့် နည်းပညာများ၊စွမ်းအင်များနှင့်အတူ "
+"လေ့ကျင့်သင်ကြားပေးသည်"
+
+#: .\database\templates\departments.html:277
+msgid "Power Systems"
+msgstr "စွမ်းအင်စနစ်များ"
+
+#: .\database\templates\departments.html:278
+msgid "Renewable Energy"
+msgstr "အသစ်တဖန်ပြန်လည်အသုံးပြုနိုင်သောစွမ်းအင်"
+
+#: .\database\templates\departments.html:279
+msgid "Electrical Machines"
+msgstr "လျှပ်စစ်ဆိုင်ရာ စက်ပစ္စည်းများ"
+
+#: .\database\templates\departments.html:280
+msgid "Power Electronics"
+msgstr "စွမ်းအင်အီလက်ထရွန်နစ်"
+
+#: .\database\templates\departments.html:291
+msgid "Electronics Engineering Department"
+msgstr "အီလက်ထရွန်နစ်အင်ဂျင်နီယာဌာန"
+
+#: .\database\templates\departments.html:292
+msgid ""
+"Electronics Engineering equips students with the knowledge to develop and "
+"maintain modern electronic systems. Focus areas include microelectronics, "
+"signal processing, and embedded systems."
+msgstr ""
+"အီလက်ထရွန်နစ်အင်ဂျင်နီယာဌာနသည် ခေတ်သစ်အီလက်ထရွန်နစ်စနစ်များဖန်တီးနိုင်ရန်နှင့် ပြုပြင်ထိန်းသိမ်းနိုင်ရန်အတွက် "
+"ကျောင်းသားများအားသိပ္ပံနည်းကျသင်ကြားပေးသည်။  မိုက်ခရိုအီလက်ထရွန်နစ်၊ ဆစ်ဂနယ်လုပ်ငန်းစဉ်များနှင့် "
+"စက်တွင်းမြှုပ်နံထားသောစနစ်များကို အဓိကထား သင်ကြားပေးပါသည်"
+
+#: .\database\templates\home.html:84 .\database\templates\home.html:105
+#: .\database\templates\search.html:84 .\database\templates\search.html:105
+msgid "Welcome to MTU"
+msgstr "MTU မှကြိုဆိုပါသည်"
+
+#: .\database\templates\home.html:85 .\database\templates\home.html:106
+#: .\database\templates\search.html:85 .\database\templates\search.html:106
+msgid "Leading Innovation and Excellence in Myanmar"
+msgstr "မြန်မာနိုင်ငံတွင် တီထွင်ဆန်းသစ်မှုနှင့် ထူးချွန်မှုကို ဦးဆောင်ထားခြင်း"
+
+#: .\database\templates\home.html:87 .\database\templates\home.html:108
+#: .\database\templates\search.html:87 .\database\templates\search.html:108
+msgid "Explore Programs"
+msgstr "သင်တန်းအစီအစဉ်များလေ့လာရန်"
+
+#: .\database\templates\home.html:95 .\database\templates\search.html:95
+msgid "A new event has arrived"
+msgstr ""
+
+#: .\database\templates\home.html:96 .\database\templates\search.html:96
+msgid "check it out"
+msgstr ""
+
+#: .\database\templates\home.html:120 .\database\templates\search.html:120
+msgid ""
+"Explore academic divisions leading innovation in science and engineering."
+msgstr "သိပ္ပံနှင့်အင်ဂျင်နီယာနယ်ပယ်၌ ဆန်းသစ်တီထွင်သော ပညာရေးများကို လေ့လာပါ"
+
+#: .\database\templates\home.html:121 .\database\templates\search.html:121
+msgid "Explore"
+msgstr "အသေးစိတ်လေ့လာရန်"
+
+#: .\database\templates\home.html:126 .\database\templates\search.html:126
+msgid "News"
+msgstr "သတင်းများ"
+
+#: .\database\templates\home.html:127 .\database\templates\search.html:127
+msgid ""
+"Stay current with campus updates, research highlights, and student "
+"achievements."
+msgstr ""
+"လတ်တလော တက္ကသိုလ်တွင်းသတင်းများ၊ အထူးသုတေသနများနှင့် ကျောင်းသားများ၏ အောင်မြင်မှုမှတ်တိုင်များကို "
+"ကြည့်ရှုပါ"
+
+#: .\database\templates\home.html:128 .\database\templates\search.html:128
+msgid "Stay Updated"
+msgstr "ကြည့်ရှုရန်"
+
+#: .\database\templates\home.html:133 .\database\templates\search.html:133
+msgid "Events"
+msgstr "ပွဲအစီအစဉ်များ"
+
+#: .\database\templates\home.html:134 .\database\templates\search.html:134
+msgid ""
+"Join workshops, seminars, and events that enrich academic and campus life."
+msgstr ""
+"ပညာရေးနှင့် တက္ကသိုလ်ကျောင်းသားဘဝကို အထောက်အကူဖြစ်စေသော အလုပ်ရုံဆွေးနွေးပွဲများနှင့် ဟောပြောပွဲများတွင် "
+"ပါဝင်ပါ"
+
+#: .\database\templates\home.html:135 .\database\templates\search.html:135
+msgid "Check events"
+msgstr "ကြည့်ရှုရန်"
+
+#: .\database\templates\home.html:141 .\database\templates\search.html:141
+msgid ""
+"From AI to sustainable energy — MTU leads in transformative research "
+"initiatives."
+msgstr ""
+"AI မှသည် တာရှည်ခံစွမ်းအင်အထိ — MTU သည် ပြောင်းလဲမှုဖန်တီးနိုင်သော သုတေသနလုပ်ငန်းများကို ဦးဆောင်လျက်ရှိသည်"
+
+#: .\database\templates\home.html:142 .\database\templates\search.html:142
+msgid "View Projects"
+msgstr "ပရောဂျက်များကြည့်ရှုရန်"
+
+#: .\database\templates\home.html:147 .\database\templates\home.html:155
+#: .\database\templates\search.html:147 .\database\templates\search.html:155
+#, fuzzy
+#| msgid "Course Recommendation Page"
+msgid "Course Recommendation"
+msgstr "ဘာသာရပ်အကြံပြုချက်"
+
+#: .\database\templates\home.html:148 .\database\templates\home.html:156
+#: .\database\templates\search.html:148 .\database\templates\search.html:156
+msgid "Get AI-driven course suggestions aligned with your goals and strengths."
+msgstr ""
+"သင့်ရည်မှန်းချက်များ၊ အားသာချက်များနှင့် ကိုက်ညီသည့် ဘာသာရပ်များကို AI အသုံးပြု၍ အကြံပြုချက်ရယူပါ"
+
+#: .\database\templates\home.html:149 .\database\templates\search.html:149
+msgid "View Courses"
+msgstr "ဘာသာရပ်များကြည့်ရှုရန်"
+
+#: .\database\templates\home.html:157 .\database\templates\search.html:157
+msgid "Find Courses"
+msgstr "ဘာသာရပ်များကြည့်ရှုရန်"
+
+#: .\database\templates\home.html:162
+msgid "Predicted Grades"
+msgstr "မျှော်မှန်းရမှတ်များ"
+
+#: .\database\templates\home.html:163 .\database\templates\search.html:163
+msgid "Review AI-based academic performance forecasts and insights."
+msgstr "AI ကို အသုံးပြု၍ ပညာရေးရလဒ်ခန့်မှန်းချက်များကို ပြန်လည်သုံးသပ်ပါ"
+
+#: .\database\templates\home.html:164 .\database\templates\search.html:164
+msgid "Analyze Performance"
+msgstr "ရလဒ်များစစ်ဆေးရန်"
+
+#: .\database\templates\home.html:169 .\database\templates\search.html:169
+#, fuzzy
+#| msgid "Welcome to MTU AI Portal"
+msgid "Smart Search Engine"
+msgstr "အဆင့်မြင့် ရှာဖွေရေး Engine"
+
+#: .\database\templates\home.html:170 .\database\templates\search.html:170
+msgid ""
+"Understand your questions with AI-powered semantic search for accurate "
+"results."
+msgstr ""
+"သင်မေးလိုသောမေးခွန်းများကို တိကျသေချာသောအဖြေများ ရရှိအောင် AI မှ ရှာဖွေဖြေကြားပေးနိုင်ပါသည်"
+
+#: .\database\templates\home.html:171 .\database\templates\search.html:171
+msgid "Try Smart Search"
+msgstr "စမ်းသပ်အသုံးပြုရန်"
+
+#: .\database\templates\home.html:176 .\database\templates\search.html:176
+msgid "AI Chatbot"
+msgstr "AI လက်ထောက်အကူ"
+
+#: .\database\templates\home.html:177 .\database\templates\search.html:177
+msgid ""
+"Chat instantly with our AI assistant for help with admissions, programs, and "
+"more."
+msgstr ""
+"တက္ကသိုလ်ဝင်ခွင့်၊ ပညာသင်နှစ်များနှင့် အခြားအကြောင်းအရာများအတွက် AI အကူအညီဖြင့် လျင်မြန်စွာ "
+"မေးမြန်းနိုင်ပါသည်"
+
+#: .\database\templates\home.html:178 .\database\templates\search.html:178
+msgid "Try Now"
+msgstr "ယခုပဲစမ်းသုံးကြည့်ပါ"
+
+#: .\database\templates\home.html:184 .\database\templates\search.html:184
+#, fuzzy
+#| msgid "Course Recommendation Page"
+msgid "Book recommendations"
+msgstr "စာအုပ်အကြံပြုချက်များ"
+
+#: .\database\templates\home.html:185 .\database\templates\search.html:185
+msgid "Try It"
+msgstr "စမ်းအသုံးပြုရန်"
+
+#: .\database\templates\home.html:191 .\database\templates\search.html:191
+msgid "Trending Skills"
+msgstr "လတ်တလောစိတ်ဝင်စားမှုများနေသော ဘာသာရပ်များ"
+
+#: .\database\templates\home.html:193 .\database\templates\search.html:193
+msgid "AI"
+msgstr "AI"
+
+#: .\database\templates\home.html:194 .\database\templates\search.html:194
+msgid "Cloud Computing"
+msgstr "Cloud Computing"
+
+#: .\database\templates\home.html:195 .\database\templates\search.html:195
+msgid "IoT"
+msgstr "IoT"
+
+#: .\database\templates\home.html:196 .\database\templates\home.html:233
+#: .\database\templates\search.html:196 .\database\templates\search.html:233
+msgid "Cybersecurity"
+msgstr "Cybersecurity"
+
+#: .\database\templates\home.html:197 .\database\templates\search.html:197
+msgid "Data Science"
+msgstr "Data Science"
+
+#: .\database\templates\home.html:198 .\database\templates\search.html:198
+msgid "Robotics"
+msgstr "Robotics"
+
+#: .\database\templates\home.html:203 .\database\templates\home.html:221
+#: .\database\templates\search.html:203 .\database\templates\search.html:221
+msgid "Popular Courses"
+msgstr "လူရွေးချယ်မှုများသော ဘာသာရပ်များ"
+
+#: .\database\templates\home.html:206 .\database\templates\home.html:225
+#: .\database\templates\search.html:206 .\database\templates\search.html:225
+msgid "Introduction to AI"
+msgstr "AI နည်းပညာမိတ်ဆက်"
+
+#: .\database\templates\home.html:207 .\database\templates\home.html:226
+#: .\database\templates\search.html:207 .\database\templates\search.html:226
+msgid ""
+"Learn the fundamentals of Artificial Intelligence and its real-world "
+"applications."
+msgstr "AI နည်းပညာ အခြေခံသဘောတရားများနှင့် လက်တွေ့ဘဝ၌ အသုံးချနည်းများကို သင်ယူပါ"
+
+#: .\database\templates\home.html:210 .\database\templates\search.html:210
+msgid "Cloud Infrastructure"
+msgstr "Cloud Infrastructure"
+
+#: .\database\templates\home.html:211 .\database\templates\search.html:211
+msgid "Understand cloud technologies and infrastructure management."
+msgstr "Cloud နည်းပညာများနှင့် ၎င်း၏အခြေခံဖွဲ့စည်းစီမံခန့်ခွဲမှုများကို နားလည်ရန်"
+
+#: .\database\templates\home.html:214 .\database\templates\search.html:214
+msgid "IoT for Engineers"
+msgstr "အင်ဂျင်နီယာများအတွက် IoT"
+
+#: .\database\templates\home.html:215 .\database\templates\search.html:215
+msgid ""
+"Explore the Internet of Things and how it's transforming modern engineering."
+msgstr ""
+"အင်တာနက်ဖြင့် ချိတ်ဆက်ထားသည့် ပစ္စည်းများ(IoT)နှင့် ယနေ့ခေတ် အင်ဂျင်နီယာနည်းပညာကို မည်သို့ "
+"ပြောင်းလဲနေသည်ကို လေ့လာပါ"
+
+#: .\database\templates\home.html:229 .\database\templates\search.html:229
+msgid "Networking"
+msgstr "Networking"
+
+#: .\database\templates\home.html:230 .\database\templates\search.html:230
+msgid ""
+"ain insights into computer networks, protocols, routing, switching, and "
+"secure communication systems."
+msgstr ""
+"ကွန်ပျူတာကွန်ယက်များ၊ ပရိုတိုကောများ၊ လမ်းကြောင်းချမှတ်မှု၊ Switching နှင့် လုံခြုံသည့် "
+"ဆက်သွယ်ရေးစနစ်များအကြောင်း လေ့လာပါ"
+
+#: .\database\templates\home.html:234 .\database\templates\search.html:234
+msgid ""
+"Understand threat analysis, cryptography, ethical hacking, and how to secure "
+"digital infrastructure."
+msgstr ""
+"အွန်လိုင်းခြိမ်းခြောက်မှုများ၊ Cryptography၊ Ethical Hacking နှင့် ဒီဂျစ်တယ်အခြေခံဖွဲ့စည်းမှုကို "
+"ကာကွယ်နိုင်မည့်နည်းလမ်းများကို လေ့လာပါ"
+
+#: .\database\templates\home.html:249 .\database\templates\search.html:249
+#, fuzzy
+#| msgid "Mandalay Technological University"
+msgid "About Mandalay Technological University"
+msgstr "မန္တလေးနည်းပညာတက္ကသိုလ်အကြောင်းတစေ့တစောင်း"
+
+#: .\database\templates\home.html:251 .\database\templates\search.html:251
+msgid ""
+"Mandalay Technological University (MTU) is one of the most prestigious "
+"engineering universities in Myanmar, committed to academic excellence, "
+"cutting-edge research, and innovative teaching. With a rich history and "
+"state-of-the-art facilities, MTU fosters a vibrant learning environment that "
+"empowers students to become future-ready engineers, scientists, and leaders."
+msgstr ""
+"မန္တလေးနည်းပညာတက္ကသိုလ် (MTU) သည် မြန်မာနိုင်ငံအတွင်း ထင်ရှားကြီးကျယ်သော "
+"အင်ဂျင်နီယာတက္ကသိုလ်များထဲမှတစ်ခုဖြစ်ပြီး ပညာရေးအရထူးချွန်မှု၊ နည်းပညာအရခေတ်မှီသော သုတေသနနှင့် "
+"ဆန်းသစ်တီထွင်သော သင်ကြားမှုများရရှိစေရန် ရည်မှန်းသည်။MTU သည် သမိုင်းကြောင်းပေါကြွယ်ဝပြီး "
+"ခေတ်မီအဆင့်မြင့်အဆောက်အအုံများဖြင့် ကျောင်းသားများအားမျှော်မှန်းချက်မြင့်မားသည့် အင်ဂျင်နီယာ၊ "
+"သိပ္ပံပညာရှင်များ၊ ခေါင်းဆောင်များအဖြစ် ဖြစ်ထွန်းလာစေသော သင်ကြားရေးပတ်ဝန်းကျင်တစ်ခုကို "
+"တည်ဆောက်ပေးသည်"
+
+#: .\database\templates\libiary.html:9
+msgid "Library Resources | MTU"
+msgstr "စာကြည့်တိုက်အရင်းအမြစ်များ | MTU"
+
+#: .\database\templates\libiary.html:65
+msgid "Library Resources"
+msgstr "စာကြည့်တိုက်အရင်းအမြစ်များ"
+
+#: .\database\templates\libiary.html:74
+msgid "Search books..."
+msgstr "စာအုပ်များရှာဖွေပါ…"
+
+#: .\database\templates\libiary.html:100
+msgid "Author"
+msgstr "စာရေးဆရာအမည်"
+
+#: .\database\templates\login.html:170
+#, fuzzy
+#| msgid "Student ID"
+msgid "Student Login"
+msgstr "ကျောင်းသားအမှတ်"
+
+#: .\database\templates\login.html:176 .\database\templates\register.html:181
+msgid "Student ID"
+msgstr "ကျောင်းသားအမှတ်"
+
+#: .\database\templates\login.html:181 .\database\templates\login.html:207
+#: .\database\templates\register.html:187
+msgid "Password"
+msgstr "စကားဝှက်"
+
+#: .\database\templates\login.html:186
+msgid "Login"
+msgstr "အကောင့်ဝင်မည်"
+
+#: .\database\templates\login.html:188
+msgid "Register instead?"
+msgstr "အကောင့်အသစ်ဖွင့်ရန်လိုအပ်ပါသလား"
+
+#: .\database\templates\login.html:197 .\database\templates\login.html:212
+#, fuzzy
+#| msgid "Login"
+msgid "Admin Login"
+msgstr "အကောင့်ဝင်မည်"
+
+#: .\database\templates\login.html:202
+msgid "Admin Username"
+msgstr ""
+
+#: .\database\templates\login.html:219 .\database\templates\register.html:208
+msgid "© 2023 Mandalay Technological University"
+msgstr "© ၂၀၂၃ မန္တလေးနည်းပညာတက္ကသိုလ် - မူပိုင်ခွင့်ရှိသည်။"
+
+#: .\database\templates\news.html:178
+msgid "Active News and Events"
+msgstr "လတ်တလောသတင်းနှင့်ပွဲအစီအစဉ်များ"
+
+#: .\database\templates\news.html:186
+msgid "Read more"
+msgstr "ဆက်လက်ဖတ်ရန်"
+
+#: .\database\templates\news.html:188
+msgid "Active until"
+msgstr "သက်တမ်းကုန်မည်"
+
+#: .\database\templates\news.html:191
+msgid "No news or events at the moment."
+msgstr "လတ်တလောသတင်းနှင့်ပွဲအစီအစဉ်များမရှိပါ"
+
+#: .\database\templates\register.html:10
+msgid "Registration Page"
+msgstr "‌အကောင့်သစ်ဖွင့်ရန်စာမျက်နှာ"
+
+#: .\database\templates\register.html:175
+msgid "Create Account"
+msgstr "အကောင့်အသစ်ဖွင့်ရန်"
+
+#: .\database\templates\register.html:183
+msgid "Must match your official university ID"
+msgstr "တက္ကသိုလ်မှတ်ပုံတင်အမှတ်နှင့် ကိုက်ညီရမည်"
+
+#: .\database\templates\register.html:189
+msgid "At least 8 characters"
+msgstr "အနည်းဆုံး အက္ခရာ ၈ လုံး "
+
+#: .\database\templates\register.html:193
+msgid "Confirm Password"
+msgstr "စကားဝှက်အတည်ပြုရန်"
+
+#: .\database\templates\register.html:198
+msgid "Register"
+msgstr "အကောင့်ဖွင့်ပါ"
+
+#: .\database\templates\register.html:200
+msgid "Login Here"
+msgstr "ဤနေရာမှဝင်ပါ"
+
+#: .\database\templates\research.html:7 .\database\templates\research.html:248
+#, fuzzy
+#| msgid "Search"
+msgid "Research at MTU"
+msgstr "MTU ရှိ သုတေသနစာတမ်းများ"
+
+#: .\database\templates\research.html:244
+msgid "RESEARCH"
+msgstr "သုတေသနများ"
+
+#: .\database\templates\research.html:249
+msgid "Explore our latest university research and publications."
+msgstr "တက္ကသိုလ်မှနောက်ဆုံးထွက်ရှိသော သုတေသနများနှင့်ထုတ်ဝေစာတမ်းများကို ကြည့်ရှုပါ"
+
+#: .\database\templates\research.html:252
+msgid "Summarize your research documents here"
+msgstr "သင်၏သုတေသနစာတမ်းများကို ဤနေရာတွင်အကျဉ်းချုပ် ကြည့်ရှုပါ"
+
+#: .\database\templates\research.html:255
+msgid "Search research..."
+msgstr "သုတေသနများ ရှာဖွေရန်"
+
+#: .\database\templates\research.html:272
+#, fuzzy
+#| msgid "Search"
+msgid "Researcher"
+msgstr "သုတေသနပြုသူ"
+
+#: .\database\templates\research.html:280
+msgid "View Document"
+msgstr "စာတမ်းကြည့်ရန်"
+
+#: .\database\templates\research.html:287
+msgid "No research found."
+msgstr "ရှာဖွေသော သုတေသနစာတမ်းမတွေ့ရှိပါ"
+
+#: .\database\templates\results.html:85
+#, fuzzy, python-format
+#| msgid "Academic Records for %(student_name)s"
+msgid "Grade Predictions for %(student_name)s"
+msgstr "%(student_name)s ၏ ပညာရေးမှတ်တမ်းများ"
+
+#: .\database\templates\sample.html:96
+#, fuzzy
+#| msgid "Welcome to MTU AI Portal"
+msgid "Welcome to MTU Search Engine"
+msgstr "MTU AI ပေါ်တယ်မှကြိုဆိုပါသည်။"
+
+#: .\database\templates\sample.html:106
+msgid "Try: \"Project ideas\""
+msgstr "ပရောဂျက် အိုင်ဒီယာများ စမ်းသပ်ကြည့်ရန်"
+
+#: .\database\templates\sample.html:114
+msgid "Books"
+msgstr "စာအုပ်များ"
+
+#: .\database\templates\sample.html:135
+msgid "No books found."
+msgstr "ရှာဖွေသောစာအုပ်မတွေ့ရှိပါ"
+
+#: .\database\templates\sample.html:144
+msgid "Courses"
+msgstr "ဘာသာရပ်များ"
+
+#: .\database\templates\sample.html:161
+msgid "No courses found."
+msgstr "ရှာဖွေသော ဘာသာရပ်မတွေ့ရှိပါ"
+
+#: .\database\templates\sample.html:169
+msgid "News Articles"
+msgstr "သတင်းဆောင်းပါးများ"
+
+#: .\database\templates\sample.html:187
+msgid "No news articles found."
+msgstr "ရှာဖွေသော သတင်းဆောင်းပါးမတွေ့ရှိပါ"
+
+#: .\database\templates\sample.html:196
+#, fuzzy
+#| msgid "Search"
+msgid "Research Papers"
+msgstr "သုတေသနစာတမ်းများ"
+
+#: .\database\templates\sample.html:215
+msgid "No research papers found."
+msgstr "ရှာဖွေသောသုတေသနစာတမ်းများမတွေ့ရှိပါ"
+
+#: .\database\templates\sample.html:224
+msgid "Additional Resources"
+msgstr "ထပ်ဆောင်းအရင်းအမြစ်များ"
+
+#: .\database\templates\scores.html:9 .\database\templates\scores2.html:9
+#, fuzzy
+#| msgid "Academic Records for %(student_name)s"
+msgid "Academic Records"
+msgstr "%(student_name)s ၏ပညာရေးမှတ်တမ်းများ"
+
+#: .\database\templates\scores.html:69 .\database\templates\scores2.html:69
+#, python-format
+msgid "Academic Records for %(student_name)s"
+msgstr "%(student_name)s ၏ပညာရေးမှတ်တမ်းများ"
+
+#: .\database\templates\scores.html:82 .\database\templates\scores2.html:82
+msgid "Subject"
+msgstr "ဘာသာရပ်"
+
+#: .\database\templates\scores.html:83 .\database\templates\scores2.html:83
+msgid "Code"
+msgstr "ဘာသာရပ်ဆိုင်ရာကုဒ်"
+
+#: .\database\templates\scores.html:84 .\database\templates\scores2.html:84
+msgid "Attendance"
+msgstr "ကျောင်းတက်ရောက်မှုမှတ်တမ်း"
+
+#: .\database\templates\scores.html:85 .\database\templates\scores2.html:85
+msgid "Assignments"
+msgstr "သင်ကြားမှုမှတ်တမ်းများ"
+
+#: .\database\templates\scores.html:86 .\database\templates\scores2.html:86
+msgid "Tutorial"
+msgstr ""
+
+#: .\database\templates\scores.html:87 .\database\templates\scores2.html:87
+msgid "Final"
+msgstr "ဒုတိယနှစ်ဝက်ရမှတ်"
+
+#: .\database\templates\scores.html:88 .\database\templates\scores2.html:88
+msgid "Total"
+msgstr "စုစုပေါင်းရမှတ်"
+
+#: .\database\templates\scores.html:114 .\database\templates\scores2.html:114
+msgid "Generate Grade Prediction"
+msgstr "ခန့်မှန်းအမှတ်ထုတ်ပါ"
+
+#: .\database\templates\search.html:162
+#, fuzzy
+#| msgid "Check events"
+msgid "Check Student Grades"
+msgstr "ကြည့်ရှုရန်"
+
+#: .\database\templates\upload.html:259
+msgid "Upload PDF for Summarization"
+msgstr ""
+
+#: .\database\templates\upload.html:260
+msgid "Upload your research documents to generate AI-powered summaries"
+msgstr ""
+
+#: .\database\templates\upload.html:265
+msgid "Document Title"
+msgstr ""
+
+#: .\database\templates\upload.html:266
+msgid "Enter document title"
+msgstr ""
+
+#: .\database\templates\upload.html:269
+msgid "PDF File"
+msgstr ""
+
+#: .\database\templates\upload.html:273 .\database\templates\upload.html:347
+msgid "Choose a PDF file"
+msgstr ""
+
+#: .\database\templates\upload.html:277
+msgid "Only PDF files are accepted (max 10MB)"
+msgstr ""
+
+#: .\database\templates\upload.html:280
+msgid "Upload and Summarize"
+msgstr ""
+
+#: .\djangodb\settings.py:192
+msgid "English (US)"
+msgstr "English (US)"
+
+#: .\djangodb\settings.py:193
+msgid "English (UK)"
+msgstr "English (UK)"
+
+#: .\djangodb\settings.py:195
+msgid "Español"
+msgstr "Español"
+
+#~ msgid "Login Page"
+#~ msgstr "အကောင့်ဝင်ရန်စာမျက်နှာ"
+
+#~ msgid "MTU - AI Powered University Portal"
+#~ msgstr "MTU - AI နည်းပညာစွမ်းပကားဖြင့်လည်ပတ်သော တက္ကသိုလ်ပေါ်တယ်"
+
+#~ msgid "Welcome to MTU AI Portal"
+#~ msgstr "MTU AI ပေါ်တယ်မှကြိုဆိုပါသည်"
+
+#~ msgid "AI-Powered Services"
+#~ msgstr "AI ဖြင့်လည်ပတ်သော ဝန်ဆောင်မှုများ"
+
+#~ msgid "Virtual Assistant"
+#~ msgstr "အွန်လိုင်းအကူအညီ"
+
+#~ msgid "Get instant answers about admissions, fees, and departments."
+#~ msgstr "ကျောင်းအပ်ခြင်း၊သင်တန်းကြေးနှင့် ဌာနဆိုင်ရာမေးခွန်းများအတွက် အဖြေများချက်ချင်းရယူပါ"
+
+#~ msgid "Course Recommendations"
+#~ msgstr "ဘာသာရပ်အကြံပြုချက်များ"
+
+#~ msgid "Personalized course suggestions based on your department."
+#~ msgstr "သင်၏ဌာနအပေါ်အခြေခံ၍ သီးသန့်ဘာသာရပ်အကြံပြုချက်များ"
+
+#~ msgid "Grade Predictor"
+#~ msgstr "ရမှတ်ခန့်မှန်းခြင်းစနစ်"
+
+#~ msgid "AI predicts your grades based on past performance."
+#~ msgstr "AI မှ သင်၏ယခင်ရမှတ်များအပေါ် အခြေခံ၍ နောင်ဖြစ်နိုင်သည့် ရမှတ်များခန့်မှန်းပေးပါသည်"
+
+#~ msgid "AI-curated based on your interests"
+#~ msgstr "သင်၏စိတ်ဝင်စားမှုများအပေါ်အခြေခံ၍ AI မှရွေးချယ်ပေးထားသည်"
+
+#~ msgid "Recommended for you"
+#~ msgstr "သင့်အတွက်အကြံပြုချက်များ"
+
+#~ msgid "MTU Campus Life"
+#~ msgstr "မန္တလေးနည်းပညာတက္ကသိုလ်ကျောင်းပရနဝုဏ်"
+
+#~ msgid ""
+#~ "Experience the vibrant academic and social environment at Mandalay "
+#~ "Technological University"
+#~ msgstr ""
+#~ "မန္တလေးနည်းပညာတက္ကသိုလ်တွင် ပညာရေးနှင့် လူမှုရေးဘဝတို့ ပေါင်းစည်းသော တက်ကြွလှုပ်ရှားမှုများ ပြည့်နှက်သည့် "
+#~ "ကျောင်းဝင်းဘဝကို ခံစားကြရပါသည်"
+
+#~ msgid "Academic Environment"
+#~ msgstr "ပညာရေးပတ်ဝန်းကျင်"
+
+#~ msgid ""
+#~ "Mandalay Technological University (MTU) is one of the top engineering "
+#~ "universities in Myanmar, offering rigorous programs that combine "
+#~ "theoretical knowledge with practical applications."
+#~ msgstr ""
+#~ "မန္တလေးနည်းပညာတက္ကသိုလ်(MTU)သည် မြန်မာနိုင်ငံရှိ ထိပ်တန်းအင်ဂျင်နီယာတက္ကသိုလ်များအနက်တစ်ခုဖြစ်ပြီး "
+#~ "သီအိုရီနှင့် လက်တွေ့လေ့လာမှုတို့ကို ပေါင်းစပ်သည့် ပြင်းပြမှုရှိသော ပညာရေးအစီအစဉ်များ ဆောင်ရွက်လျက်ရှိပါသည်"
+
+#~ msgid "Programs Offered"
+#~ msgstr "သင်ကြားပေးသောဘာသာရပ်များ"
+
+#~ msgid "Civil Engineering"
+#~ msgstr "မြို့ပြအင်ဂျင်နီယာ"
+
+#~ msgid "Electrical Engineering"
+#~ msgstr "လျှပ်စစ်အင်ဂျင်နီယာ"
+
+#~ msgid "Mechanical Engineering"
+#~ msgstr "စက်မှုအင်ဂျင်နီယာ"
+
+#~ msgid "Mechatronics Engineering"
+#~ msgstr "မက်ခထရောနစ်အင်ဂျင်နီယာ"
+
+#~ msgid "Computer Engineering"
+#~ msgstr "ကွန်ပျူတာအင်ဂျင်နီယာ"
+
+#~ msgid "Other specialized engineering disciplines"
+#~ msgstr "အထူးအင်ဂျင်နီယာဘာသာရပ်များ"
+
+#~ msgid ""
+#~ "Students spend significant time in labs, workshops, and project-based "
+#~ "learning environments. Our faculty members are approachable and encourage "
+#~ "innovation, critical thinking, and collaborative work among students."
+#~ msgstr ""
+#~ "ကျောင်းသားများသည် ဓာတ်ခွဲခန်းများ၊ အလုပ်ရုံများနှင့် စီမံကိန်းအခြေပြု သင်ကြားမှုဝန်းကျင်များတွင် "
+#~ "အချိန်ကြာမြင့်စွာ လေ့လာသင်ကြားရပါသည်။ဆရာ၊ဆရာမများသည် ကျောင်းသားများ လက်လှမ်းမီနိုင်ပြီး "
+#~ "ဆန်းသစ်တီထွင်နိုင်စွမ်း၊ တိကျမှုရှိသော စဉ်းစားမှုနှင့် ပူးပေါင်းဆောင်ရွက်မှုတို့ကို တက်ကြွစွာ အားပေးကြပါသည်"
+
+#~ msgid "Campus Facilities"
+#~ msgstr "ကျောင်းဝင်းအဆောက်အအုံများ"
+
+#~ msgid ""
+#~ "MTU provides modern facilities to support both academic and "
+#~ "extracurricular activities:"
+#~ msgstr ""
+#~ "MTU တွင် ပညာရေးနှင့် ပညာရေးပြင်ပ လှုပ်ရှားမှုများအတွက် လိုအပ်သည့် ခေတ်မီအဆောက်အအုံများကို "
+#~ "ထောက်ပံ့ပေးထားပါသည်။"
+
+#~ msgid "Modern Classrooms & Labs"
+#~ msgstr "ခေတ်မီစာသင်ခန်းနှင့် ဓာတ်ခွဲခန်းများ"
+
+#~ msgid "University Library"
+#~ msgstr "တက္ကသိုလ်စာကြည့်တိုက်"
+
+#~ msgid "Dormitories"
+#~ msgstr "ကျောင်းနေဆောင်များ"
+
+#~ msgid "Cafeteria & Canteens"
+#~ msgstr "ထမင်းစားဆောင်နှင့် ကန်တင်းများ"
+
+#~ msgid "Sports Facilities"
+#~ msgstr "အားကစားရုံနှင့်ကွင်းများ"
+
+#~ msgid "Wi-Fi Zones"
+#~ msgstr "Wi-Fi ရရှိသည့်နေရာများ"
+
+#~ msgid "Student Clubs & Organizations"
+#~ msgstr "ကျောင်းသားအဖွဲ့အစည်းနှင့်အသင်းများ"
+
+#~ msgid ""
+#~ "MTU offers numerous opportunities for students to pursue interests beyond "
+#~ "academics through various clubs and organizations:"
+#~ msgstr "MTU တွင် ပညာရေးပြင်ပ အရည်အချင်းများ တိုးတက်စေသည့် အဖွဲ့အစည်းနှင့် အသင်းများစွာရှိပါသည်"
+
+#~ msgid "Robotics Club"
+#~ msgstr "ရိုဘော့တစ်စ်အသင်း"
+
+#~ msgid "Environmental Club"
+#~ msgstr "ပတ်ဝန်းကျင်ထိန်းသိမ်းရေးအသင်း"
+
+#~ msgid "Engineering Society"
+#~ msgstr "အင်ဂျင်နီယာများအသင်း"
+
+#~ msgid "Drama & Cultural Groups"
+#~ msgstr "ရုပ်ရှင်နှင့်ယဉ်ကျေးမှုအဖွဲ့များ"
+
+#~ msgid "Programming Club"
+#~ msgstr "ပရိုဂရမ်းမင်းအသင်း"
+
+#~ msgid "Entrepreneurship Cell"
+#~ msgstr "စွန့်ဦးတီထွင်စီးပွားရေးကဏ္ဍ"
+
+#~ msgid "Debate Society"
+#~ msgstr "စကားရည်လုခြင်းအသင်းအဖွဲ့များ"
+
+#~ msgid "Sports Clubs"
+#~ msgstr "အားကစားအသင်းများ"
+
+#~ msgid ""
+#~ "Students actively participate in national and international competitions "
+#~ "including programming contests, science fairs, and innovation challenges, "
+#~ "bringing recognition to MTU."
+#~ msgstr ""
+#~ "MTU ကျောင်းသားများသည် နိုင်ငံတကာနှင့် ပြည်တွင်း ပရိုဂရမ်မင်းပြိုင်ပွဲများ၊ သိပ္ပံပြပွဲများ၊ "
+#~ "တီထွင်ဖန်တီးမှုပြိုင်ပွဲများ၌ ပါဝင်ဆင်နွှဲကြပါသည်။၎င်းသည် MTU ၏ဂုဏ်သိက္ခာကို မြှင့်တင်ရာတွင် အရေးကြီးသော "
+#~ "အခန်းကဏ္ဍတစ်ရပ်အနေဖြင့် ပါဝင်ပါသည်"
+
+#~ msgid ""
+#~ "Throughout the academic year, MTU hosts various events that enrich "
+#~ "student life:"
+#~ msgstr "ကျောင်းတွင်းကျင်းပသည့်ပွဲတော်များ"
+
+#~ msgid "Fresher Welcome Ceremony"
+#~ msgstr "မောင်မယ်သစ်လွင်ကြိုဆိုပွဲ"
+
+#~ msgid "Tech Fairs & Exhibitions"
+#~ msgstr "နည်းပညာဖလှယ်ပွဲနှင့် ပြပွဲများ"
+
+#~ msgid "University Day"
+#~ msgstr "တက္ကသိုလ်နှစ်ပတ်လည်နေ့များ"
+
+#~ msgid "Graduation Day"
+#~ msgstr "ဘွဲ့နှင်းသဘင်အခမ်းအနား"
+
+#~ msgid "Student Life & Atmosphere"
+#~ msgstr "ကျောင်းသားဘဝနှင့်ကျောင်းပတ်ဝန်းကျင်"
+
+#~ msgid ""
+#~ "The MTU campus offers a balanced environment that combines rigorous "
+#~ "academics with a friendly social atmosphere."
+#~ msgstr ""
+#~ "MTU ကျောင်းပရနဝုဏ်တွင် အကောင်းမွန်ဆုံးသောပညာရေးနှင့် မိသားစုကဲ့သို့နွေးထွေးသော လူမှုပတ်ဝန်းကျင်ကို "
+#~ "အပြည့်အဝပေးစွမ်းလျက်ရှိပါသည်"
+
+#~ msgid "Daily Life at MTU"
+#~ msgstr "MTU ၌ တနေ့တာ"
+
+#~ msgid "Mornings typically begin with lectures and lab sessions"
+#~ msgstr "နံနက်ပိုင်း – စာသင်ချိန်များနှင့် ဓာတ်ခွဲခန်းလက်တွေ့ဆောင်ရွက်ခြင်းများ"
+
+#~ msgid "Afternoons are for group studies, club activities, or sports"
+#~ msgstr "နေ့လည်ပိုင်း – အဖွဲ့လိုက်လေ့လာမှု၊ အသင်းအဖွဲ့လှုပ်ရှားမှုများ သို့မဟုတ် အားကစားလှုပ်ရှားမှုများ"
+
+#~ msgid "Evenings are relaxed with friends gathering at dorms or cafeterias"
+#~ msgstr ""
+#~ "ညနေပိုင်း – အပေါင်းအဖော်များနှင့် ကျောင်းနေဆောင်များ သို့မဟုတ် ကျောင်းကန်တင်းများ၌ "
+#~ "အပန်းဖြေအနားယူခြင်း"
+
+#~ msgid ""
+#~ "Weekends often involve project work, competitions, or exploring Mandalay"
+#~ msgstr ""
+#~ "စနေနေ့/တနင်္ဂနွေနေ့ – ကျောင်းတွင်းပြပွဲများ၊ ပြိုင်ပွဲများ၌ ပါဝင်လှုပ်ရှားခြင်း သို့မဟုတ် "
+#~ "မန္တလေးမြို့တခွင် စူးစမ်းလေ့လာခြင်း"
+
+#~ msgid "Location & Surroundings"
+#~ msgstr "တည်နေရာနှင့် ပတ်ဝန်းကျင်"
+
+#~ msgid "Surrounded by natural beauty with open spaces"
+#~ msgstr "ကျယ်ဝန်းလှသော တက္ကသိုလ်ပရနဝုဏ်အား သဘာဝအလှတို့ဖြင့် ဝန်းရံထားခြင်း"
+
+#~ msgid "Close enough to Mandalay city for cultural experiences"
+#~ msgstr "မန္တလေးမြို့အနီးတွင် တည်ရှိသောကြောင့် ဒေသန္တရယဉ်ကျေးမှုတို့အား လေ့လာခံစားနိုင်ခြင်း"
+
+#~ msgid "Near local markets and essential services"
+#~ msgstr "အခြေခံကျသော ဝန်ဆောင်မှုများနှင့် ဈေးအနီးတွင် တည်ရှိခြင်း"
+
+#~ msgid "Community Engagement"
+#~ msgstr "လူမှုနှင့်ပတ်ဝန်းကျင်ဆိုင်ရာ ဝိုင်းဝန်းဆောင်ရွက်မှု"
+
+#~ msgid "Local community service projects"
+#~ msgstr "ဒေသခံအဖွဲ့အစည်းများအတွက် လုပ်အားပေးအဖြစ်ပါဝင်ခြင်း"
+
+#~ msgid "Tech meetups and conferences in Mandalay"
+#~ msgstr "မန္တလေးရှိ နည်းပညာဆိုင်ရာ ညှိနှိုင်းအစည်းအဝေးများနှင့် သင်တန်းများအား တက်ရောက်ခြင်း"
+
+#~ msgid "Visits to historic sites like pagodas and Mandalay Hill"
+#~ msgstr "စေတီပုထိုးများ၊ မန္တလေးတောင်ကဲ့သို့သော သမိုင်းဝင်နေရာများအား သွားရောက်လေ့လာခြင်း"
+
+#~ msgid "Environmental conservation initiatives"
+#~ msgstr "သဘာဝပတ်ဝန်းကျင်ထိန်းသိမ်းရေး လှုပ်ရှားမှုများတွင် ပါဝင်ခြင်း"
+
+#~ msgid "Midterm"
+#~ msgstr "ပထမနှစ်ဝက်ရမှတ်"
+
+#~ msgid "Patheingyi Township, Mandalay, Myanmar"
+#~ msgstr "ပုသိမ်ကြီးမြို့နယ်၊ မန္တလေးတိုင်းဒေသကြီး၊ မြန်မာ"
+
+#, fuzzy
+#~| msgid "© 2023 Mandalay Technological University"
+#~ msgid "© 2023 Mandalay Technological University. All rights reserved."
+#~ msgstr "© ၂၀၂၃ မန္တလေးနည်းပညာတက္ကသိုလ် - မူပိုင်ခွင့်ရှိသည်။"
+
+#~ msgid "Faculties"
+#~ msgstr "မဟာဌာနများ"
+
+#~ msgid "Check news"
+#~ msgstr "ကြည့်ရှုရန်"
+
+#~ msgid "Check now"
+#~ msgstr "ကြည့်ရှုရန်"
+
+#~ msgid "Scores Page"
+#~ msgstr "ရမှတ်စာမျက်နှာ"

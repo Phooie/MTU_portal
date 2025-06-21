@@ -1,0 +1,72 @@
+[
+    {
+        "title": "Introduction to Algorithms",
+        "author": "Thomas H. Cormen et al.",
+        "download_link": "https://mitpress.mit.edu/9788262046365/introduction-algorithms-third-edition",
+        "description": "Comprehensive coverage of algorithms with mathematical rigor",
+        "category": "CEIT"
+    },
+    {
+        "title": "Design of Reinforced Concrete",
+        "author": "Jack C. McCormac",
+        "download_link": "https://www.pearson.com/en-us/subject-catalog/p/design-of-reinforced-concrete/P200000002507",
+        "description": "A widely used book for understanding structural design in Civil Engineering",
+        "category": "CE"
+    },
+    {
+        "title": "Engineering Mechanics: Dynamics",
+        "author": "J.L. Meriam, L.G. Kraige",
+        "download_link": "https://www.wiley.com/en-us/Engineering+Mechanics:+Dynamics,+9th+Edition-p-9781119390985",
+        "description": "Covers core mechanical engineering dynamics concepts",
+        "category": "ME"
+    },
+    {
+        "title": "Electrical Engineering: Principles and Applications",
+        "author": "Allan R. Hambley",
+        "download_link": "https://www.pearson.com/store/p/electrical-engineering-principles-and-applications/P100002884244",
+        "description": "Introductory book in Electrical Engineering fundamentals",
+        "category": "EP"
+    },
+    {
+        "title": "Microelectronic Circuits",
+        "author": "Sedra/Smith",
+        "download_link": "https://global.oup.com/academic/product/microelectronic-circuits-9780190853464",
+        "description": "Comprehensive electronics engineering textbook",
+        "category": "EC"
+    },
+    {
+        "title": "Mechatronics: Principles and Applications",
+        "author": "Godfrey C. Onwubolu",
+        "download_link": "https://www.elsevier.com/books/mechatronics/onwubolu/978-0-08-097481-7",
+        "description": "Covers integration of mechanical, electrical, and computer systems",
+        "category": "MC"
+    },
+    {
+        "title": "Elementary Principles of Chemical Processes",
+        "author": "Richard M. Felder, Ronald W. Rousseau",
+        "download_link": "https://www.wiley.com/en-us/Elementary+Principles+of+Chemical+Processes,+4th+Edition-p-9781118431221",
+        "description": "Foundation book in Chemical Engineering education",
+        "category": "ChE"
+    },
+    {
+        "title": "Fundamentals of Nuclear Reactor Physics",
+        "author": "Elmer E. Lewis",
+        "download_link": "https://www.elsevier.com/books/fundamentals-of-nuclear-reactor-physics/lewis/978-0-12-370631-7",
+        "description": "Covers the physics behind nuclear reactors",
+        "category": "NT"
+    },
+    {
+        "title": "Introductory Mining Engineering",
+        "author": "Howard L. Hartman, Jan M. Mutmansky",
+        "download_link": "https://www.wiley.com/en-us/Introductory+Mining+Engineering,+2nd+Edition-p-9780471348511",
+        "description": "Fundamental book in mining practices and engineering",
+        "category": "MinE"
+    },
+    {
+        "title": "Architecture: Form, Space, and Order",
+        "author": "Francis D.K. Ching",
+        "download_link": "https://www.wiley.com/en-us/Architecture%3A+Form%2C+Space%2C+and+Order%2C+4th+Edition-p-9781118745083",
+        "description": "A foundational architecture textbook on visual design and form",
+        "category": "Arch"
+    }
+]

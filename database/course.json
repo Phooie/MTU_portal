@@ -1,0 +1,502 @@
+[
+    {
+        "title": "Structural Analysis",
+        "instructor": "Dr. Emily Stone",
+        "description": "Basics of structural analysis.",
+        "duration_weeks": 8,
+        "start_date": "2023-09-18",
+        "end_date": "2023-11-13",
+        "category": "Civil",
+        "link": "https://structural-analysis.course.com"
+    },
+    {
+        "title": "Hydraulics and Fluid Mechanics",
+        "instructor": "Prof. John Rivers",
+        "description": "Fluid behavior in engineering.",
+        "duration_weeks": 10,
+        "start_date": "2023-10-02",
+        "end_date": "2023-12-11",
+        "category": "Civil",
+        "link": "https://hydraulics.course.com"
+    },
+    {
+        "title": "Transportation Engineering",
+        "instructor": "Dr. Megan Lane",
+        "description": "Fundamentals of transport design.",
+        "duration_weeks": 6,
+        "start_date": "2023-11-01",
+        "end_date": "2023-12-13",
+        "category": "Civil",
+        "link": "https://transportation.course.com"
+    },
+    {
+        "title": "Geotechnical Engineering",
+        "instructor": "Prof. Carl Earthman",
+        "description": "Soil mechanics for engineers.",
+        "duration_weeks": 9,
+        "start_date": "2023-10-15",
+        "end_date": "2023-12-17",
+        "category": "Civil",
+        "link": "https://geotechnical.course.com"
+    },
+    {
+        "title": "Construction Planning",
+        "instructor": "Dr. Sarah Buildwell",
+        "description": "Project planning essentials.",
+        "duration_weeks": 7,
+        "start_date": "2023-09-25",
+        "end_date": "2023-11-10",
+        "category": "Civil",
+        "link": "https://construction-planning.course.com"
+    },
+    {
+        "title": "Data Structures",
+        "instructor": "Dr. Grace Hopper",
+        "description": "Data Structures fundamentals.",
+        "duration_weeks": 6,
+        "start_date": "2023-10-19",
+        "end_date": "2023-11-30",
+        "category": "CEIT",
+        "link": "https://data-structures.course.com"
+    },
+    {
+        "title": "Web Development Basics",
+        "instructor": "Prof. Tim Berners-Lee",
+        "description": "Web Development Basics fundamentals.",
+        "duration_weeks": 12,
+        "start_date": "2023-10-25",
+        "end_date": "2024-01-17",
+        "category": "CEIT",
+        "link": "https://web-development-basics.course.com"
+    },
+    {
+        "title": "Cybersecurity Fundamentals",
+        "instructor": "Dr. Kevin Mitnick",
+        "description": "Cybersecurity Fundamentals fundamentals.",
+        "duration_weeks": 8,
+        "start_date": "2023-10-16",
+        "end_date": "2023-12-11",
+        "category": "CEIT",
+        "link": "https://cybersecurity-fundamentals.course.com"
+    },
+    {
+        "title": "Database Management",
+        "instructor": "Dr. Edgar Codd",
+        "description": "Database Management fundamentals.",
+        "duration_weeks": 12,
+        "start_date": "2023-10-28",
+        "end_date": "2024-01-20",
+        "category": "CEIT",
+        "link": "https://database-management.course.com"
+    },
+    {
+        "title": "Cloud Computing",
+        "instructor": "Prof. Satya Nadella",
+        "description": "Cloud Computing fundamentals.",
+        "duration_weeks": 10,
+        "start_date": "2023-09-20",
+        "end_date": "2023-11-29",
+        "category": "CEIT",
+        "link": "https://cloud-computing.course.com"
+    },
+    {
+        "title": "Architectural Design Principles",
+        "instructor": "Dr. Laura Form",
+        "description": "Core concepts in architectural design.",
+        "duration_weeks": 8,
+        "start_date": "2023-10-05",
+        "end_date": "2023-11-30",
+        "category": "Architectural",
+        "link": "https://architectural-design.course.com"
+    },
+    {
+        "title": "Building Materials",
+        "instructor": "Prof. Michael Stone",
+        "description": "Properties of construction materials.",
+        "duration_weeks": 7,
+        "start_date": "2023-09-15",
+        "end_date": "2023-11-03",
+        "category": "Architectural",
+        "link": "https://building-materials.course.com"
+    },
+    {
+        "title": "Sustainable Architecture",
+        "instructor": "Dr. Emma Green",
+        "description": "Green building and sustainability.",
+        "duration_weeks": 10,
+        "start_date": "2023-10-10",
+        "end_date": "2023-12-19",
+        "category": "Architectural",
+        "link": "https://sustainable-architecture.course.com"
+    },
+    {
+        "title": "Urban Planning",
+        "instructor": "Prof. Henry Grid",
+        "description": "Designing urban spaces.",
+        "duration_weeks": 9,
+        "start_date": "2023-09-25",
+        "end_date": "2023-11-27",
+        "category": "Architectural",
+        "link": "https://urban-planning.course.com"
+    },
+    {
+        "title": "Building Technology",
+        "instructor": "Dr. Natalie Build",
+        "description": "Techniques in modern construction.",
+        "duration_weeks": 6,
+        "start_date": "2023-11-05",
+        "end_date": "2023-12-17",
+        "category": "Architectural",
+        "link": "https://building-technology.course.com"
+    },
+    {
+        "title": "Thermodynamics",
+        "instructor": "Dr. Rudolf Diesel",
+        "description": "Fundamentals of thermodynamics.",
+        "duration_weeks": 8,
+        "start_date": "2023-09-20",
+        "end_date": "2023-11-15",
+        "category": "Mechanical",
+        "link": "https://thermodynamics.course.com"
+    },
+    {
+        "title": "Fluid Mechanics",
+        "instructor": "Prof. Daniel Bernoulli",
+        "description": "Study of fluid behavior.",
+        "duration_weeks": 10,
+        "start_date": "2023-10-01",
+        "end_date": "2023-12-10",
+        "category": "Mechanical",
+        "link": "https://fluid-mechanics.course.com"
+    },
+    {
+        "title": "Machine Design",
+        "instructor": "Dr. Henry Maudslay",
+        "description": "Principles of designing machines.",
+        "duration_weeks": 7,
+        "start_date": "2023-11-05",
+        "end_date": "2023-12-24",
+        "category": "Mechanical",
+        "link": "https://machine-design.course.com"
+    },
+    {
+        "title": "Heat Transfer",
+        "instructor": "Prof. Stephen Hewitt",
+        "description": "Mechanisms of heat transfer.",
+        "duration_weeks": 9,
+        "start_date": "2023-09-25",
+        "end_date": "2023-12-03",
+        "category": "Mechanical",
+        "link": "https://heat-transfer.course.com"
+    },
+    {
+        "title": "Engineering Mechanics",
+        "instructor": "Dr. James Watt",
+        "description": "Statics and dynamics basics.",
+        "duration_weeks": 6,
+        "start_date": "2023-10-20",
+        "end_date": "2023-12-01",
+        "category": "Mechanical",
+        "link": "https://engineering-mechanics.course.com"
+    },
+     {
+        "title": "Power Systems",
+        "instructor": "Dr. Nikola Tesla",
+        "description": "Overview of power generation and distribution.",
+        "duration_weeks": 8,
+        "start_date": "2023-09-15",
+        "end_date": "2023-11-10",
+        "category": "Electrical Power",
+        "link": "https://power-systems.course.com"
+    },
+    {
+        "title": "Electrical Machines",
+        "instructor": "Prof. Charles Steinmetz",
+        "description": "Study of motors and generators.",
+        "duration_weeks": 9,
+        "start_date": "2023-10-05",
+        "end_date": "2023-12-07",
+        "category": "Electrical Power",
+        "link": "https://electrical-machines.course.com"
+    },
+    {
+        "title": "Power Electronics",
+        "instructor": "Dr. Bimal Bose",
+        "description": "Electronic devices in power systems.",
+        "duration_weeks": 7,
+        "start_date": "2023-11-01",
+        "end_date": "2023-12-19",
+        "category": "Electrical Power",
+        "link": "https://power-electronics.course.com"
+    },
+    {
+        "title": "Renewable Energy Systems",
+        "instructor": "Prof. Maria Telkes",
+        "description": "Basics of solar, wind, and other renewables.",
+        "duration_weeks": 10,
+        "start_date": "2023-09-20",
+        "end_date": "2023-12-29",
+        "category": "Electrical Power",
+        "link": "https://renewable-energy.course.com"
+    },
+    {
+        "title": "Smart Grids",
+        "instructor": "Dr. Alex Papalexopoulos",
+        "description": "Modern electrical grid technologies.",
+        "duration_weeks": 6,
+        "start_date": "2023-10-25",
+        "end_date": "2023-12-06",
+        "category": "Electrical Power",
+        "link": "https://smart-grids.course.com"
+    },
+    {
+        "title": "Analog Electronics",
+        "instructor": "Dr. Robert Noyce",
+        "description": "Fundamentals of analog circuits.",
+        "duration_weeks": 8,
+        "start_date": "2023-09-18",
+        "end_date": "2023-11-13",
+        "category": "Electronics",
+        "link": "https://analog-electronics.course.com"
+    },
+    {
+        "title": "Digital Logic Design",
+        "instructor": "Prof. Claude Shannon",
+        "description": "Basics of digital systems.",
+        "duration_weeks": 10,
+        "start_date": "2023-10-05",
+        "end_date": "2023-12-14",
+        "category": "Electronics",
+        "link": "https://digital-logic.course.com"
+    },
+    {
+        "title": "Microprocessors",
+        "instructor": "Dr. Federico Faggin",
+        "description": "Design and function of microprocessors.",
+        "duration_weeks": 9,
+        "start_date": "2023-09-30",
+        "end_date": "2023-12-02",
+        "category": "Electronics",
+        "link": "https://microprocessors.course.com"
+    },
+    {
+        "title": "Embedded Systems",
+        "instructor": "Prof. Linus Torvalds",
+        "description": "Microcontroller-based system design.",
+        "duration_weeks": 7,
+        "start_date": "2023-11-03",
+        "end_date": "2023-12-22",
+        "category": "Electronics",
+        "link": "https://embedded-systems.course.com"
+    },
+    {
+        "title": "Communication Systems",
+        "instructor": "Dr. Hedy Lamarr",
+        "description": "Principles of communication technology.",
+        "duration_weeks": 6,
+        "start_date": "2023-10-12",
+        "end_date": "2023-11-23",
+        "category": "Electronics",
+        "link": "https://communication-systems.course.com"
+    },
+    {
+        "title": "Mining Engineering Intro",
+        "instructor": "Dr. Herbert Hoover",
+        "description": "Basics of mining operations.",
+        "duration_weeks": 8,
+        "start_date": "2023-09-22",
+        "end_date": "2023-11-17",
+        "category": "Mining",
+        "link": "https://mining-intro.course.com"
+    },
+    {
+        "title": "Rock Mechanics",
+        "instructor": "Prof. Karl Terzaghi",
+        "description": "Study of rock properties.",
+        "duration_weeks": 7,
+        "start_date": "2023-10-10",
+        "end_date": "2023-11-28",
+        "category": "Mining",
+        "link": "https://rock-mechanics.course.com"
+    },
+    {
+        "title": "Mineral Processing",
+        "instructor": "Dr. Frank Aplan",
+        "description": "Techniques for mineral extraction.",
+        "duration_weeks": 9,
+        "start_date": "2023-10-05",
+        "end_date": "2023-12-07",
+        "category": "Mining",
+        "link": "https://mineral-processing.course.com"
+    },
+    {
+        "title": "Mine Safety",
+        "instructor": "Prof. Barbara Arnold",
+        "description": "Safety practices in mining.",
+        "duration_weeks": 6,
+        "start_date": "2023-11-01",
+        "end_date": "2023-12-13",
+        "category": "Mining",
+        "link": "https://mine-safety.course.com"
+    },
+    {
+        "title": "Surface Mining",
+        "instructor": "Dr. John Tilton",
+        "description": "Methods of surface mining.",
+        "duration_weeks": 10,
+        "start_date": "2023-09-15",
+        "end_date": "2023-11-24",
+        "category": "Mining",
+        "link": "https://surface-mining.course.com"
+    },
+    {
+        "title": "Chemical Process Principles",
+        "instructor": "Dr. Carl Bosch",
+        "description": "Foundations of chemical processes.",
+        "duration_weeks": 8,
+        "start_date": "2023-09-25",
+        "end_date": "2023-11-20",
+        "category": "Chemical",
+        "link": "https://chemical-process.course.com"
+    },
+    {
+        "title": "Reaction Engineering",
+        "instructor": "Prof. Octave Levenspiel",
+        "description": "Chemical reaction fundamentals.",
+        "duration_weeks": 10,
+        "start_date": "2023-10-10",
+        "end_date": "2023-12-19",
+        "category": "Chemical",
+        "link": "https://reaction-engineering.course.com"
+    },
+    {
+        "title": "Process Control",
+        "instructor": "Dr. Luyben",
+        "description": "Control systems in chemical plants.",
+        "duration_weeks": 7,
+        "start_date": "2023-11-03",
+        "end_date": "2023-12-22",
+        "category": "Chemical",
+        "link": "https://process-control.course.com"
+    },
+    {
+        "title": "Transport Phenomena",
+        "instructor": "Prof. Bird, Stewart & Lightfoot",
+        "description": "Momentum, heat, and mass transfer.",
+        "duration_weeks": 9,
+        "start_date": "2023-09-15",
+        "end_date": "2023-11-17",
+        "category": "Chemical",
+        "link": "https://transport-phenomena.course.com"
+    },
+    {
+        "title": "Biochemical Engineering",
+        "instructor": "Dr. Harrison",
+        "description": "Interface of biology and chemical engineering.",
+        "duration_weeks": 6,
+        "start_date": "2023-10-25",
+        "end_date": "2023-12-06",
+        "category": "Chemical",
+        "link": "https://biochemical-engineering.course.com"
+    },
+    {
+        "title": "Control Systems",
+        "instructor": "Dr. Richard Dorf",
+        "description": "Basics of automatic control.",
+        "duration_weeks": 8,
+        "start_date": "2023-09-20",
+        "end_date": "2023-11-15",
+        "category": "Mechatronics",
+        "link": "https://control-systems.course.com"
+    },
+    {
+        "title": "Robotics",
+        "instructor": "Prof. Rodney Brooks",
+        "description": "Introduction to robotics design.",
+        "duration_weeks": 10,
+        "start_date": "2023-10-01",
+        "end_date": "2023-12-10",
+        "category": "Mechatronics",
+        "link": "https://robotics.course.com"
+    },
+    {
+        "title": "Sensors and Actuators",
+        "instructor": "Dr. Gaurav Trivedi",
+        "description": "Components for mechatronic systems.",
+        "duration_weeks": 7,
+        "start_date": "2023-11-05",
+        "end_date": "2023-12-24",
+        "category": "Mechatronics",
+        "link": "https://sensors-actuators.course.com"
+    },
+    {
+        "title": "Embedded System Design",
+        "instructor": "Prof. John W. Valvano",
+        "description": "Design of embedded systems.",
+        "duration_weeks": 9,
+        "start_date": "2023-09-25",
+        "end_date": "2023-12-03",
+        "category": "Mechatronics",
+        "link": "https://embedded-system-design.course.com"
+    },
+    {
+        "title": "Microcontroller Programming",
+        "instructor": "Dr. Elecia White",
+        "description": "Programming microcontrollers.",
+        "duration_weeks": 6,
+        "start_date": "2023-10-20",
+        "end_date": "2023-12-01",
+        "category": "Mechatronics",
+        "link": "https://microcontroller-programming.course.com"
+    },
+    {
+        "title": "Molecular Biology",
+        "instructor": "Dr. James Watson",
+        "description": "Basics of molecular biology.",
+        "duration_weeks": 8,
+        "start_date": "2023-09-18",
+        "end_date": "2023-11-13",
+        "category": "Biotechnology",
+        "link": "https://molecular-biology.course.com"
+    },
+    {
+        "title": "Genetic Engineering",
+        "instructor": "Prof. Jennifer Doudna",
+        "description": "CRISPR and gene editing.",
+        "duration_weeks": 10,
+        "start_date": "2023-10-05",
+        "end_date": "2023-12-14",
+        "category": "Biotechnology",
+        "link": "https://genetic-engineering.course.com"
+    },
+    {
+        "title": "Bioprocess Engineering",
+        "instructor": "Dr. Shulin Chen",
+        "description": "Engineering for biological production.",
+        "duration_weeks": 7,
+        "start_date": "2023-11-03",
+        "end_date": "2023-12-22",
+        "category": "Biotechnology",
+        "link": "https://bioprocess-engineering.course.com"
+    },
+    {
+        "title": "Cell Culture Technology",
+        "instructor": "Prof. Eleftherios T. Papoutsakis",
+        "description": "Techniques in cell culture.",
+        "duration_weeks": 9,
+        "start_date": "2023-09-25",
+        "end_date": "2023-12-03",
+        "category": "Biotechnology",
+        "link": "https://cell-culture-technology.course.com"
+    },
+    {
+        "title": "Bioinformatics",
+        "instructor": "Dr. Temple F. Smith",
+        "description": "Computational biology basics.",
+        "duration_weeks": 6,
+        "start_date": "2023-10-20",
+        "end_date": "2023-12-01",
+        "category": "Biotechnology",
+        "link": "https://bioinformatics.course.com"
+    }
+]

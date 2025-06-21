@@ -1,0 +1,345 @@
+{% load static %} {% load i18n lang_switcher %}
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% load static %} 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% trans "AI-Powered Smart MTU Website" %}</title>
+  <link rel="stylesheet" href="{% static 'why2.css' %}">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+
+
+
+<style>
+    
+
+</style>
+
+
+
+<body style="height: 100%; background-color: #002B5C;">
+
+  <!-- nav-bar start -->
+<header class="main-header">
+  <div class="header-container">
+    <div class="left-section">
+
+      <div class="logo-section">
+        <img src="{% static 'images/Logo_of_MTU.png' %}" alt="{% trans 'University Logo' %}" class="logo">
+        <div class="university-name">
+          <span class="line1">{% trans "Mandalay" %}</span>
+          <span class="line2">{% trans "Technological" %}</span>
+          <span class="line3">{% trans "University" %}</span>
+        </div>
+      </div>
+
+      <div class="nav-links">
+        <div class="top-links">
+          <a href="{% url 'news' %}" class="btn btn-sm btn-outline-warning">{% trans "News & Events" %}</a>
+          <a href="{% url 'libiary' %}" class="btn btn-sm btn-outline-warning">{% trans "Library" %}</a>
+          <a href="{% url 'research' %}" class="btn btn-sm btn-outline-warning">{% trans "Research" %}</a>
+        </div>
+        <div class="bottom-links">
+          <a href="{% url 'home' %}">{% trans "Home" %}</a>
+          <a href="{% url 'departments' %}">{% trans "Departments" %}</a>
+          <a href="#footer">{% trans "Contact us" %}</a>
+          <a onclick="openChatbot()">{% trans "Admission" %}</a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="right-section">
+      <a href="{% url 'logout' %}" class="logout-link"><i class='bx bxs-user'></i>{% trans "Logout" %}</a>
+
+
+        <!-- <div class="language-switcher">
+            <a href="{% change_lang 'us' %}" class="lang-option">
+                <img src="https://flagcdn.com/w40/us.png" alt="EN" class="flag-icon"> {% trans "English" %}</a>
+            <a href="{% change_lang 'my' %}" class="lang-option">
+                <img src="https://flagcdn.com/w40/mm.png" alt="MM" class="flag-icon"> {% trans "မြန်မာ" %}</a>
+        </div> -->
+
+
+         <div class="language-switcher">
+          <button class="lang-btn">
+           <img src="https://flagcdn.com/w40/us.png" alt="EN" class="flag-icon">English<i class='bx bx-chevron-down arrow'></i>
+          </button>
+        <div class="dropdown">
+         <a href="{% change_lang 'us' %}" class="lang-option">
+          <img src="https://flagcdn.com/w40/us.png" alt="EN" class="flag-icon"> English</a>
+         <a href="{% change_lang 'my' %}" class="lang-option">
+          <img src="https://flagcdn.com/w40/mm.png" alt="MM" class="flag-icon"> မြန်မာ</a>
+  </div>
+    </div>
+  </div>
+</header>
+
+<section class="predict" style="background-color: #002B5C; padding: 40px 0;">
+  <div style="max-width: 700px; margin: 0 auto; background-color: white; border-radius: 10px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); padding: 30px;">
+    <h2 style="text-align: center; color: #002B5C; margin-bottom: 30px;">{% blocktrans %}Performance Predictions for {{ student_name }}{% endblocktrans %}</h2>
+
+    <div style="background-color: #f5f9ff; border-radius: 8px; padding: 20px; margin-bottom: 25px;">
+      <h3 style="color: #002B5C; margin-top: 0;">📊 Current Performance</h3>
+      <p style="font-size: 1.1rem; margin: 10px 0; color: #333;">
+        <strong>Overall Average:</strong> {{ current_avg }}%
+      </p>
+      <div style="display: flex; justify-content: space-between; flex-wrap: wrap;">
+        <div style="width: 30%;">
+          <p style="margin: 5px 0;"><strong>Assignments:</strong></p>
+          <p style="margin: 5px 0;">{{ score_components.assignments|floatformat:1 }}/10</p>
+        </div>
+        <div style="width: 30%;">
+          <p style="margin: 5px 0;"><strong>Tutorial:</strong></p>
+          <p style="margin: 5px 0;">{{ score_components.tutorial|floatformat:1 }}/10</p>
+        </div>
+        <div style="width: 30%;">
+          <p style="margin: 5px 0;"><strong>Final Exam:</strong></p>
+          <p style="margin: 5px 0;">{{ score_components.final|floatformat:1 }}/80</p>
+        </div>
+      </div>
+    </div>
+
+    <div style="background-color: #f5f9ff; border-radius: 8px; padding: 20px; margin-bottom: 25px;">
+      <h3 style="color: #002B5C; margin-top: 0;">🔮 Next Semester Predictions</h3>
+      <p style="font-size: 1.1rem; margin: 10px 0; color: #333;">
+        <strong>Predicted Total Score:</strong> {{ predicted_grade }}%
+      </p>
+      
+      <div style="background-color: #ddd; border-radius: 30px; height: 30px; margin: 20px 0;">
+        <div style="height: 100%; width: {% widthratio predicted_grade 100 100 %}%; background-color: #4caf50; border-radius: 30px; text-align: center; color: white; font-weight: bold; line-height: 30px; min-width: 20%;">
+          {{ predicted_grade }}%
+        </div>
+      </div>
+
+      <h4 style="margin: 20px 0 10px 0;">📈 Predicted Component Scores</h4>
+      <div style="display: flex; justify-content: space-between; flex-wrap: wrap;">
+        <div style="width: 30%;">
+          <p style="margin: 5px 0;"><strong>Assignments:</strong></p>
+          <p style="margin: 5px 0;">{{ predicted_assignments|floatformat:1 }}/10</p>
+        </div>
+        <div style="width: 30%;">
+          <p style="margin: 5px 0;"><strong>Tutorial:</strong></p>
+          <p style="margin: 5px 0;">{{ predicted_tutorial|floatformat:1 }}/10</p>
+        </div>
+        <div style="width: 30%;">
+          <p style="margin: 5px 0;"><strong>Final Exam:</strong></p>
+          <p style="margin: 5px 0;">{{ predicted_final|floatformat:1 }}/80</p>
+        </div>
+      </div>
+    </div>
+
+    <div style="background-color: #fff8e1; border-radius: 8px; padding: 15px; border-left: 4px solid #ffc107;">
+      <p style="font-size: 1.1rem; margin: 5px 0; color: #333;">
+        <strong>⚠️ Your weak area is:</strong> <span style="text-transform: capitalize;">{{ weak_area }}</span>
+      </p>
+      <p style="margin: 5px 0; font-size: 0.9rem; color: #666;">
+        Focus on improving your {{ weak_area }} performance to boost your overall score.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="final-calc" style="margin: 40px auto; padding: 40px 0; background-color: #002B5C;">
+  <div style="max-width: 700px; margin: 0 auto; background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);">
+    <h3 style="text-align: center; color: #002B5C; margin-bottom: 25px; font-size: 1.5rem; position: relative;">
+      <span style="background: white; padding: 0 20px; position: relative; z-index: 1;">Calculate Final Exam Target</span>
+      <span style="position: absolute; width: 100%; height: 2px; background: linear-gradient(to right, transparent, #002B5C, transparent); top: 50%; left: 0; z-index: 0;"></span>
+    </h3>
+
+    <form method="get" action="{% url 'predict' %}" style="display: grid; gap: 20px;">
+      <div class="form-group">
+        <label for="goal" style="display: block; margin-bottom: 8px; font-weight: 600; color: #002B5C;">
+          <i class='bx bx-target-lock' style="vertical-align: middle; margin-right: 8px;"></i>
+          Desired Total Percentage
+        </label>
+        <input type="number" name="goal" min="0" max="100" required 
+               style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 6px; font-size: 1rem;"
+               placeholder="Enter your target percentage (0-100)">
+      </div>
+
+      <div class="form-group">
+        <label for="user_assignment" style="display: block; margin-bottom: 8px; font-weight: 600; color: #002B5C;">
+          <i class='bx bx-edit' style="vertical-align: middle; margin-right: 8px;"></i>
+          Assignment Marks (0–10)
+        </label>
+        <input type="number" name="user_assignment" min="0" max="10" required 
+               style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 6px; font-size: 1rem;"
+               placeholder="Enter your assignment marks">
+      </div>
+
+      <div class="form-group">
+        <label for="user_tutorial" style="display: block; margin-bottom: 8px; font-weight: 600; color: #002B5C;">
+          <i class='bx bx-book' style="vertical-align: middle; margin-right: 8px;"></i>
+          Tutorial Marks (0–10)
+        </label>
+        <input type="number" name="user_tutorial" min="0" max="10" required 
+               style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 6px; font-size: 1rem;"
+               placeholder="Enter your tutorial marks">
+      </div>
+
+      <button type="submit" 
+              style="background: #002B5C; color: white; border: none; padding: 14px; border-radius: 6px; font-size: 1rem; font-weight: 600; cursor: pointer; transition: all 0.3s; margin-top: 10px;"
+              onmouseover="this.style.backgroundColor='#004080'" 
+              onmouseout="this.style.backgroundColor='#002B5C'">
+        Calculate Required Final Score
+      </button>
+    </form>
+
+    {% if final_required_result %}
+      <div style="margin-top: 30px; padding: 15px; background: #f0f8ff; border-left: 4px solid #002B5C; border-radius: 0 6px 6px 0; color: #002B5C; font-size: 1.1rem;">
+        <i class='bx bx-info-circle' style="vertical-align: middle; margin-right: 8px; font-size: 1.3rem;"></i>
+        {{ final_required_result }}
+      </div>
+    {% endif %}
+  </div>
+</section>
+
+
+
+
+
+<footer id="mtu-footer" class="mtu-footer">
+  <div class="footer-container">
+    <div class="footer-column">
+      <h4>{% trans "Explore MTU" %}</h4>
+      <ul>
+        <li><a href="#about-mtu">{% trans "About MTU" %}</a></li>
+        <li><a onclick="openChatbot()">{% trans "Admissions" %}</a></li>
+        <li><a href="{% url 'departments' %}">{% trans "Departments" %}</a></li>
+        <li><a href="{% url 'research' %}">{% trans "Research" %}</a></li>
+        <li><a href="{% url 'campus' %}">{% trans "Campus Life" %}</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h4>{% trans "Contact Details" %}</h4>
+      <p><strong>{% trans "Phone" %}:</strong> +95 9 123456789</p>
+      <p><strong>{% trans "Email" %}:</strong> info@mtu.edu.mm</p>
+      <p><strong>{% trans "Address" %}:</strong><br>
+        {% trans "Mandalay Technological University" %}<br>
+        {% trans "Patheingyi Township, Mandalay" %}<br>
+        {% trans "Myanmar" %}
+      </p>
+    </div>
+
+    <div class="footer-column">
+      <h4>{% trans "Connect With Us" %}</h4>
+      <div class="social-icons">
+        <a href="#"><i class='bx bxl-facebook'></i></a>
+        <a href="#"><i class='bx bxl-instagram'></i></a>
+        <a href="#"><i class='bx bxl-youtube'></i></a>
+      </div>
+      <div class="mtu-logo">
+        <img src="{% static 'images/Logo_of_MTU.png' %}" alt="MTU Logo">
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2025 {% trans "Mandalay Technological University. All rights reserved." %}</p>
+    <div class="footer-links">
+      <a href="#">{% trans "Terms & Privacy" %}</a>
+      <a href="#">{% trans "Accessibility" %}</a>
+      <a href="#">{% trans "Contact" %}</a>
+    </div>
+  </div>
+</footer>
+
+<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+        <df-messenger
+        intent="WELCOME"
+        chat-title="UniAssist"
+        agent-id="cf85d824-470d-409b-9a50-38b12b8672fc"
+        language-code="en"
+        ></df-messenger>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script>
+        // Language Switcher
+        document.getElementById('language-switcher').addEventListener('click', function() {
+            alert('{% trans "Multilingual support coming soon!" %}');
+            // In production: Call API to switch content language
+        });
+
+        // Chatbot Functions
+        function openChatbot() {
+            const dfMessenger = document.querySelector('df-messenger');
+            if (dfMessenger) {
+            dfMessenger.shadowRoot.querySelector('button').click(); // Triggers the chat bubble
+            } else {
+            console.error('Dialogflow messenger not found');
+            }
+        }
+
+        function closeChatbot() {
+            document.getElementById('chatbot-container').classList.add('d-none');
+        }
+
+        function sendChatMessage() {
+            const input = document.getElementById('chatbot-input');
+            const message = input.value.trim();
+            if (message) {
+                // In production: Call AWS Lex/Azure Bot Service API
+                const chatWindow = document.querySelector('.card-body');
+                chatWindow.innerHTML += `
+                    <div class="chat-message user-message mb-2 text-end">
+                        <div class="alert alert-secondary p-2">${message}</div>
+                    </div>
+                `;
+                
+                // Simulate bot response
+                setTimeout(() => {
+                    chatWindow.innerHTML += `
+                        <div class="chat-message bot-message mb-2">
+                            <div class="alert alert-info p-2">{% trans "I'll connect you to our FAQ about" %} "${message}".</div>
+                        </div>
+                    `;
+                    chatWindow.scrollTop = chatWindow.scrollHeight;
+                }, 800);
+                
+                input.value = '';
+                chatWindow.scrollTop = chatWindow.scrollHeight;
+            }
+        }
+
+        // Smart Search - Enter key support
+        document.getElementById('smart-search').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                alert('{% trans "Searching our knowledge base..." %}');
+                // In production: Call semantic search API
+            }
+        });
+
+        // Load AI-recommended events (simulated)
+        window.addEventListener('DOMContentLoaded', function() {
+            // In production: Fetch from backend API
+            const events = [
+                { title: "{% trans 'AI Workshop' %}", date: "{% trans 'June 10, 2025' %}", dept: "IT", img: "https://via.placeholder.com/300x150?text=AI+Workshop" },
+                { title: "{% trans 'Research Symposium' %}", date: "{% trans 'July 5, 2025' %}", dept: "{% trans 'All' %}", img: "https://via.placeholder.com/300x150?text=Research" }
+            ];
+            
+            const eventsContainer = document.getElementById('smart-events');
+            events.forEach(event => {
+                eventsContainer.innerHTML += `
+                    <div class="col-md-4">
+                        <div class="card h-100">
+                            <img src="${event.img}" class="card-img-top" alt="${event.title}">
+                            <div class="card-body">
+                                <h5 class="card-title">${event.title}</h5>
+                                <p class="card-text text-muted small">${event.date} | ${event.dept} {% trans 'Department' %}</p>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            });
+        });
+    </script>
+    </body>
+</html>

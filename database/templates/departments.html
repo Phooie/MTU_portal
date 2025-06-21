@@ -1,0 +1,435 @@
+{% load static %} 
+{% load i18n lang_switcher %} 
+ 
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+  <meta charset="UTF-8" /> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+  <title>{% trans "Academic Departments" %}</title>
+  
+  <link rel="stylesheet" href="{% static 'why.css' %}">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <style> 
+    :root { 
+      --text-color: #222222; 
+      --main-color: #a10000; 
+      --bg-color: #ffd700; 
+      --primary-color: hsl(212, 100%, 18%); 
+      --secondary-color: #1e293b; 
+      --white: #ffffff; 
+      --card-bg: rgb(195, 201, 211); 
+    } 
+ 
+    * { 
+      box-sizing: border-box; 
+      margin: 0; 
+      padding: 0; 
+    } 
+ 
+    body { 
+      font-family: 'Poppins', sans-serif; 
+      background-color: var(--primary-color); 
+      color: var(--text-color); 
+      padding: 0; 
+    } 
+ 
+    .header { 
+      background: linear-gradient(to right, var(--primary-color), var(--main-color)); 
+      color: var(--white); 
+      padding: 60px 20px; 
+      text-align: center; 
+      position: sticky; 
+      top: 0; 
+      z-index: 100; 
+    } 
+ 
+    .header h1 { 
+      font-size: 3rem; 
+      margin-bottom: 10px; 
+      font-weight: 600; 
+    } 
+ 
+    .header p { 
+      font-size: 1.2rem; 
+      opacity: 0.9; 
+    } 
+ 
+    .container { 
+      max-width: 1200px; 
+      margin: 40px auto; 
+      padding: 0 20px; 
+      display: grid; 
+      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); 
+      gap: 30px; 
+    } 
+ 
+    .department-card { 
+      background-color: var(--card-bg); 
+      border-left: 6px solid var(--main-color); 
+      padding: 25px 30px; 
+      border-radius: 10px; 
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05); 
+      transition: all 0.3s ease-in-out; 
+    } 
+ 
+    .department-card:hover { 
+      transform: translateY(-5px); 
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08); 
+    } 
+ 
+    .department-card h2 { 
+      color: var(--primary-color); 
+      font-size: 1.5rem; 
+      margin-bottom: 10px; 
+    } 
+ 
+    .department-card p { 
+      margin-bottom: 12px; 
+      font-size: 0.95rem; 
+      color: #444; 
+    } 
+ 
+    .department-card h3 { 
+      color: var(--main-color); 
+      font-size: 1.1rem; 
+      margin-top: 20px; 
+      margin-bottom: 8px; 
+    } 
+ 
+    ul { 
+      margin-left: 20px; 
+      margin-bottom: 15px; 
+      color: #333; 
+    } 
+ 
+    ul li { 
+      list-style-type: disc; 
+      margin-bottom: 6px; 
+      font-size: 0.95rem; 
+    } 
+ 
+    .contact-info li { 
+      list-style: none; 
+      padding: 3px 0; 
+      font-size: 0.9rem; 
+    } 
+ 
+    @media screen and (max-width: 600px) { 
+      header h1 { 
+        font-size: 2.2rem; 
+      } 
+ 
+      .department-card { 
+        padding: 20px; 
+      } 
+    } 
+  </style> 
+</head> 
+<body>
+    <body style="height: 100%;">
+
+  <!-- nav-bar start -->
+<header class="main-header">
+  <div class="header-container">
+    <div class="left-section">
+
+      <div class="logo-section">
+        <img src="{% static 'images/Logo_of_MTU.png' %}" alt="{% trans 'University Logo' %}" class="logo">
+        <div class="university-name">
+          <span class="line1">{% trans "Mandalay" %}</span>
+          <span class="line2">{% trans "Technological" %}</span>
+          <span class="line3">{% trans "University" %}</span>
+        </div>
+      </div>
+
+      <div class="nav-links">
+        <div class="top-links">
+          <a href="{% url 'news' %}" class="btn btn-sm btn-outline-warning">{% trans "News & Events" %}</a>
+          <a href="{% url 'libiary' %}" class="btn btn-sm btn-outline-warning">{% trans "Library" %}</a>
+          <a href="{% url 'research' %}" class="btn btn-sm btn-outline-warning">{% trans "Research" %}</a>
+        </div>
+        <div class="bottom-links">
+          <a href="{% url 'home' %}">{% trans "Home" %}</a>
+          <a href="{% url 'departments' %}">{% trans "Departments" %}</a>
+          <a href="#mtu-footer">{% trans "Contact us" %}</a>
+          <a onclick="openChatbot()">{% trans "Admission" %}</a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="right-section">
+      <a href="{% url 'logout' %}" class="logout-link"><i class='bx bxs-user'></i>{% trans "Logout" %}</a>
+
+
+        <!-- <div class="language-switcher">
+            <a href="{% change_lang 'us' %}" class="lang-option">
+                <img src="https://flagcdn.com/w40/us.png" alt="EN" class="flag-icon"> {% trans "English" %}</a>
+            <a href="{% change_lang 'my' %}" class="lang-option">
+                <img src="https://flagcdn.com/w40/mm.png" alt="MM" class="flag-icon"> {% trans "မြန်မာ" %}</a>
+        </div> -->
+
+
+         <div class="language-switcher">
+          <button class="lang-btn">
+           <img src="https://flagcdn.com/w40/us.png" alt="EN" class="flag-icon">English<i class='bx bx-chevron-down arrow'></i>
+          </button>
+        <div class="dropdown">
+         <a href="{% change_lang 'us' %}" class="lang-option">
+          <img src="https://flagcdn.com/w40/us.png" alt="EN" class="flag-icon"> English</a>
+         <a href="{% change_lang 'my' %}" class="lang-option">
+          <img src="https://flagcdn.com/w40/mm.png" alt="MM" class="flag-icon"> မြန်မာ</a>
+  </div>
+    </div>
+  </div>
+</header>
+
+
+  <main style="padding-top: 100px;">
+<section class="header">
+
+<h1>{% trans "Academic Departments" %}</h1> 
+    <p>{% trans "Leading innovation in science and engineering" %}</p> 
+</section>
+ 
+  <section class="container"> 
+    <!-- Example department card --> 
+    <div class="department-card"> 
+      <h2>{% trans "Computer Engineering and Information Technology" %}</h2> 
+      <p>{% trans "The CEIT Department focuses on both hardware and software systems, equipping students with the knowledge to design intelligent computing solutions." %}</p> 
+      <h3>{% trans "Key Focus Areas" %}</h3> 
+      <ul> 
+        <li>{% trans "Software Development" %}</li> 
+        <li>{% trans "Cybersecurity Systems" %}</li> 
+        <li>{% trans "Databases" %}</li> 
+        <li>{% trans "Artificial Intelligence" %}</li> 
+      </ul> 
+      <h3>{% trans "Contact Info" %}</h3> 
+      <ul class="contact-info"> 
+        <li>{% trans "Head of Department" %}: Daw Phyo Thuzar Htun</li> 
+        <li>{% trans "Email" %}: teacher@gmail.com</li> 
+      </ul> 
+    </div> 
+    </section> 
+ 
+    <section class="container"> 
+    <div class="department-card"> 
+        <h2 class="department-name">{% trans "Civil Engineering Department" %}</h2>
+<p>{% trans "The Civil Engineering Department trains students in planning, designing, and supervising infrastructure projects such as buildings, roads, and bridges. Emphasis is placed on structural integrity, sustainability, and environmental impact." %}</p> 
+        <h3>{% trans "Key Focus Areas:" %}</h3> 
+        <ul> 
+            <li>{% trans "Structural Analysis" %}</li> 
+            <li>{% trans "Construction Materials" %}</li> 
+            <li>{% trans "Transportation Engineering" %}</li> 
+            <li>{% trans "Geotechnical Engineering" %}</li> 
+        </ul> 
+        <h3>{% trans "Contact Info:" %}</h3> 
+        <ul> 
+            <li>{% trans "Head of Department" %}: Dr. Aung Min</li> 
+            <li>{% trans "Email" %}: civildept@example.com</li> 
+        </ul> 
+    <div> 
+    </section> 
+     
+    <section class="container"> 
+    <div class="department-card"> 
+        <h2 class="department-name">{% trans "Architectural Engineering Department" %}</h2> 
+        <p>{% trans "This department integrates architecture and engineering principles to produce functional, safe, and aesthetically pleasing structures. Students learn about building systems, materials, and design methods through creative and technical training." %}</p> 
+        <h3>{% trans "Key Focus Areas:" %}</h3> 
+        <ul> 
+            <li>{% trans "Architectural Design" %}</li> 
+            <li>{% trans "Building Systems" %}</li> 
+            <li>{% trans "Urban Planning" %}</li> 
+            <li>{% trans "Construction Technology" %}</li> 
+        </ul> 
+        <h3>{% trans "Contact Info:" %}</h3> 
+        <ul> 
+            <li>{% trans "Head of Department" %}: Daw Nandar Khin</li> 
+            <li>{% trans "Email" %}: archeng@example.com</li> 
+        </ul> 
+    </section> 
+ 
+    <section class="container"> 
+    <div class="department-card"> 
+        <h2 class="department-name">{% trans "Mechanical Engineering Department" %}</h2> 
+        <p>{% trans "The Mechanical Engineering Department prepares students to design, analyze, and maintain mechanical systems. It covers thermodynamics, fluid mechanics, and manufacturing to address modern engineering challenges." %}</p> 
+        <h3>{% trans "Key Focus Areas:" %}</h3> 
+        <ul> 
+            <li>{% trans "Thermodynamics" %}</li> 
+            <li>{% trans "Mechanical Design" %}</li> 
+            <li>{% trans "Fluid Mechanics" %}</li> 
+            <li>{% trans "Manufacturing Processes" %}</li> 
+        </ul> 
+        <h3>{% trans "Contact Info:" %}</h3> 
+        <ul> 
+            <li>{% trans "Head of Department" %}: Dr. Kyaw Zin Latt</li> 
+            <li>{% trans "Email" %}: mechdept@example.com</li> 
+        </ul> 
+    </section> 
+ 
+    <section class="container"> 
+    <div class="department-card"> 
+        <h2 class="department-name">{% trans "Electrical Power Engineering Department" %}</h2> 
+        <p>{% trans "This department specializes in power generation, transmission, and distribution. Students learn to work with electrical systems and emerging technologies in sustainable energy and smart grids." %}</p> 
+        <h3>{% trans "Key Focus Areas:" %}</h3> 
+        <ul> 
+            <li>{% trans "Power Systems" %}</li> 
+            <li>{% trans "Renewable Energy" %}</li> 
+            <li>{% trans "Electrical Machines" %}</li> 
+            <li>{% trans "Power Electronics" %}</li> 
+        </ul> 
+        <h3>{% trans "Contact Info:" %}</h3> 
+        <ul> 
+            <li>{% trans "Head of Department" %}: U Zaw Moe Tun</li> 
+            <li>{% trans "Email" %}: epdept@example.com</li> 
+        </ul> 
+    </section> 
+ 
+    <section class="container"> 
+    <div class="department-card"> 
+        <h2 class="department-name">{% trans "Electronics Engineering Department" %}</h2> 
+        <p>{% trans "Electronics Engineering equips students with the knowledge to develop and maintain modern electronic systems. Focus areas include microelectronics, signal processing, and embedded systems." %}</p> 
+        <h3>{% trans "Key Focus Areas:" %}</h3> 
+        <ul>
+  </main>
+
+  <footer id="mtu-footer" class="mtu-footer">
+  <div class="footer-container">
+    <div class="footer-column">
+      <h4>{% trans "Explore MTU" %}</h4>
+      <ul>
+        <li><a href="#about-mtu">{% trans "About MTU" %}</a></li>
+        <li><a onclick="openChatbot()">{% trans "Admissions" %}</a></li>
+        <li><a href="{% url 'departments' %}">{% trans "Departments" %}</a></li>
+        <li><a href="{% url 'research' %}">{% trans "Research" %}</a></li>
+        <li><a href="{% url 'campus' %}">{% trans "Campus Life" %}</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h4>{% trans "Contact Details" %}</h4>
+      <p><strong>{% trans "Phone" %}:</strong> +95 9 123456789</p>
+      <p><strong>{% trans "Email" %}:</strong> info@mtu.edu.mm</p>
+      <p><strong>{% trans "Address" %}:</strong><br>
+        {% trans "Mandalay Technological University" %}<br>
+        {% trans "Patheingyi Township, Mandalay" %}<br>
+        {% trans "Myanmar" %}
+      </p>
+    </div>
+
+    <div class="footer-column">
+      <h4>{% trans "Connect With Us" %}</h4>
+      <div class="social-icons">
+        <a href="#"><i class='bx bxl-facebook'></i></a>
+        <a href="#"><i class='bx bxl-instagram'></i></a>
+        <a href="#"><i class='bx bxl-youtube'></i></a>
+      </div>
+      <div class="mtu-logo">
+        <img src="{% static 'images/Logo_of_MTU.png' %}" alt="MTU Logo">
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2025 {% trans "Mandalay Technological University. All rights reserved." %}</p>
+    <div class="footer-links">
+      <a href="#">{% trans "Terms & Privacy" %}</a>
+      <a href="#">{% trans "Accessibility" %}</a>
+      <a href="#">{% trans "Contact" %}</a>
+    </div>
+  </div>
+</footer>
+
+<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+        <df-messenger
+        intent="WELCOME"
+        chat-title="UniAssist"
+        agent-id="cf85d824-470d-409b-9a50-38b12b8672fc"
+        language-code="en"
+        ></df-messenger>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script>
+        // Language Switcher
+        document.getElementById('language-switcher').addEventListener('click', function() {
+            alert('{% trans "Multilingual support coming soon!" %}');
+            // In production: Call API to switch content language
+        });
+
+        // Chatbot Functions
+        function openChatbot() {
+            const dfMessenger = document.querySelector('df-messenger');
+            if (dfMessenger) {
+            dfMessenger.shadowRoot.querySelector('button').click(); // Triggers the chat bubble
+            } else {
+            console.error('Dialogflow messenger not found');
+            }
+        }
+
+        function closeChatbot() {
+            document.getElementById('chatbot-container').classList.add('d-none');
+        }
+
+        function sendChatMessage() {
+            const input = document.getElementById('chatbot-input');
+            const message = input.value.trim();
+            if (message) {
+                // In production: Call AWS Lex/Azure Bot Service API
+                const chatWindow = document.querySelector('.card-body');
+                chatWindow.innerHTML += `
+                    <div class="chat-message user-message mb-2 text-end">
+                        <div class="alert alert-secondary p-2">${message}</div>
+                    </div>
+                `;
+                
+                // Simulate bot response
+                setTimeout(() => {
+                    chatWindow.innerHTML += `
+                        <div class="chat-message bot-message mb-2">
+                            <div class="alert alert-info p-2">{% trans "I'll connect you to our FAQ about" %} "${message}".</div>
+                        </div>
+                    `;
+                    chatWindow.scrollTop = chatWindow.scrollHeight;
+                }, 800);
+                
+                input.value = '';
+                chatWindow.scrollTop = chatWindow.scrollHeight;
+            }
+        }
+
+        // Smart Search - Enter key support
+        document.getElementById('smart-search').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                alert('{% trans "Searching our knowledge base..." %}');
+                // In production: Call semantic search API
+            }
+        });
+
+        // Load AI-recommended events (simulated)
+        window.addEventListener('DOMContentLoaded', function() {
+            // In production: Fetch from backend API
+            const events = [
+                { title: "{% trans 'AI Workshop' %}", date: "{% trans 'June 10, 2025' %}", dept: "IT", img: "https://via.placeholder.com/300x150?text=AI+Workshop" },
+                { title: "{% trans 'Research Symposium' %}", date: "{% trans 'July 5, 2025' %}", dept: "{% trans 'All' %}", img: "https://via.placeholder.com/300x150?text=Research" }
+            ];
+            
+            const eventsContainer = document.getElementById('smart-events');
+            events.forEach(event => {
+                eventsContainer.innerHTML += `
+                    <div class="col-md-4">
+                        <div class="card h-100">
+                            <img src="${event.img}" class="card-img-top" alt="${event.title}">
+                            <div class="card-body">
+                                <h5 class="card-title">${event.title}</h5>
+                                <p class="card-text text-muted small">${event.date} | ${event.dept} {% trans 'Department' %}</p>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            });
+        });
+    </script>
+    </body>
+</html>

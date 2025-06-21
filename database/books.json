@@ -1,0 +1,407 @@
+[
+    {
+        "title": "Structural Analysis Fundamentals",
+        "author": "Dr. Fazlur Rahman Khan",
+        "description": "Core principles of analyzing forces in civil structures.",
+        "publication_date": "2023-07-12",
+        "isbn": "9780138579325",
+        "category": "Civil Engineering",
+        "link": "https://structural-fundamentals.com"
+    },
+    {
+        "title": "Concrete Technology Essentials",
+        "author": "Prof. Maria B. Jackson",
+        "description": "Covers properties, mixing, and testing of concrete materials.",
+        "publication_date": "2023-03-18",
+        "isbn": "9780273755807",
+        "category": "Civil Engineering",
+        "link": "https://concrete-tech.com"
+    },
+    {
+        "title": "Transportation Engineering Basics",
+        "author": "Dr. John S. MacGregor",
+        "description": "Introduction to highway design, traffic flow, and transport systems.",
+        "publication_date": "2024-02-05",
+        "isbn": "9781260459079",
+        "category": "Civil Engineering",
+        "link": "https://transport-eng.com"
+    },
+    {
+        "title": "Hydraulics and Fluid Mechanics",
+        "author": "Prof. Emily Zhang",
+        "description": "Explains fluid behavior in open channels and pipe systems.",
+        "publication_date": "2023-09-22",
+        "isbn": "9788123907536",
+        "category": "Civil Engineering",
+        "link": "https://fluidmechanics-book.com"
+    },
+    {
+        "title": "Construction Project Management",
+        "author": "Dr. Anil K. Mehta",
+        "description": "Key concepts in planning, scheduling, and site management.",
+        "publication_date": "2023-11-10",
+        "isbn": "9780471745884",
+        "category": "Civil Engineering",
+        "link": "https://construction-pm.com"
+    },
+     {
+        "title": "Principles of Architectural Design",
+        "author": "Prof. Louis Kahn",
+        "description": "Explores form, space, and function in building design.",
+        "publication_date": "2023-05-14",
+        "isbn": "9780321862962",
+        "category": "Architectural Engineering",
+        "link": "https://arch-design-principles.com"
+    },
+    {
+        "title": "Building Systems and Technology",
+        "author": "Dr. Zaha Karim",
+        "description": "Covers HVAC, electrical, and plumbing systems in architecture.",
+        "publication_date": "2024-01-08",
+        "isbn": "9781118738951",
+        "category": "Architectural Engineering",
+        "link": "https://building-systems-book.com"
+    },
+    {
+        "title": "Sustainable Building Design",
+        "author": "Prof. Norman Foster",
+        "description": "Focuses on eco-friendly design and energy-efficient solutions.",
+        "publication_date": "2023-10-02",
+        "isbn": "9780262036816",
+        "category": "Architectural Engineering",
+        "link": "https://sustainable-arch.com"
+    },
+    {
+        "title": "Construction Materials in Architecture",
+        "author": "Dr. Lina Bo Bardi",
+        "description": "Studies the use and performance of materials in buildings.",
+        "publication_date": "2023-06-26",
+        "isbn": "9780415777082",
+        "category": "Architectural Engineering",
+        "link": "https://arch-materials.com"
+    },
+    {
+        "title": "Lighting and Acoustics in Buildings",
+        "author": "Prof. Richard Neutra",
+        "description": "Introduces lighting design and acoustic control in spaces.",
+        "publication_date": "2024-03-15",
+        "isbn": "9781138937707",
+        "category": "Architectural Engineering",
+        "link": "https://light-acoustics.com"
+    },
+     {
+        "title": "Thermodynamics Made Simple",
+        "author": "Dr. James Maxwell",
+        "description": "Explains laws of thermodynamics with real-world applications.",
+        "publication_date": "2023-08-11",
+        "isbn": "9780130351165",
+        "category": "Mechanical Engineering",
+        "link": "https://thermo-basics.com"
+    },
+    {
+        "title": "Mechanical Vibrations",
+        "author": "Prof. Susan Reynolds",
+        "description": "Analyzes vibration theory and dynamic systems in machines.",
+        "publication_date": "2023-10-03",
+        "isbn": "9781259860469",
+        "category": "Mechanical Engineering",
+        "link": "https://mech-vibrations.com"
+    },
+    {
+        "title": "Fluid Mechanics for Engineers",
+        "author": "Dr. Robert H. Fox",
+        "description": "Core fluid principles applied to mechanical systems.",
+        "publication_date": "2024-02-15",
+        "isbn": "9781118139444",
+        "category": "Mechanical Engineering",
+        "link": "https://fluid-mech.com"
+    },
+    {
+        "title": "Engineering Mechanics: Statics and Dynamics",
+        "author": "Prof. Irving H. Shames",
+        "description": "Fundamentals of force systems, equilibrium, and motion.",
+        "publication_date": "2023-09-01",
+        "isbn": "9781292177915",
+        "category": "Mechanical Engineering",
+        "link": "https://eng-mechanics.com"
+    },
+    {
+        "title": "Introduction to Manufacturing Processes",
+        "author": "Dr. Kalpakjian Serope",
+        "description": "Covers machining, casting, forming, and automation basics.",
+        "publication_date": "2023-11-21",
+        "isbn": "9780136081684",
+        "category": "Mechanical Engineering",
+        "link": "https://manufacturing-intro.com"
+    },
+     {
+        "title": "Power System Analysis",
+        "author": "Dr. John J. Grainger",
+        "description": "Explains generation, transmission, and distribution systems.",
+        "publication_date": "2023-04-25",
+        "isbn": "9780070612934",
+        "category": "Electrical Power Engineering",
+        "link": "https://powersystem-analysis.com"
+    },
+    {
+        "title": "Electrical Machines and Drives",
+        "author": "Prof. Bhimbra P.S.",
+        "description": "Fundamentals of transformers, motors, and control drives.",
+        "publication_date": "2023-07-10",
+        "isbn": "9788174091735",
+        "category": "Electrical Power Engineering",
+        "link": "https://machines-drives.com"
+    },
+    {
+        "title": "High Voltage Engineering",
+        "author": "Dr. M. S. Naidu",
+        "description": "Covers insulation, breakdown, and testing techniques.",
+        "publication_date": "2023-10-30",
+        "isbn": "9780074622854",
+        "category": "Electrical Power Engineering",
+        "link": "https://highvoltage-tech.com"
+    },
+    {
+        "title": "Electric Power Distribution",
+        "author": "Prof. A.S. Pabla",
+        "description": "Practical aspects of power delivery and grid systems.",
+        "publication_date": "2023-12-12",
+        "isbn": "9780070637371",
+        "category": "Electrical Power Engineering",
+        "link": "https://power-distribution.com"
+    },
+    {
+        "title": "Renewable Energy Systems",
+        "author": "Dr. Godfrey Boyle",
+        "description": "Intro to solar, wind, and hybrid power technologies.",
+        "publication_date": "2024-01-20",
+        "isbn": "9780198796273",
+        "category": "Electrical Power Engineering",
+        "link": "https://renewable-energy-guide.com"
+    },
+    {
+        "title": "Digital Logic Design",
+        "author": "Prof. M. Morris Mano",
+        "description": "Covers logic gates, circuits, and sequential design.",
+        "publication_date": "2023-06-10",
+        "isbn": "9780131989244",
+        "category": "Electronics Engineering",
+        "link": "https://digital-logic-book.com"
+    },
+    {
+        "title": "Analog Electronics",
+        "author": "Dr. Robert Boylestad",
+        "description": "Focus on diodes, transistors, and amplifier circuits.",
+        "publication_date": "2023-07-25",
+        "isbn": "9781292025636",
+        "category": "Electronics Engineering",
+        "link": "https://analog-electronics.com"
+    },
+    {
+        "title": "Microprocessors and Microcontrollers",
+        "author": "Prof. Raj Kamal",
+        "description": "Details architecture, programming, and interfacing basics.",
+        "publication_date": "2024-02-01",
+        "isbn": "9788120352872",
+        "category": "Electronics Engineering",
+        "link": "https://microprocessor-guide.com"
+    },
+    {
+        "title": "Electronic Devices and Circuits",
+        "author": "Dr. David Bell",
+        "description": "Basic theory of semiconductor devices and applications.",
+        "publication_date": "2023-11-18",
+        "isbn": "9780195693407",
+        "category": "Electronics Engineering",
+        "link": "https://edc-book.com"
+    },
+    {
+        "title": "Communication Systems",
+        "author": "Prof. Simon Haykin",
+        "description": "Introduces analog and digital communication techniques.",
+        "publication_date": "2023-08-22",
+        "isbn": "9788120345805",
+        "category": "Electronics Engineering",
+        "link": "https://communication-systems.com"
+    },
+    {
+        "title": "Intro to Mining Engineering",
+        "author": "Dr. Howard L. Hartman",
+        "description": "Fundamentals of surface and underground mining techniques.",
+        "publication_date": "2023-05-01",
+        "isbn": "9780471348511",
+        "category": "Mining Engineering",
+        "link": "https://mining-basics.com"
+    },
+    {
+        "title": "Rock Mechanics",
+        "author": "Prof. E. Hoek",
+        "description": "Explores the behavior of rocks under stress conditions.",
+        "publication_date": "2023-10-15",
+        "isbn": "9780720665273",
+        "category": "Mining Engineering",
+        "link": "https://rockmechanics-text.com"
+    },
+    {
+        "title": "Mine Ventilation and Safety",
+        "author": "Dr. L. J. McPherson",
+        "description": "Principles of airflow, gases, and health in mines.",
+        "publication_date": "2024-01-12",
+        "isbn": "9788131808088",
+        "category": "Mining Engineering",
+        "link": "https://mine-ventilation.com"
+    },
+    {
+        "title": "Mineral Processing Technology",
+        "author": "Prof. B.A. Wills",
+        "description": "Techniques for separating valuable minerals from ores.",
+        "publication_date": "2023-07-28",
+        "isbn": "9780080970530",
+        "category": "Mining Engineering",
+        "link": "https://mineralprocessing-book.com"
+    },
+    {
+        "title": "Surface Mining Operations",
+        "author": "Dr. John Hustrulid",
+        "description": "Covers design, equipment, and safety in open-pit mining.",
+        "publication_date": "2023-09-05",
+        "isbn": "9780873351027",
+        "category": "Mining Engineering",
+        "link": "https://surface-mining.com"
+    },
+    {
+        "title": "Chemical Process Principles",
+        "author": "Dr. Hougen and Watson",
+        "description": "Basic chemical process calculations and material balances.",
+        "publication_date": "2023-04-12",
+        "isbn": "9788121908450",
+        "category": "Chemical Engineering",
+        "link": "https://process-principles.com"
+    },
+    {
+        "title": "Transport Phenomena",
+        "author": "Prof. R. Byron Bird",
+        "description": "Momentum, heat, and mass transfer fundamentals explained.",
+        "publication_date": "2023-11-30",
+        "isbn": "9780470115398",
+        "category": "Chemical Engineering",
+        "link": "https://transport-book.com"
+    },
+    {
+        "title": "Chemical Reaction Engineering",
+        "author": "Dr. Octave Levenspiel",
+        "description": "Reactor design and kinetics in chemical processes.",
+        "publication_date": "2023-06-16",
+        "isbn": "9788120302808",
+        "category": "Chemical Engineering",
+        "link": "https://reaction-engineering.com"
+    },
+    {
+        "title": "Heat Transfer in Chemical Systems",
+        "author": "Prof. Frank Kreith",
+        "description": "Focuses on heat exchangers and energy systems.",
+        "publication_date": "2024-01-09",
+        "isbn": "9780123971724",
+        "category": "Chemical Engineering",
+        "link": "https://heattransfer-chem.com"
+    },
+    {
+        "title": "Unit Operations of Chemical Engineering",
+        "author": "Dr. Warren McCabe",
+        "description": "Covers distillation, absorption, drying, and filtration.",
+        "publication_date": "2023-12-05",
+        "isbn": "9780072848232",
+        "category": "Chemical Engineering",
+        "link": "https://unitops-guide.com"
+    },
+    {
+        "title": "Introduction to Mechatronics",
+        "author": "Prof. W. Bolton",
+        "description": "Basics of sensors, actuators, and control systems.",
+        "publication_date": "2023-03-10",
+        "isbn": "9780132930429",
+        "category": "Mechatronics Engineering",
+        "link": "https://mechatronics-intro.com"
+    },
+    {
+        "title": "Embedded Systems Design",
+        "author": "Dr. Peter Marwedel",
+        "description": "Covers microcontrollers and real-time system integration.",
+        "publication_date": "2023-10-17",
+        "isbn": "9781461431454",
+        "category": "Mechatronics Engineering",
+        "link": "https://embedded-sys.com"
+    },
+    {
+        "title": "Robotics and Automation",
+        "author": "Prof. Saeed Niku",
+        "description": "Concepts of industrial robots and automation systems.",
+        "publication_date": "2023-08-19",
+        "isbn": "9788120341210",
+        "category": "Mechatronics Engineering",
+        "link": "https://robotics-automation.com"
+    },
+    {
+        "title": "Control Systems Engineering",
+        "author": "Dr. Norman Nise",
+        "description": "Study of feedback, modeling, and system stability.",
+        "publication_date": "2024-02-02",
+        "isbn": "9788126512386",
+        "category": "Mechatronics Engineering",
+        "link": "https://controlsystems-book.com"
+    },
+    {
+        "title": "Sensors and Instrumentation",
+        "author": "Prof. John Turner",
+        "description": "Introduction to sensor types and interfacing methods.",
+        "publication_date": "2023-11-14",
+        "isbn": "9780078028294",
+        "category": "Mechatronics Engineering",
+        "link": "https://sensors-instrument.com"
+    },
+    {
+        "title": "Introduction to Biotechnology",
+        "author": "Dr. Thieman and Palladino",
+        "description": "Basics of biotech, DNA tech, and genetic engineering.",
+        "publication_date": "2023-04-21",
+        "isbn": "9780134650196",
+        "category": "Biotechnology Engineering",
+        "link": "https://biotech-intro.com"
+    },
+    {
+        "title": "Molecular Biology Principles",
+        "author": "Prof. David Freifelder",
+        "description": "Explains DNA replication, transcription, and translation.",
+        "publication_date": "2023-09-03",
+        "isbn": "9780195092521",
+        "category": "Biotechnology Engineering",
+        "link": "https://molbio-guide.com"
+    },
+    {
+        "title": "Bioprocess Engineering Basics",
+        "author": "Dr. Michael Shuler",
+        "description": "Covers fermentation, bioreactors, and process design.",
+        "publication_date": "2024-01-18",
+        "isbn": "9780130819085",
+        "category": "Biotechnology Engineering",
+        "link": "https://bioprocess-engineering.com"
+    },
+    {
+        "title": "Genetic Engineering and Genomics",
+        "author": "Prof. Sandy Primrose",
+        "description": "Tools and applications in gene manipulation and analysis.",
+        "publication_date": "2023-07-27",
+        "isbn": "9788120347311",
+        "category": "Biotechnology Engineering",
+        "link": "https://geneticeng-book.com"
+    },
+    {
+        "title": "Industrial Biotechnology",
+        "author": "Dr. Christoph Wittmann",
+        "description": "Focuses on biofuels, enzymes, and industrial microbes.",
+        "publication_date": "2023-10-12",
+        "isbn": "9783527341818",
+        "category": "Biotechnology Engineering",
+        "link": "https://industrial-biotech.com"
+    }
+]

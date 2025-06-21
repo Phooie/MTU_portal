@@ -1,0 +1,209 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-17 06:24+0630\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? "
+"1 : 2;\n"
+
+#: .\database\templates\login.html:6
+msgid "Login Page"
+msgstr ""
+
+#: .\database\templates\login.html:21 .\database\templates\login.html:35
+msgid "Login"
+msgstr ""
+
+#: .\database\templates\login.html:26 .\database\templates\register.html:29
+msgid "Student ID"
+msgstr ""
+
+#: .\database\templates\login.html:31 .\database\templates\register.html:35
+msgid "Password"
+msgstr ""
+
+#: .\database\templates\login.html:37
+msgid "Register instead?"
+msgstr ""
+
+#: .\database\templates\login.html:45 .\database\templates\register.html:55
+msgid "© 2023 Mandalay Technological University"
+msgstr ""
+
+#: .\database\templates\register.html:7
+msgid "Registration Page"
+msgstr ""
+
+#: .\database\templates\register.html:24
+msgid "Create Account"
+msgstr ""
+
+#: .\database\templates\register.html:31
+msgid "Must match your official university ID"
+msgstr ""
+
+#: .\database\templates\register.html:37
+msgid "At least 8 characters"
+msgstr ""
+
+#: .\database\templates\register.html:41
+msgid "Confirm Password"
+msgstr ""
+
+#: .\database\templates\register.html:45
+msgid "Register"
+msgstr ""
+
+#: .\database\templates\register.html:47
+msgid "Login Here"
+msgstr ""
+
+#: .\database\templates\sample.html:8
+msgid "MTU - AI Powered University Portal"
+msgstr ""
+
+#: .\database\templates\sample.html:45
+msgid "Logout"
+msgstr ""
+
+#: .\database\templates\sample.html:46
+msgid "Home"
+msgstr ""
+
+#: .\database\templates\sample.html:53 .\database\templates\sample.html:215
+msgid "Mandalay Technological University"
+msgstr ""
+
+#: .\database\templates\sample.html:67
+msgid "Welcome to MTU AI Portal"
+msgstr ""
+
+#: .\database\templates\sample.html:74
+msgid "Search"
+msgstr ""
+
+#: .\database\templates\sample.html:77
+msgid "Try: \"Project ideas\""
+msgstr ""
+
+#: .\database\templates\sample.html:113
+msgid "AI-Powered Services"
+msgstr ""
+
+#: .\database\templates\sample.html:125
+msgid "Virtual Assistant"
+msgstr ""
+
+#: .\database\templates\sample.html:127
+msgid "Get instant answers about admissions, fees, and departments."
+msgstr ""
+
+#: .\database\templates\sample.html:128
+msgid "Try Now"
+msgstr ""
+
+#: .\database\templates\sample.html:141
+msgid "Course Recommendations"
+msgstr ""
+
+#: .\database\templates\sample.html:143
+msgid "Personalized course suggestions based on your department."
+msgstr ""
+
+#: .\database\templates\sample.html:144
+msgid "Explore"
+msgstr ""
+
+#: .\database\templates\sample.html:157
+msgid "Grade Predictor"
+msgstr ""
+
+#: .\database\templates\sample.html:159
+msgid "AI predicts your grades based on past performance."
+msgstr ""
+
+#: .\database\templates\sample.html:160
+msgid "Try It"
+msgstr ""
+
+#: .\database\templates\sample.html:173
+msgid "AI-curated based on your interests"
+msgstr ""
+
+#: .\database\templates\sample.html:183
+msgid "Recommended for you"
+msgstr ""
+
+#: .\database\templates\sample.html:216
+msgid "AI-Powered Education Portal"
+msgstr ""
+
+#: .\database\templates\sample.html:219
+msgid "All rights reserved."
+msgstr ""
+
+#: .\database\templates\scores.html:6
+msgid "Scores Page"
+msgstr ""
+
+#: .\database\templates\scores.html:15
+#, python-format
+msgid "Academic Records for %(student_name)s"
+msgstr ""
+
+#: .\database\templates\scores.html:27
+msgid "Subject"
+msgstr ""
+
+#: .\database\templates\scores.html:28
+msgid "Code"
+msgstr ""
+
+#: .\database\templates\scores.html:29
+msgid "Attendance"
+msgstr ""
+
+#: .\database\templates\scores.html:30
+msgid "Assignments"
+msgstr ""
+
+#: .\database\templates\scores.html:31
+msgid "Midterm"
+msgstr ""
+
+#: .\database\templates\scores.html:32
+msgid "Final"
+msgstr ""
+
+#: .\database\templates\scores.html:33
+msgid "Total"
+msgstr ""
+
+#: .\djangodb\settings.py:138
+msgid "English (US)"
+msgstr ""
+
+#: .\djangodb\settings.py:139
+msgid "English (UK)"
+msgstr ""
+
+#: .\djangodb\settings.py:140
+msgid "မြန်မာ"
+msgstr ""
+
+#: .\djangodb\settings.py:141
+msgid "Español"
+msgstr ""

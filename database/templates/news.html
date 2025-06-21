@@ -1,0 +1,355 @@
+
+{% load static %} 
+{% load i18n lang_switcher %}
+ 
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+  <meta charset="UTF-8" /> 
+  <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+  <title>{% trans "News & Events" %}</title>
+  <link rel="stylesheet" href="{% static 'why.css' %}">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <style> 
+    :root { 
+      --main-color: #a10000; 
+      --highlight: #ffd700; 
+      --primary-color: hsl(212, 100%, 18%); 
+      --bg-color: #f4f4f9; 
+      --text-color: #222222; 
+      --card-bg: #ffffff; 
+      --card-shadow: rgba(0, 0, 0, 0.08); 
+      --font-family: 'Poppins', sans-serif; 
+    } 
+ 
+    body { 
+      font-family: var(--font-family); 
+      background-color: var(--primary-color); 
+      margin: 0; 
+      padding: 40px 20px; 
+      color: var(--text-color); 
+    } 
+ 
+    h2 { 
+      font-size: 2.4rem; 
+      text-align: center; 
+      margin-bottom: 40px; 
+      color: var(--main-color); 
+    } 
+ 
+    .news-container { 
+      max-width: 900px; 
+      margin: 0 auto; 
+      display: flex; 
+      flex-direction: column; 
+      gap: 24px; 
+    } 
+ 
+    .news-card { 
+      background-color: var(--card-bg); 
+      padding: 24px 28px; 
+      border-radius: 12px; 
+      box-shadow: 0 4px 14px var(--card-shadow); 
+      transition: transform 0.3s ease, box-shadow 0.3s ease; 
+      border-left: 5px solid var(--main-color); 
+    } 
+ 
+    .news-card:hover { 
+      transform: translateY(-4px); 
+      box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12); 
+    } 
+ 
+    .news-card h3 { 
+      margin-top: 0; 
+      color: var(--main-color); 
+      font-size: 1.6rem; 
+    } 
+ 
+    .news-card p { 
+      font-size: 1rem; 
+      line-height: 1.6; 
+      color: var(--primary-color); 
+    } 
+ 
+    .news-card a { 
+      display: inline-block; 
+      margin-top: 10px; 
+      color: var(--main-color); 
+      text-decoration: none; 
+      font-weight: 600; 
+    } 
+ 
+    .news-card a:hover { 
+      text-decoration: underline; 
+      color: var(--highlight); 
+    } 
+ 
+    .news-card small { 
+      display: block; 
+      margin-top: 10px; 
+      font-style: italic; 
+      color: #555; 
+    } 
+ 
+    .no-news { 
+      text-align: center; 
+      font-style: italic; 
+      color: #777; 
+    } 
+ 
+    @media (max-width: 640px) { 
+      h2 { 
+        font-size: 1.8rem; 
+      } 
+ 
+      .news-card { 
+        padding: 20px; 
+      } 
+ 
+      .news-card h3 { 
+        font-size: 1.3rem; 
+      } 
+    } 
+  </style> 
+</head>
+
+
+
+
+<body style="height: 100%;">
+
+  <!-- nav-bar start -->
+<header class="main-header">
+  <div class="header-container">
+    <div class="left-section">
+
+      <div class="logo-section">
+        <img src="{% static 'images/Logo_of_MTU.png' %}" alt="{% trans 'University Logo' %}" class="logo">
+        <div class="university-name">
+          <span class="line1">{% trans "Mandalay" %}</span>
+          <span class="line2">{% trans "Technological" %}</span>
+          <span class="line3">{% trans "University" %}</span>
+        </div>
+      </div>
+
+      <div class="nav-links">
+        <div class="top-links">
+          <a href="{% url 'news' %}" class="btn btn-sm btn-outline-warning">{% trans "News & Events" %}</a>
+          <a href="{% url 'libiary' %}" class="btn btn-sm btn-outline-warning">{% trans "Library" %}</a>
+          <a href="{% url 'research' %}" class="btn btn-sm btn-outline-warning">{% trans "Research" %}</a>
+        </div>
+        <div class="bottom-links">
+          <a href="{% url 'home' %}">{% trans "Home" %}</a>
+          <a href="{% url 'departments' %}">{% trans "Departments" %}</a>
+          <a href="#mtu-footer">{% trans "Contact us" %}</a>
+          <a onclick="openChatbot()">{% trans "Admission" %}</a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="right-section">
+      <a href="{% url 'logout' %}" class="logout-link"><i class='bx bxs-user'></i>{% trans "Logout" %}</a>
+
+
+        <!-- <div class="language-switcher">
+            <a href="{% change_lang 'us' %}" class="lang-option">
+                <img src="https://flagcdn.com/w40/us.png" alt="EN" class="flag-icon"> {% trans "English" %}</a>
+            <a href="{% change_lang 'my' %}" class="lang-option">
+                <img src="https://flagcdn.com/w40/mm.png" alt="MM" class="flag-icon"> {% trans "မြန်မာ" %}</a>
+        </div> -->
+
+
+         <div class="language-switcher">
+          <button class="lang-btn">
+           <img src="https://flagcdn.com/w40/us.png" alt="EN" class="flag-icon">English<i class='bx bx-chevron-down arrow'></i>
+          </button>
+        <div class="dropdown">
+         <a href="{% change_lang 'us' %}" class="lang-option">
+          <img src="https://flagcdn.com/w40/us.png" alt="EN" class="flag-icon"> English</a>
+         <a href="{% change_lang 'my' %}" class="lang-option">
+          <img src="https://flagcdn.com/w40/mm.png" alt="MM" class="flag-icon"> မြန်မာ</a>
+  </div>
+    </div>
+  </div>
+</header>
+
+  <main class="container mt-5" style="padding-top: 100px;">
+    <h2>📋 {% trans "Active News and Events" %}</h2> 
+ 
+  <div class="news-container"> 
+    {% for news in news_list %} 
+      <div class="news-card"> 
+        <h3>{{ news.title }}</h3> 
+        <p>{{ news.description }}</p> 
+        {% if news.link %} 
+          <a href="{{ news.link }}" target="_blank">{% trans "Read more" %} →</a> 
+        {% endif %} 
+        <small>{% trans "Active until" %} {{ news.end_date }}</small> 
+      </div> 
+    {% empty %} 
+      <p class="no-news">{% trans "No news or events at the moment." %}</p> 
+    {% endfor %} 
+  </div> 
+
+  </main>
+<footer id="mtu-footer" class="mtu-footer">
+  <div class="footer-container">
+    <div class="footer-column">
+      <h4>{% trans "Explore MTU" %}</h4>
+      <ul>
+        <li><a href="#about-mtu">{% trans "About MTU" %}</a></li>
+        <li><a onclick="openChatbot()">{% trans "Admissions" %}</a></li>
+        <li><a href="{% url 'departments' %}">{% trans "Departments" %}</a></li>
+        <li><a href="{% url 'research' %}">{% trans "Research" %}</a></li>
+        <li><a href="{% url 'campus' %}">{% trans "Campus Life" %}</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h4>{% trans "Contact Details" %}</h4>
+      <p><strong>{% trans "Phone" %}:</strong> +95 9 123456789</p>
+      <p><strong>{% trans "Email" %}:</strong> info@mtu.edu.mm</p>
+      <p><strong>{% trans "Address" %}:</strong><br>
+        {% trans "Mandalay Technological University" %}<br>
+        {% trans "Patheingyi Township, Mandalay" %}<br>
+        {% trans "Myanmar" %}
+      </p>
+    </div>
+
+    <div class="footer-column">
+      <h4>{% trans "Connect With Us" %}</h4>
+      <div class="social-icons">
+        <a href="#"><i class='bx bxl-facebook'></i></a>
+        <a href="#"><i class='bx bxl-instagram'></i></a>
+        <a href="#"><i class='bx bxl-youtube'></i></a>
+      </div>
+      <div class="mtu-logo">
+        <img src="{% static 'images/Logo_of_MTU.png' %}" alt="MTU Logo">
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2025 {% trans "Mandalay Technological University. All rights reserved." %}</p>
+    <div class="footer-links">
+      <a href="#">{% trans "Terms & Privacy" %}</a>
+      <a href="#">{% trans "Accessibility" %}</a>
+      <a href="#">{% trans "Contact" %}</a>
+    </div>
+  </div>
+</footer>
+
+<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+        <df-messenger
+        intent="WELCOME"
+        chat-title="UniAssist"
+        agent-id="cf85d824-470d-409b-9a50-38b12b8672fc"
+        language-code="en"
+        ></df-messenger>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script>
+        // Language Switcher
+        document.getElementById('language-switcher').addEventListener('click', function() {
+            alert('{% trans "Multilingual support coming soon!" %}');
+            // In production: Call API to switch content language
+        });
+
+        // Chatbot Functions
+        function openChatbot() {
+            const dfMessenger = document.querySelector('df-messenger');
+            if (dfMessenger) {
+            dfMessenger.shadowRoot.querySelector('button').click(); // Triggers the chat bubble
+            } else {
+            console.error('Dialogflow messenger not found');
+            }
+        }
+
+        function closeChatbot() {
+            document.getElementById('chatbot-container').classList.add('d-none');
+        }
+
+        function sendChatMessage() {
+            const input = document.getElementById('chatbot-input');
+            const message = input.value.trim();
+            if (message) {
+                // In production: Call AWS Lex/Azure Bot Service API
+                const chatWindow = document.querySelector('.card-body');
+                chatWindow.innerHTML += `
+                    <div class="chat-message user-message mb-2 text-end">
+                        <div class="alert alert-secondary p-2">${message}</div>
+                    </div>
+                `;
+                
+                // Simulate bot response
+                setTimeout(() => {
+                    chatWindow.innerHTML += `
+                        <div class="chat-message bot-message mb-2">
+                            <div class="alert alert-info p-2">{% trans "I'll connect you to our FAQ about" %} "${message}".</div>
+                        </div>
+                    `;
+                    chatWindow.scrollTop = chatWindow.scrollHeight;
+                }, 800);
+                
+                input.value = '';
+                chatWindow.scrollTop = chatWindow.scrollHeight;
+            }
+        }
+
+        // Smart Search - Enter key support
+        document.getElementById('smart-search').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                alert('{% trans "Searching our knowledge base..." %}');
+                // In production: Call semantic search API
+            }
+        });
+
+        // Load AI-recommended events (simulated)
+        window.addEventListener('DOMContentLoaded', function() {
+            // In production: Fetch from backend API
+            const events = [
+                { title: "{% trans 'AI Workshop' %}", date: "{% trans 'June 10, 2025' %}", dept: "IT", img: "https://via.placeholder.com/300x150?text=AI+Workshop" },
+                { title: "{% trans 'Research Symposium' %}", date: "{% trans 'July 5, 2025' %}", dept: "{% trans 'All' %}", img: "https://via.placeholder.com/300x150?text=Research" }
+            ];
+            
+            const eventsContainer = document.getElementById('smart-events');
+            events.forEach(event => {
+                eventsContainer.innerHTML += `
+                    <div class="col-md-4">
+                        <div class="card h-100">
+                            <img src="${event.img}" class="card-img-top" alt="${event.title}">
+                            <div class="card-body">
+                                <h5 class="card-title">${event.title}</h5>
+                                <p class="card-text text-muted small">${event.date} | ${event.dept} {% trans 'Department' %}</p>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            });
+        });
+    </script>
+    </body>
+</html>
+
+
+
+
+
+
+<!-- <h2>📋 Active News and Events</h2>
+
+{% for news in news_list %}
+    <div style="border-bottom: 1px solid #ccc; padding: 10px 0;">
+        <h3>{{ news.title }}</h3>
+        <p>{{ news.description }}</p>
+        {% if news.link %}
+            <a href="{{ news.link }}" target="_blank">Read more</a>
+        {% endif %}
+        <p><small>Active until {{ news.end_date }}</small></p>
+    </div>
+{% empty %}
+    <p>No news or events at the moment.</p>
+{% endfor %} -->
+

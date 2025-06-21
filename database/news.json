@@ -1,0 +1,52 @@
+[
+  {
+    "title": "MTU Wins National Engineering Competition",
+    "description": "Our team secured first place in the annual National Engineering Challenge with their innovative solar-powered vehicle design.",
+    "link": "https://mtu.edu.mm/news/engineering-competition-2023",
+    "start_date": "2023-11-15T09:00:00Z",
+    "end_date": "2023-12-31T23:59:00Z",
+    "category": "ME",
+    "posted_by": "Department of Mechanical Engineering",
+    "is_new": true
+  },
+  {
+    "title": "New Computer Labs Opening Next Semester",
+    "description": "The CEIT department will unveil 3 new high-performance computing labs equipped with the latest hardware.",
+    "link": "https://mtu.edu.mm/news/computer-labs-2024",
+    "start_date": "2023-12-01T00:00:00Z",
+    "end_date": "2024-02-28T23:59:00Z",
+    "category": "CEIT",
+    "posted_by": "IT Services",
+    "is_new": true
+  },
+  {
+    "title": "Research Symposium on Sustainable Energy",
+    "description": "Join us for presentations on renewable energy innovations from our Electrical Power Engineering faculty.",
+    "link": "",
+    "start_date": "2023-11-20T08:30:00Z",
+    "end_date": "2023-11-21T17:00:00Z",
+    "category": "EP",
+    "posted_by": "Research Office",
+    "is_new": true
+  },
+  {
+    "title": "Campus Network Upgrade Scheduled",
+    "description": "Major network infrastructure improvements will occur this weekend. Expect intermittent outages.",
+    "link": "https://mtu.edu.mm/notices/network-upgrade",
+    "start_date": "2023-11-10T18:00:00Z",
+    "end_date": "2023-11-13T06:00:00Z",
+    "category": "UNDEFINED",
+    "posted_by": "IT Department",
+    "is_new": true
+  },
+  {
+    "title": "Biotechnology Department Partners with Local Hospital",
+    "description": "New collaboration will focus on medical diagnostics research and student internships.",
+    "link": "https://mtu.edu.mm/news/biotech-partnership",
+    "start_date": "2023-11-05T00:00:00Z",
+    "end_date": null,
+    "category": "BioT",
+    "posted_by": "Office of Academic Affairs",
+    "is_new": true
+  }
+]

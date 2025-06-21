@@ -1,0 +1,317 @@
+{% load static %} 
+{% load i18n lang_switcher %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %} 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% trans "AI-Powered Smart MTU Website" %}</title>
+  <link rel="stylesheet" href="{% static 'why.css' %}">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <style>
+    </style>
+
+</head>
+<body style="height: 100%;">
+
+  <!-- nav-bar start -->
+<header class="main-header">
+  <div class="header-container">
+    <div class="left-section">
+
+      <div class="logo-section">
+        <img src="{% static 'images/Logo_of_MTU.png' %}" alt="{% trans 'University Logo' %}" class="logo">
+        <div class="university-name">
+          <span class="line1">{% trans "Mandalay" %}</span>
+          <span class="line2">{% trans "Technological" %}</span>
+          <span class="line3">{% trans "University" %}</span>
+        </div>
+      </div>
+
+      <div class="nav-links">
+        <div class="top-links">
+          <a href="{% url 'news' %}" class="btn btn-sm btn-outline-warning">{% trans "News & Events" %}</a>
+          <a href="{% url 'libiary' %}" class="btn btn-sm btn-outline-warning">{% trans "Library" %}</a>
+          <a href="{% url 'research' %}" class="btn btn-sm btn-outline-warning">{% trans "Research" %}</a>
+        </div>
+        <div class="bottom-links">
+          <a href="{% url 'home' %}">{% trans "Home" %}</a>
+          <a href="{% url 'departments' %}">{% trans "Departments" %}</a>
+          <a href="#footer">{% trans "Contact us" %}</a>
+          <a onclick="openChatbot()">{% trans "Admission" %}</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="right-section">
+      <a href="{% url 'logout' %}" class="logout-link"><i class='bx bxs-user'></i>{% trans "Logout" %}</a>
+
+
+        <!-- <div class="language-switcher">
+            <a href="{% change_lang 'us' %}" class="lang-option">
+                <img src="https://flagcdn.com/w40/us.png" alt="EN" class="flag-icon"> {% trans "English" %}</a>
+            <a href="{% change_lang 'my' %}" class="lang-option">
+                <img src="https://flagcdn.com/w40/mm.png" alt="MM" class="flag-icon"> {% trans "မြန်မာ" %}</a>
+        </div> -->
+
+
+         <div class="language-switcher">
+          <button class="lang-btn">
+           <img src="https://flagcdn.com/w40/us.png" alt="EN" class="flag-icon">{% trans "English" %}<i class='bx bx-chevron-down arrow'></i>
+          </button>
+        <div class="dropdown">
+         <a href="{% change_lang 'us' %}" class="lang-option">
+          <img src="https://flagcdn.com/w40/us.png" alt="EN" class="flag-icon"> {% trans "English" %}</a>
+         <a href="{% change_lang 'my' %}" class="lang-option">
+          <img src="https://flagcdn.com/w40/mm.png" alt="MM" class="flag-icon"> {% trans "မြန်မာ" %}</a>
+  </div>
+    </div>
+  </div>
+</header>
+<!-- nav bar end -->
+
+  <main class="container mt-5" style="padding-top: 100px;">
+  <section class="course-search themed-section">
+  <div class="search-container">
+    <h2 class="themed-title">🔍 {% trans "Course Search" %}</h2>
+
+    <div class="search-card">
+      <form method="get" action="{% url 'course' %}" class="search-form">
+        <div class="search-grid">
+          <input
+            type="text"
+            name="q"
+            value="{{ query }}"
+            placeholder="{% trans 'Search courses...' %}"
+            class="search-input"
+          >
+          
+          <select name="category" class="search-select">
+            <option value="">{% trans "All Categories" %}</option>
+            {% for cat in categories %}
+              <option value="{{ cat }}" {% if cat == category %}selected{% endif %}>{{ cat }}</option>
+            {% endfor %}
+          </select>
+
+          <button type="submit" class="search-button">{% trans "Search" %}</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+
+
+  <section class="trending-popular">
+    <div class="popular-courses">
+      <h2>🔍 {% trans "Search Results" %}</h2>
+
+      <div class="course-grid">
+        {% if resources %}
+          {% for item in resources %}
+            <div class="course-card">
+              <h3>{{ item.title }}</h3>
+              <p>{{ item.description|truncatewords:30 }}</p>
+              <p><strong><i class='bx bxs-user'></i> {{ item.instructor }}</strong></p>
+              {% if item.link %}
+                <a href="{{ item.link }}" target="_blank">
+                  <i class='bx bx-link-external'></i> {{ item.link }}
+                </a>
+              {% endif %}
+            </div>
+          {% endfor %}
+        {% else %}
+          <div class="course-card">
+            <h3>{% trans "No resources found." %}</h3>
+            <p>{% trans "Try another keyword or filter." %}</p>
+          </div>
+        {% endif %}
+      </div>
+    </div>
+
+    {% if recommended_courses %}
+    <div class="popular-courses">
+      <h2>⭐️ {% trans "Recommendations Based On Previous Courses Taken" %}</h2>
+
+      <div class="course-grid">
+        {% for course in recommended_courses %}
+          <div class="course-card">
+            <h3>{{ course.title }}</h3>
+            <p>{{ course.description|truncatewords:30 }}</p>
+            <p><strong><i class='bx bxs-user'></i> {{ course.instructor }}</strong></p>
+            {% if course.link %}
+              <a href="{{ course.link }}" target="_blank">
+                <i class='bx bx-link-external'></i> {{ course.link }}
+              </a>
+            {% endif %}
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+    {% endif %}
+
+
+    {% if search_recommendations %}
+    <div class="popular-courses">
+        <h2>{% trans "Recommended Based on Your Search History" %}</h2>
+        <div class="course-grid">
+            {% for course in search_recommendations %}
+            <div class="course-card">
+                        <h3>{{ course.title }}</h3>
+                        <p>{{ course.description|truncatewords:30 }}</p>
+                        <p><strong><i class='bx bxs-user'></i> {{ course.instructor }}</strong></p>
+                        {% if course.link %}
+                          <a href="{{ course.link }}" target="_blank">
+                            <i class='bx bx-link-external'></i> {{ course.link }}
+                          </a>
+                        {% endif %}
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    {% endif %}
+  </section>
+</main>
+
+
+<footer id="mtu-footer" class="mtu-footer">
+  <div class="footer-container">
+    <div class="footer-column">
+      <h4>{% trans "Explore MTU" %}</h4>
+      <ul>
+        <li><a href="#about-mtu">{% trans "About MTU" %}</a></li>
+        <li><a onclick="openChatbot()">{% trans "Admissions" %}</a></li>
+        <li><a href="{% url 'departments' %}">{% trans "Departments" %}</a></li>
+        <li><a href="{% url 'research' %}">{% trans "Research" %}</a></li>
+        <li><a href="{% url 'campus' %}">{% trans "Campus Life" %}</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h4>{% trans "Contact Details" %}</h4>
+      <p><strong>{% trans "Phone" %}:</strong> +95 9 123456789</p>
+      <p><strong>{% trans "Email" %}:</strong> info@mtu.edu.mm</p>
+      <p><strong>{% trans "Address" %}:</strong><br>
+        {% trans "Mandalay Technological University" %}<br>
+        {% trans "Patheingyi Township, Mandalay" %}<br>
+        {% trans "Myanmar" %}
+      </p>
+    </div>
+
+    <div class="footer-column">
+      <h4>{% trans "Connect With Us" %}</h4>
+      <div class="social-icons">
+        <a href="#"><i class='bx bxl-facebook'></i></a>
+        <a href="#"><i class='bx bxl-instagram'></i></a>
+        <a href="#"><i class='bx bxl-youtube'></i></a>
+      </div>
+      <div class="mtu-logo">
+        <img src="{% static 'images/Logo_of_MTU.png' %}" alt="MTU Logo">
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2025 {% trans "Mandalay Technological University. All rights reserved." %}</p>
+    <div class="footer-links">
+      <a href="#">{% trans "Terms & Privacy" %}</a>
+      <a href="#">{% trans "Accessibility" %}</a>
+      <a href="#">{% trans "Contact" %}</a>
+    </div>
+  </div>
+</footer>
+
+<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+        <df-messenger
+        intent="WELCOME"
+        chat-title="UniAssist"
+        agent-id="cf85d824-470d-409b-9a50-38b12b8672fc"
+        language-code="en"
+        ></df-messenger>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script>
+        // Language Switcher
+        document.getElementById('language-switcher').addEventListener('click', function() {
+            alert('{% trans "Multilingual support coming soon!" %}');
+            // In production: Call API to switch content language
+        });
+
+        // Chatbot Functions
+        function openChatbot() {
+            const dfMessenger = document.querySelector('df-messenger');
+            if (dfMessenger) {
+            dfMessenger.shadowRoot.querySelector('button').click(); // Triggers the chat bubble
+            } else {
+            console.error('Dialogflow messenger not found');
+            }
+        }
+
+        function closeChatbot() {
+            document.getElementById('chatbot-container').classList.add('d-none');
+        }
+
+        function sendChatMessage() {
+            const input = document.getElementById('chatbot-input');
+            const message = input.value.trim();
+            if (message) {
+                // In production: Call AWS Lex/Azure Bot Service API
+                const chatWindow = document.querySelector('.card-body');
+                chatWindow.innerHTML += `
+                    <div class="chat-message user-message mb-2 text-end">
+                        <div class="alert alert-secondary p-2">${message}</div>
+                    </div>
+                `;
+                
+                // Simulate bot response
+                setTimeout(() => {
+                    chatWindow.innerHTML += `
+                        <div class="chat-message bot-message mb-2">
+                            <div class="alert alert-info p-2">{% trans "I'll connect you to our FAQ about" %} "${message}".</div>
+                        </div>
+                    `;
+                    chatWindow.scrollTop = chatWindow.scrollHeight;
+                }, 800);
+                
+                input.value = '';
+                chatWindow.scrollTop = chatWindow.scrollHeight;
+            }
+        }
+
+        // Smart Search - Enter key support
+        document.getElementById('smart-search').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                alert('{% trans "Searching our knowledge base..." %}');
+                // In production: Call semantic search API
+            }
+        });
+
+        // Load AI-recommended events (simulated)
+        window.addEventListener('DOMContentLoaded', function() {
+            // In production: Fetch from backend API
+            const events = [
+                { title: "{% trans 'AI Workshop' %}", date: "{% trans 'June 10, 2025' %}", dept: "IT", img: "https://via.placeholder.com/300x150?text=AI+Workshop" },
+                { title: "{% trans 'Research Symposium' %}", date: "{% trans 'July 5, 2025' %}", dept: "{% trans 'All' %}", img: "https://via.placeholder.com/300x150?text=Research" }
+            ];
+            
+            const eventsContainer = document.getElementById('smart-events');
+            events.forEach(event => {
+                eventsContainer.innerHTML += `
+                    <div class="col-md-4">
+                        <div class="card h-100">
+                            <img src="${event.img}" class="card-img-top" alt="${event.title}">
+                            <div class="card-body">
+                                <h5 class="card-title">${event.title}</h5>
+                                <p class="card-text text-muted small">${event.date} | ${event.dept} {% trans 'Department' %}</p>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            });
+        });
+    </script>
+    </body>
+</html>

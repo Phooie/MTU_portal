@@ -1,0 +1,365 @@
+{% load static %} 
+{% load i18n lang_switcher %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% load static %} 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% trans "AI-Powered Smart MTU Website" %}</title>
+  <link rel="stylesheet" href="{% static 'why.css' %}">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+<body style="height: 100%;">
+
+  <!-- nav-bar start -->
+<header class="main-header">
+  <div class="header-container">
+    <div class="left-section">
+
+      <div class="logo-section">
+        <img src="{% static 'images/Logo_of_MTU.png' %}" alt="{% trans 'University Logo' %}" class="logo">
+        <div class="university-name">
+          <span class="line1">{% trans "Mandalay" %}</span>
+          <span class="line2">{% trans "Technological" %}</span>
+          <span class="line3">{% trans "University" %}</span>
+        </div>
+      </div>
+
+      <div class="nav-links">
+        <div class="top-links">
+          <a href="{% url 'news' %}" class="btn btn-sm btn-outline-warning">{% trans "News & Events" %}</a>
+          <a href="{% url 'libiary' %}" class="btn btn-sm btn-outline-warning">{% trans "Library" %}</a>
+          <a href="{% url 'research' %}" class="btn btn-sm btn-outline-warning">{% trans "Research" %}</a>
+        </div>
+        <div class="bottom-links">
+          <a href="{% url 'home' %}">{% trans "Home" %}</a>
+          <a href="{% url 'departments' %}">{% trans "Departments" %}</a>
+          <a href="#footer">{% trans "Contact us" %}</a>
+          <a onclick="openChatbot()">{% trans "Admission" %}</a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="right-section">
+      <a href="{% url 'logout' %}" class="logout-link"><i class='bx bxs-user'></i>{% trans "Logout" %}</a>
+
+
+        <!-- <div class="language-switcher">
+            <a href="{% change_lang 'us' %}" class="lang-option">
+                <img src="https://flagcdn.com/w40/us.png" alt="EN" class="flag-icon"> {% trans "English" %}</a>
+            <a href="{% change_lang 'my' %}" class="lang-option">
+                <img src="https://flagcdn.com/w40/mm.png" alt="MM" class="flag-icon"> {% trans "မြန်မာ" %}</a>
+        </div> -->
+
+
+         <div class="language-switcher">
+          <button class="lang-btn">
+           <img src="https://flagcdn.com/w40/us.png" alt="EN" class="flag-icon">English<i class='bx bx-chevron-down arrow'></i>
+          </button>
+        <div class="dropdown">
+         <a href="{% change_lang 'us' %}" class="lang-option">
+          <img src="https://flagcdn.com/w40/us.png" alt="EN" class="flag-icon"> English</a>
+         <a href="{% change_lang 'my' %}" class="lang-option">
+          <img src="https://flagcdn.com/w40/mm.png" alt="MM" class="flag-icon"> မြန်မာ</a>
+  </div>
+    </div>
+  </div>
+</header>
+<!-- nav bar end -->
+
+ <!-- Cover start -->
+  <!-- Cover start -->
+  <!-- <section class="home" id="home">
+      <div class="container">
+        <img src="images/" alt="">
+          <div class="home-text">
+               <h1>Welcome to MTU</h1>
+               <p>Leading Innovation and Excellence in Myanmar</p>
+              <div class="buttons">
+                 <a href="#">Explore Programs</a>
+              </div>
+        </div>
+  </section> -->
+
+  <!-- Cover end -->  
+
+  <!-- Features Section -->
+
+
+
+  <section class="course-search themed-section" style="margin-top: 110px;">
+  <div class="search-container">
+    <h2 class="themed-title">🔍 {% trans "Welcome to MTU Search Engine" %}</h2>
+
+    <div class="search-card">
+        <form method="GET" action="/sample/" class="search-form">
+
+            <div class="search-grid">
+          <input type="text" id="smart-search" class="search-input" placeholder="..." name="q">
+            <button class="search-button" type="submit">{% trans "Search" %}</button>
+        </div>
+        </form>
+        <p>{% trans 'Try: "Project ideas"' %}</p>
+    </div>
+  </div>
+</section>
+
+<section class="features">
+    {# BOOKS SECTION #}
+<div class="popular-courses">
+  <h2>📚 {% trans "Books" %}</h2>
+  <div class="course-grid">
+    {% if books %}
+      {% for item in books %}
+        <div class="course-card">
+          <h3>{{ item.title }}</h3>
+          <p><strong>Author:</strong> {{ item.author }}</p>
+          <p>{{ item.description|default:"No description available"|truncatewords:30 }}</p>
+          <p><strong>Category:</strong> {{ item.category }}</p>
+          {% if item.publication_date %}
+            <p><strong>Publication Date:</strong> {{ item.publication_date }}</p>
+          {% endif %}
+          {% if item.link %}
+            <a href="{{ item.link }}" target="_blank">
+              <i class='bx bx-link-external'></i> {{ item.link }}
+            </a>
+          {% endif %}
+        </div>
+      {% endfor %}
+    {% else %}
+      <div class="course-card">
+        <h3>{% trans "No books found." %}</h3>
+        <p>{% trans "Try another keyword or filter." %}</p>
+      </div>
+    {% endif %}
+  </div>
+</div>
+
+{# COURSES SECTION #}
+<div class="popular-courses">
+  <h2>🎓 {% trans "Courses" %}</h2>
+  <div class="course-grid">
+    {% if courses %}
+      {% for item in courses %}
+        <div class="course-card">
+          <h3>{{ item.title }}</h3>
+          <p>{{ item.description|default:"No description available"|truncatewords:30 }}</p>
+          {% if item.link %}
+            <a href="{{ item.link }}" target="_blank">
+              <i class='bx bx-link-external'></i> {{ item.link }}
+            </a>
+          {% endif %}
+          <p><strong>Category:</strong> {{ item.category }}</p>
+        </div>
+      {% endfor %}
+    {% else %}
+      <div class="course-card">
+        <h3>{% trans "No courses found." %}</h3>
+        <p>{% trans "Try another keyword or filter." %}</p>
+      </div>
+    {% endif %}
+  </div>
+</div>
+{# NEWS SECTION #}
+<div class="popular-courses">
+  <h2>📰 {% trans "News Articles" %}</h2>
+  <div class="course-grid">
+    {% if news %}
+      {% for item in news %}
+        <div class="course-card">
+          <h3>{{ item.title }}</h3>
+          <p>{{ item.description|default:"No description available"|truncatewords:30 }}</p>
+          {% if item.link %}
+            <a href="{{ item.link }}" target="_blank">
+              <i class='bx bx-link-external'></i> {{ item.link }}
+            </a>
+          {% endif %}
+          <p><strong>Category:</strong> {{ item.category }}</p>
+          <p><strong>Posted by:</strong> {{ item.posted_by }}</p>
+        </div>
+      {% endfor %}
+    {% else %}
+      <div class="course-card">
+        <h3>{% trans "No news articles found." %}</h3>
+        <p>{% trans "Try another keyword or filter." %}</p>
+      </div>
+    {% endif %}
+  </div>
+</div>
+
+{# RESEARCHES SECTION #}
+<div class="popular-courses">
+  <h2>📄 {% trans "Research Papers" %}</h2>
+  <div class="course-grid">
+    {% if researches %}
+      {% for item in researches %}
+        <div class="course-card">
+          <h3>{{ item.title }}</h3>
+          <p>{{ item.abstract|default:"No abstract available"|truncatewords:40 }}</p>
+          <p><strong>Researcher:</strong> {{ item.researcher }}</p>
+          <p><strong>Category:</strong> {{ item.category }}</p>
+          <p><strong>Publication Date:</strong> {{ item.publication_date }}</p>
+          {% if item.document_link %}
+            <a href="{{ item.document_link }}" target="_blank">
+              <i class='bx bx-link-external'></i> {{ item.document_link }}
+            </a>
+          {% endif %}
+        </div>
+      {% endfor %}
+    {% else %}
+      <div class="course-card">
+        <h3>{% trans "No research papers found." %}</h3>
+        <p>{% trans "Try another keyword or filter." %}</p>
+      </div>
+    {% endif %}
+  </div>
+</div>
+
+{# RESOURCES SECTION #}
+<div class="popular-courses">
+  <h2>🔍 {% trans "Additional Resources" %}</h2>
+  <div class="course-grid">
+    {% if resources %}
+      {% for item in resources %}
+        <div class="course-card">
+          <h3>{{ item.title }}</h3>
+          <p>{{ item.description|default:"No description available"|truncatewords:30 }}</p>
+          {% if item.instructor %}
+            <p><strong><i class='bx bxs-user'></i> {{ item.instructor }}</strong></p>
+          {% endif %}
+          {% if item.link %}
+            <a href="{{ item.link }}" target="_blank">
+              <i class='bx bx-link-external'></i> {{ item.link }}
+            </a>
+          {% endif %}
+          <p><strong>Category:</strong> {{ item.category }}</p>
+        </div>
+      {% endfor %}
+    {% else %}
+      <div class="course-card">
+        <h3>{% trans "No resources found." %}</h3>
+        <p>{% trans "Try another keyword or filter." %}</p>
+      </div>
+    {% endif %}
+  </div>
+</div>
+
+
+
+<div class="popular-courses">
+    {% if recommendations %}
+        <h2>Recommended for You</h2>
+
+        <div class="course-grid">
+          {% for item in recommendations %}
+            <div class="course-card">
+                <h3>{{ item.title }}</h3>
+                <p>{{ item.description|default:"No description available"|truncatechars:100 }}</p>
+                {% if item.link %}
+                    <a href="{{ item.link }}">{{ item.link }}</a>
+                {% endif %}
+                <p><strong>Category:</strong> {{ item.category }}</p>
+            </div>
+        {% endfor %}
+    {% endif %}
+
+        </div>
+          </div>
+
+</section>
+
+
+<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+        <df-messenger
+        intent="WELCOME"
+        chat-title="UniAssist"
+        agent-id="cf85d824-470d-409b-9a50-38b12b8672fc"
+        language-code="en"
+        ></df-messenger>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script>
+        // Language Switcher
+        document.getElementById('language-switcher').addEventListener('click', function() {
+            alert('Multilingual support coming soon!');
+            // In production: Call API to switch content language
+        });
+
+        // Chatbot Functions
+        function openChatbot() {
+            const dfMessenger = document.querySelector('df-messenger');
+            if (dfMessenger) {
+            dfMessenger.shadowRoot.querySelector('button').click(); // Triggers the chat bubble
+            } else {
+            console.error('Dialogflow messenger not found');
+            }
+        }
+
+        function closeChatbot() {
+            document.getElementById('chatbot-container').classList.add('d-none');
+        }
+
+        function sendChatMessage() {
+            const input = document.getElementById('chatbot-input');
+            const message = input.value.trim();
+            if (message) {
+                // In production: Call AWS Lex/Azure Bot Service API
+                const chatWindow = document.querySelector('.card-body');
+                chatWindow.innerHTML += `
+                    <div class="chat-message user-message mb-2 text-end">
+                        <div class="alert alert-secondary p-2">${message}</div>
+                    </div>
+                `;
+                
+                // Simulate bot response
+                setTimeout(() => {
+                    chatWindow.innerHTML += `
+                        <div class="chat-message bot-message mb-2">
+                            <div class="alert alert-info p-2">I'll connect you to our FAQ about "${message}".</div>
+                        </div>
+                    `;
+                    chatWindow.scrollTop = chatWindow.scrollHeight;
+                }, 800);
+                
+                input.value = '';
+                chatWindow.scrollTop = chatWindow.scrollHeight;
+            }
+        }
+
+        // Smart Search - Enter key support
+        document.getElementById('smart-search').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                alert('Searching our knowledge base...');
+                // In production: Call semantic search API
+            }
+        });
+
+        // Load AI-recommended events (simulated)
+        window.addEventListener('DOMContentLoaded', function() {
+            // In production: Fetch from backend API
+            const events = [
+                { title: "AI Workshop", date: "June 10, 2025", dept: "IT", img: "https://via.placeholder.com/300x150?text=AI+Workshop" },
+                { title: "Research Symposium", date: "July 5, 2025", dept: "All", img: "https://via.placeholder.com/300x150?text=Research" }
+            ];
+            
+            const eventsContainer = document.getElementById('smart-events');
+            events.forEach(event => {
+                eventsContainer.innerHTML += `
+                    <div class="col-md-4">
+                        <div class="card h-100">
+                            <img src="${event.img}" class="card-img-top" alt="${event.title}">
+                            <div class="card-body">
+                                <h5 class="card-title">${event.title}</h5>
+                                <p class="card-text text-muted small">${event.date} | ${event.dept} Department</p>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            });
+        });
+    </script>

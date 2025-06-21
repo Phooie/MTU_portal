@@ -1,0 +1,462 @@
+[
+    {
+        "id": 1,
+        "title": "Introduction to Algorithms",
+        "description": "Comprehensive coverage of algorithms with mathematical rigor",
+        "resource_type": "BOOK",
+        "category": "CEIT",
+        "instructor": "Thomas H. Cormen et al.",
+        "link": "https://mitpress.mit.edu/9788262046365/introduction-algorithms-third-edition",
+        "start_date": null
+    },
+    {
+        "id": 2,
+        "title": "Design of Reinforced Concrete",
+        "description": "A widely used book for understanding structural design in Civil Engineering",
+        "resource_type": "BOOK",
+        "category": "CE",
+        "instructor": "Jack C. McCormac",
+        "link": "https://www.pearson.com/en-us/subject-catalog/p/design-of-reinforced-concrete/P200000002507",
+        "start_date": null
+    },
+    {
+        "id": 3,
+        "title": "Engineering Mechanics: Dynamics",
+        "description": "Covers core mechanical engineering dynamics concepts",
+        "resource_type": "BOOK",
+        "category": "ME",
+        "instructor": "J.L. Meriam, L.G. Kraige",
+        "link": "https://www.wiley.com/en-us/Engineering+Mechanics:+Dynamics,+9th+Edition-p-9781119390985",
+        "start_date": null
+    },
+    {
+        "id": 4,
+        "title": "Electrical Engineering: Principles and Applications",
+        "description": "Introductory book in Electrical Engineering fundamentals",
+        "resource_type": "BOOK",
+        "category": "EP",
+        "instructor": "Allan R. Hambley",
+        "link": "https://www.pearson.com/store/p/electrical-engineering-principles-and-applications/P100002884244",
+        "start_date": null
+    },
+    {
+        "id": 5,
+        "title": "Microelectronic Circuits",
+        "description": "Comprehensive electronics engineering textbook",
+        "resource_type": "BOOK",
+        "category": "EC",
+        "instructor": "Sedra/Smith",
+        "link": "https://global.oup.com/academic/product/microelectronic-circuits-9780190853464",
+        "start_date": null
+    },
+    {
+        "id": 6,
+        "title": "Mechatronics: Principles and Applications",
+        "description": "Covers integration of mechanical, electrical, and computer systems",
+        "resource_type": "BOOK",
+        "category": "MC",
+        "instructor": "Godfrey C. Onwubolu",
+        "link": "https://www.elsevier.com/books/mechatronics/onwubolu/978-0-08-097481-7",
+        "start_date": null
+    },
+    {
+        "id": 7,
+        "title": "Elementary Principles of Chemical Processes",
+        "description": "Foundation book in Chemical Engineering education",
+        "resource_type": "BOOK",
+        "category": "ChE",
+        "instructor": "Richard M. Felder, Ronald W. Rousseau",
+        "link": "https://www.wiley.com/en-us/Elementary+Principles+of+Chemical+Processes,+4th+Edition-p-9781118431221",
+        "start_date": null
+    },
+    {
+        "id": 8,
+        "title": "Fundamentals of Nuclear Reactor Physics",
+        "description": "Covers the physics behind nuclear reactors",
+        "resource_type": "BOOK",
+        "category": "NE",
+        "instructor": "Elmer E. Lewis",
+        "link": "https://www.elsevier.com/books/fundamentals-of-nuclear-reactor-physics/lewis/978-0-12-370631-7",
+        "start_date": null
+    },
+    {
+        "id": 9,
+        "title": "Introductory Mining Engineering",
+        "description": "Fundamental book in mining practices and engineering",
+        "resource_type": "BOOK",
+        "category": "MinE",
+        "instructor": "Howard L. Hartman, Jan M. Mutmansky",
+        "link": "https://www.wiley.com/en-us/Introductory+Mining+Engineering,+2nd+Edition-p-9780471348511",
+        "start_date": null
+    },
+    {
+        "id": 10,
+        "title": "Architecture: Form, Space, and Order",
+        "description": "A foundational architecture textbook on visual design and form",
+        "resource_type": "BOOK",
+        "category": "Arch",
+        "instructor": "Francis D.K. Ching",
+        "link": "https://www.wiley.com/en-us/Architecture%3A+Form%2C+Space%2C+and+Order%2C+4th+Edition-p-9781118745083",
+        "start_date": null
+    },
+    {
+        "id": 11,
+        "title": "Civil Engineering Courses",
+        "description": "",
+        "resource_type": "COURSE",
+        "category": "CE",
+        "instructor": "Various",
+        "link": "https://www.coursera.org/courses?query=civil+engineering",
+        "start_date": null
+    },
+    {
+        "id": 12,
+        "title": "Civil Engineering Programs",
+        "description": "",
+        "resource_type": "COURSE",
+        "category": "CE",
+        "instructor": "Various",
+        "link": "https://www.edx.org/learn/civil-engineering",
+        "start_date": null
+    },
+    {
+        "id": 13,
+        "title": "AutoCAD, STAAD Pro Training",
+        "description": "",
+        "resource_type": "COURSE",
+        "category": "CE",
+        "instructor": "Various",
+        "link": "https://www.udemy.com/topic/civil-engineering/",
+        "start_date": null
+    },
+    {
+        "id": 14,
+        "title": "Mechanical Engineering Courses",
+        "description": "",
+        "resource_type": "COURSE",
+        "category": "ME",
+        "instructor": "Various",
+        "link": "https://www.coursera.org/browse/physical-science-and-engineering/mechanical-engineering",
+        "start_date": null
+    },
+    {
+        "id": 15,
+        "title": "Mechanical Engineering Programs",
+        "description": "",
+        "resource_type": "COURSE",
+        "category": "ME",
+        "instructor": "Various",
+        "link": "https://www.edx.org/learn/mechanical-engineering",
+        "start_date": null
+    },
+    {
+        "id": 16,
+        "title": "Machine Design & HVAC Training",
+        "description": "",
+        "resource_type": "COURSE",
+        "category": "ME",
+        "instructor": "Various",
+        "link": "https://www.udemy.com/topic/mechanical-engineering/",
+        "start_date": null
+    },
+    {
+        "id": 17,
+        "title": "Electrical Engineering Courses",
+        "description": "",
+        "resource_type": "COURSE",
+        "category": "EP",
+        "instructor": "Various",
+        "link": "https://www.coursera.org/browse/physical-science-and-engineering/electrical-engineering",
+        "start_date": null
+    },
+    {
+        "id": 18,
+        "title": "Electrical Engineering Programs",
+        "description": "",
+        "resource_type": "COURSE",
+        "category": "EP",
+        "instructor": "Various",
+        "link": "https://www.edx.org/learn/electrical-engineering",
+        "start_date": null
+    },
+    {
+        "id": 19,
+        "title": "Electrical Design & Power Systems",
+        "description": "",
+        "resource_type": "COURSE",
+        "category": "EP",
+        "instructor": "Various",
+        "link": "https://www.udemy.com/topic/electrical-engineering/",
+        "start_date": null
+    },
+    {
+        "id": 20,
+        "title": "Electronics Courses",
+        "description": "",
+        "resource_type": "COURSE",
+        "category": "EC",
+        "instructor": "Various",
+        "link": "https://www.coursera.org/courses?query=electronics",
+        "start_date": null
+    },
+    {
+        "id": 21,
+        "title": "Electronics Programs",
+        "description": "",
+        "resource_type": "COURSE",
+        "category": "EC",
+        "instructor": "Various",
+        "link": "https://www.edx.org/learn/electronics",
+        "start_date": null
+    },
+    {
+        "id": 22,
+        "title": "IoT & PCB Design Courses",
+        "description": "",
+        "resource_type": "COURSE",
+        "category": "EC",
+        "instructor": "Various",
+        "link": "https://www.udemy.com/topic/electronics/",
+        "start_date": null
+    },
+    {
+        "id": 23,
+        "title": "Computer Engineering Courses",
+        "description": "",
+        "resource_type": "COURSE",
+        "category": "CEIT",
+        "instructor": "Various",
+        "link": "https://www.coursera.org/courses?query=computer+engineering",
+        "start_date": null
+    },
+    {
+        "id": 24,
+        "title": "Computer Engineering Programs",
+        "description": "",
+        "resource_type": "COURSE",
+        "category": "CEIT",
+        "instructor": "Various",
+        "link": "https://www.edx.org/learn/computer-engineering",
+        "start_date": null
+    },
+    {
+        "id": 25,
+        "title": "Programming & System Design",
+        "description": "",
+        "resource_type": "COURSE",
+        "category": "CEIT",
+        "instructor": "Various",
+        "link": "https://www.udemy.com/topic/computer-engineering/",
+        "start_date": null
+    },
+    {
+        "id": 26,
+        "title": "Mechatronics Overview",
+        "description": "",
+        "resource_type": "COURSE",
+        "category": "MC",
+        "instructor": "Various",
+        "link": "https://www.classcentral.com/subject/mechatronics",
+        "start_date": null
+    },
+    {
+        "id": 27,
+        "title": "Mechatronics Programs",
+        "description": "",
+        "resource_type": "COURSE",
+        "category": "MC",
+        "instructor": "Various",
+        "link": "https://www.edx.org/learn/mechatronics",
+        "start_date": null
+    },
+    {
+        "id": 28,
+        "title": "Multimechatronics Courses",
+        "description": "",
+        "resource_type": "COURSE",
+        "category": "MC",
+        "instructor": "Various",
+        "link": "https://multimechatronics.com/",
+        "start_date": null
+    },
+    {
+        "id": 29,
+        "title": "Chemical Engineering Courses",
+        "description": "",
+        "resource_type": "COURSE",
+        "category": "ChE",
+        "instructor": "Various",
+        "link": "https://www.coursera.org/courses?query=chemical+engineering",
+        "start_date": null
+    },
+    {
+        "id": 30,
+        "title": "Chemical Engineering Programs",
+        "description": "",
+        "resource_type": "COURSE",
+        "category": "ChE",
+        "instructor": "Various",
+        "link": "https://www.edx.org/learn/chemical-engineering",
+        "start_date": null
+    },
+    {
+        "id": 31,
+        "title": "LearnChemE Resources",
+        "description": "",
+        "resource_type": "COURSE",
+        "category": "ChE",
+        "instructor": "Various",
+        "link": "https://learncheme.com/",
+        "start_date": null
+    },
+    {
+        "id": 32,
+        "title": "Nuclear Engineering Courses",
+        "description": "",
+        "resource_type": "COURSE",
+        "category": "NE",
+        "instructor": "Various",
+        "link": "https://www.coursera.org/courses?query=nuclear",
+        "start_date": null
+    },
+    {
+        "id": 33,
+        "title": "IAEA Online Training",
+        "description": "",
+        "resource_type": "COURSE",
+        "category": "NE",
+        "instructor": "Various",
+        "link": "https://www.iaea.org/services/education-and-training/online-learning",
+        "start_date": null
+    },
+    {
+        "id": 34,
+        "title": "MIT Nuclear Science",
+        "description": "",
+        "resource_type": "COURSE",
+        "category": "NE",
+        "instructor": "Various",
+        "link": "https://openlearning.mit.edu/news/power-your-learning-free-mit-courses-nuclear-science",
+        "start_date": null
+    },
+    {
+        "id": 35,
+        "title": "Mining Courses",
+        "description": "",
+        "resource_type": "COURSE",
+        "category": "MinE",
+        "instructor": "Various",
+        "link": "https://www.edx.org/learn/mining",
+        "start_date": null
+    },
+    {
+        "id": 36,
+        "title": "AusIMM Mining Courses",
+        "description": "",
+        "resource_type": "COURSE",
+        "category": "MinE",
+        "instructor": "Various",
+        "link": "https://www.ausimm.com/courses/",
+        "start_date": null
+    },
+    {
+        "id": 37,
+        "title": "MiningDoc Courses",
+        "description": "",
+        "resource_type": "COURSE",
+        "category": "MinE",
+        "instructor": "Various",
+        "link": "https://www.miningdoc.tech/online-courses/",
+        "start_date": null
+    },
+    {
+        "id": 38,
+        "title": "Architecture Courses",
+        "description": "",
+        "resource_type": "COURSE",
+        "category": "Arch",
+        "instructor": "Various",
+        "link": "https://www.coursera.org/courses?query=architecture",
+        "start_date": null
+    },
+    {
+        "id": 39,
+        "title": "Architecture Programs",
+        "description": "",
+        "resource_type": "COURSE",
+        "category": "Arch",
+        "instructor": "Various",
+        "link": "https://www.edx.org/learn/architecture",
+        "start_date": null
+    },
+    {
+        "id": 40,
+        "title": "Harvard Architectural Imagination",
+        "description": "",
+        "resource_type": "COURSE",
+        "category": "Arch",
+        "instructor": "Harvard",
+        "link": "https://pll.harvard.edu/course/architectural-imagination",
+        "start_date": null
+    },
+    {
+        "id": 41,
+        "title": "AI Revolution in Healthcare",
+        "description": "New advancements in AI algorithms are transforming diagnostics and patient care.",
+        "resource_type": "NEWS",
+        "category": "CEIT",
+        "instructor": "Dr. Alice Johnson",
+        "link": "https://healthtechnews.org/ai-healthcare-revolution",
+        "start_date": null
+    },
+    {
+        "id": 42,
+        "title": "Blockchain for Secure Voting Systems",
+        "description": "Event highlighting how blockchain technology ensures voting transparency and security.",
+        "resource_type": "EVENT",
+        "category": "CEIT",
+        "instructor": "Prof. David Lin",
+        "link": "https://ceitevents.edu/blockchain-voting-2025",
+        "start_date": "2025-07-10"
+    },
+    {
+        "id": 43,
+        "title": "Quantum Networking Protocols",
+        "description": "A proposed research project to investigate quantum key distribution across mesh networks.",
+        "resource_type": "RESEARCH",
+        "category": "CEIT",
+        "instructor": "Dr. Sarah Ng",
+        "link": "https://researchideas.org/quantum-networking",
+        "start_date": null
+    },
+    {
+        "id": 44,
+        "title": "Sustainable Construction Innovations",
+        "description": "News report on new concrete alternatives reducing CO2 emissions.",
+        "resource_type": "NEWS",
+        "category": "CIVIL",
+        "instructor": "Eng. Mark Rivera",
+        "link": "https://civilweekly.com/sustainable-construction",
+        "start_date": null
+    },
+    {
+        "id": 45,
+        "title": "Smart Cities and IoT Infrastructure",
+        "description": "Upcoming seminar on smart city planning and embedded sensors for public systems.",
+        "resource_type": "EVENT",
+        "category": "CIVIL",
+        "instructor": "Prof. Lina Torres",
+        "link": "https://civilconf.org/smart-cities-2025",
+        "start_date": "2025-08-05"
+    },
+    {
+        "id": 46,
+        "title": "Earthquake-Resistant Modular Housing",
+        "description": "Research idea to develop prefabricated, shock-absorbing residential units.",
+        "resource_type": "RESEARCH",
+        "category": "CIVIL",
+        "instructor": "Dr. Kenji Sato",
+        "link": "https://researchbank.org/earthquake-housing",
+        "start_date": null
+    }
+]

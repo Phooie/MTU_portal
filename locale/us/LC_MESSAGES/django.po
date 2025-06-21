@@ -1,0 +1,1150 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-06-18 23:32+0630\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: .\database\templates\campus.html:9 .\database\templates\course.html:10
+#: .\database\templates\course2.html:10 .\database\templates\home.html:11
+#: .\database\templates\login.html:10 .\database\templates\results.html:11
+#: .\database\templates\sample.html:11 .\database\templates\search.html:11
+#: .\database\templates\upload.html:10
+msgid "AI-Powered Smart MTU Website"
+msgstr ""
+
+#: .\database\templates\campus.html:102 .\database\templates\course.html:25
+#: .\database\templates\course2.html:25
+#: .\database\templates\departments.html:138 .\database\templates\home.html:23
+#: .\database\templates\libiary.html:20 .\database\templates\login.html:125
+#: .\database\templates\news.html:127 .\database\templates\register.html:130
+#: .\database\templates\research.html:203 .\database\templates\results.html:33
+#: .\database\templates\sample.html:23 .\database\templates\scores.html:27
+#: .\database\templates\scores2.html:27 .\database\templates\search.html:23
+#: .\database\templates\upload.html:214
+msgid "University Logo"
+msgstr ""
+
+#: .\database\templates\campus.html:104 .\database\templates\course.html:27
+#: .\database\templates\course2.html:27
+#: .\database\templates\departments.html:140 .\database\templates\home.html:25
+#: .\database\templates\libiary.html:22 .\database\templates\login.html:127
+#: .\database\templates\news.html:129 .\database\templates\register.html:132
+#: .\database\templates\research.html:205 .\database\templates\results.html:35
+#: .\database\templates\sample.html:25 .\database\templates\scores.html:29
+#: .\database\templates\scores2.html:29 .\database\templates\search.html:25
+#: .\database\templates\upload.html:216
+msgid "Mandalay"
+msgstr ""
+
+#: .\database\templates\campus.html:105 .\database\templates\course.html:28
+#: .\database\templates\course2.html:28
+#: .\database\templates\departments.html:141 .\database\templates\home.html:26
+#: .\database\templates\libiary.html:23 .\database\templates\login.html:128
+#: .\database\templates\news.html:130 .\database\templates\register.html:133
+#: .\database\templates\research.html:206 .\database\templates\results.html:36
+#: .\database\templates\sample.html:26 .\database\templates\scores.html:30
+#: .\database\templates\scores2.html:30 .\database\templates\search.html:26
+#: .\database\templates\upload.html:217
+msgid "Technological"
+msgstr ""
+
+#: .\database\templates\campus.html:106 .\database\templates\course.html:29
+#: .\database\templates\course2.html:29
+#: .\database\templates\departments.html:142 .\database\templates\home.html:27
+#: .\database\templates\libiary.html:24 .\database\templates\login.html:129
+#: .\database\templates\news.html:131 .\database\templates\register.html:134
+#: .\database\templates\research.html:207 .\database\templates\results.html:37
+#: .\database\templates\sample.html:27 .\database\templates\scores.html:31
+#: .\database\templates\scores2.html:31 .\database\templates\search.html:27
+#: .\database\templates\upload.html:218
+msgid "University"
+msgstr ""
+
+#: .\database\templates\campus.html:112 .\database\templates\course.html:35
+#: .\database\templates\course2.html:35
+#: .\database\templates\departments.html:148 .\database\templates\home.html:33
+#: .\database\templates\libiary.html:30 .\database\templates\login.html:135
+#: .\database\templates\news.html:10 .\database\templates\news.html:137
+#: .\database\templates\register.html:140
+#: .\database\templates\research.html:213 .\database\templates\results.html:43
+#: .\database\templates\sample.html:33 .\database\templates\scores.html:37
+#: .\database\templates\scores2.html:37 .\database\templates\search.html:33
+#: .\database\templates\upload.html:224
+msgid "News & Events"
+msgstr ""
+
+#: .\database\templates\campus.html:113 .\database\templates\course.html:36
+#: .\database\templates\course2.html:36
+#: .\database\templates\departments.html:149 .\database\templates\home.html:34
+#: .\database\templates\home.html:183 .\database\templates\libiary.html:31
+#: .\database\templates\login.html:136 .\database\templates\news.html:138
+#: .\database\templates\register.html:141
+#: .\database\templates\research.html:214 .\database\templates\results.html:44
+#: .\database\templates\sample.html:34 .\database\templates\scores.html:38
+#: .\database\templates\scores2.html:38 .\database\templates\search.html:34
+#: .\database\templates\search.html:183 .\database\templates\upload.html:225
+msgid "Library"
+msgstr ""
+
+#: .\database\templates\campus.html:114 .\database\templates\course.html:37
+#: .\database\templates\course.html:187 .\database\templates\course2.html:37
+#: .\database\templates\course2.html:145
+#: .\database\templates\departments.html:150
+#: .\database\templates\departments.html:305 .\database\templates\home.html:35
+#: .\database\templates\home.html:140 .\database\templates\home.html:264
+#: .\database\templates\libiary.html:32 .\database\templates\libiary.html:125
+#: .\database\templates\login.html:137 .\database\templates\news.html:139
+#: .\database\templates\news.html:204 .\database\templates\register.html:142
+#: .\database\templates\research.html:215 .\database\templates\results.html:45
+#: .\database\templates\results.html:111 .\database\templates\sample.html:35
+#: .\database\templates\scores.html:39 .\database\templates\scores.html:127
+#: .\database\templates\scores2.html:39 .\database\templates\scores2.html:127
+#: .\database\templates\search.html:35 .\database\templates\search.html:140
+#: .\database\templates\search.html:264 .\database\templates\upload.html:226
+#: .\database\templates\upload.html:295
+msgid "Research"
+msgstr ""
+
+#: .\database\templates\campus.html:115 .\database\templates\course.html:188
+#: .\database\templates\course2.html:146
+#: .\database\templates\departments.html:306 .\database\templates\home.html:36
+#: .\database\templates\home.html:265 .\database\templates\libiary.html:126
+#: .\database\templates\news.html:205 .\database\templates\results.html:112
+#: .\database\templates\scores.html:128 .\database\templates\scores2.html:128
+#: .\database\templates\search.html:36 .\database\templates\search.html:265
+#: .\database\templates\upload.html:296
+msgid "Campus Life"
+msgstr ""
+
+#: .\database\templates\campus.html:119 .\database\templates\course.html:40
+#: .\database\templates\course2.html:40
+#: .\database\templates\departments.html:153 .\database\templates\home.html:40
+#: .\database\templates\libiary.html:35 .\database\templates\login.html:140
+#: .\database\templates\news.html:142 .\database\templates\register.html:145
+#: .\database\templates\research.html:218 .\database\templates\results.html:48
+#: .\database\templates\sample.html:38 .\database\templates\scores.html:42
+#: .\database\templates\scores2.html:42 .\database\templates\search.html:40
+#: .\database\templates\upload.html:229
+msgid "Home"
+msgstr ""
+
+#: .\database\templates\campus.html:120 .\database\templates\course.html:41
+#: .\database\templates\course.html:186 .\database\templates\course2.html:41
+#: .\database\templates\course2.html:144
+#: .\database\templates\departments.html:154
+#: .\database\templates\departments.html:304 .\database\templates\home.html:41
+#: .\database\templates\home.html:119 .\database\templates\home.html:263
+#: .\database\templates\libiary.html:36 .\database\templates\libiary.html:124
+#: .\database\templates\login.html:141 .\database\templates\news.html:143
+#: .\database\templates\news.html:203 .\database\templates\register.html:146
+#: .\database\templates\research.html:219 .\database\templates\results.html:49
+#: .\database\templates\results.html:110 .\database\templates\sample.html:39
+#: .\database\templates\scores.html:43 .\database\templates\scores.html:126
+#: .\database\templates\scores2.html:43 .\database\templates\scores2.html:126
+#: .\database\templates\search.html:41 .\database\templates\search.html:119
+#: .\database\templates\search.html:263 .\database\templates\upload.html:230
+#: .\database\templates\upload.html:294
+msgid "Departments"
+msgstr ""
+
+#: .\database\templates\campus.html:121 .\database\templates\course.html:42
+#: .\database\templates\course2.html:42
+#: .\database\templates\departments.html:155 .\database\templates\home.html:42
+#: .\database\templates\libiary.html:37 .\database\templates\login.html:142
+#: .\database\templates\news.html:144 .\database\templates\register.html:147
+#: .\database\templates\research.html:220 .\database\templates\results.html:50
+#: .\database\templates\sample.html:40 .\database\templates\scores.html:44
+#: .\database\templates\scores2.html:44 .\database\templates\search.html:42
+#: .\database\templates\upload.html:231
+msgid "Contact us"
+msgstr ""
+
+#: .\database\templates\campus.html:122 .\database\templates\course.html:43
+#: .\database\templates\course2.html:43
+#: .\database\templates\departments.html:156 .\database\templates\home.html:43
+#: .\database\templates\libiary.html:38 .\database\templates\login.html:143
+#: .\database\templates\news.html:145 .\database\templates\register.html:148
+#: .\database\templates\research.html:221 .\database\templates\results.html:51
+#: .\database\templates\sample.html:41 .\database\templates\scores.html:45
+#: .\database\templates\scores2.html:45 .\database\templates\search.html:43
+#: .\database\templates\upload.html:232
+msgid "Admission"
+msgstr ""
+
+#: .\database\templates\campus.html:129 .\database\templates\course.html:49
+#: .\database\templates\course2.html:49
+#: .\database\templates\departments.html:163 .\database\templates\home.html:50
+#: .\database\templates\libiary.html:44 .\database\templates\login.html:149
+#: .\database\templates\news.html:152 .\database\templates\register.html:154
+#: .\database\templates\research.html:227 .\database\templates\results.html:58
+#: .\database\templates\sample.html:48 .\database\templates\scores.html:51
+#: .\database\templates\scores2.html:51 .\database\templates\search.html:50
+#: .\database\templates\upload.html:238
+msgid "Logout"
+msgstr ""
+
+#: .\database\templates\campus.html:134 .\database\templates\course.html:54
+#: .\database\templates\course.html:62 .\database\templates\course.html:66
+#: .\database\templates\course2.html:54 .\database\templates\course2.html:62
+#: .\database\templates\course2.html:66
+#: .\database\templates\departments.html:168 .\database\templates\home.html:55
+#: .\database\templates\news.html:157 .\database\templates\results.html:63
+#: .\database\templates\sample.html:53 .\database\templates\search.html:55
+msgid "English"
+msgstr ""
+
+#: .\database\templates\campus.html:136 .\database\templates\course.html:56
+#: .\database\templates\course.html:68 .\database\templates\course2.html:56
+#: .\database\templates\course2.html:68
+#: .\database\templates\departments.html:170 .\database\templates\home.html:57
+#: .\database\templates\news.html:159 .\database\templates\results.html:65
+#: .\database\templates\sample.html:55 .\database\templates\search.html:57
+#: .\djangodb\settings.py:194
+msgid "မြန်မာ"
+msgstr ""
+
+#: .\database\templates\course.html:78 .\database\templates\course2.html:78
+msgid "Course Search"
+msgstr ""
+
+#: .\database\templates\course.html:87 .\database\templates\course2.html:87
+msgid "Search courses..."
+msgstr ""
+
+#: .\database\templates\course.html:92 .\database\templates\course2.html:92
+#: .\database\templates\libiary.html:79 .\database\templates\research.html:259
+msgid "All Categories"
+msgstr ""
+
+#: .\database\templates\course.html:98 .\database\templates\course2.html:98
+#: .\database\templates\libiary.html:85 .\database\templates\research.html:264
+#: .\database\templates\sample.html:103
+msgid "Search"
+msgstr ""
+
+#: .\database\templates\course.html:109 .\database\templates\course2.html:109
+msgid "Search Results"
+msgstr ""
+
+#: .\database\templates\course.html:127 .\database\templates\course2.html:127
+#: .\database\templates\libiary.html:110 .\database\templates\sample.html:244
+msgid "No resources found."
+msgstr ""
+
+#: .\database\templates\course.html:128 .\database\templates\course2.html:128
+#: .\database\templates\libiary.html:111 .\database\templates\sample.html:136
+#: .\database\templates\sample.html:162 .\database\templates\sample.html:188
+#: .\database\templates\sample.html:216 .\database\templates\sample.html:245
+msgid "Try another keyword or filter."
+msgstr ""
+
+#: .\database\templates\course.html:136
+msgid "Recommendations Based On Previous Courses Taken"
+msgstr ""
+
+#: .\database\templates\course.html:158
+msgid "Recommended Based on Your Search History"
+msgstr ""
+
+#: .\database\templates\course.html:182 .\database\templates\course2.html:140
+#: .\database\templates\departments.html:300 .\database\templates\home.html:259
+#: .\database\templates\libiary.html:120 .\database\templates\news.html:199
+#: .\database\templates\results.html:106 .\database\templates\scores.html:122
+#: .\database\templates\scores2.html:122 .\database\templates\search.html:259
+#: .\database\templates\upload.html:290
+msgid "Explore MTU"
+msgstr ""
+
+#: .\database\templates\course.html:184 .\database\templates\course2.html:142
+#: .\database\templates\departments.html:302 .\database\templates\home.html:261
+#: .\database\templates\libiary.html:122 .\database\templates\news.html:201
+#: .\database\templates\results.html:108 .\database\templates\scores.html:124
+#: .\database\templates\scores2.html:124 .\database\templates\search.html:261
+#: .\database\templates\upload.html:292
+msgid "About MTU"
+msgstr ""
+
+#: .\database\templates\course.html:185 .\database\templates\course2.html:143
+#: .\database\templates\departments.html:303 .\database\templates\home.html:262
+#: .\database\templates\libiary.html:123 .\database\templates\news.html:202
+#: .\database\templates\results.html:109 .\database\templates\scores.html:125
+#: .\database\templates\scores2.html:125 .\database\templates\search.html:262
+#: .\database\templates\upload.html:293
+msgid "Admissions"
+msgstr ""
+
+#: .\database\templates\course.html:193 .\database\templates\course2.html:151
+#: .\database\templates\departments.html:311 .\database\templates\home.html:270
+#: .\database\templates\libiary.html:131 .\database\templates\news.html:210
+#: .\database\templates\results.html:117 .\database\templates\scores.html:133
+#: .\database\templates\scores2.html:133 .\database\templates\search.html:270
+#: .\database\templates\upload.html:301
+msgid "Contact Details"
+msgstr ""
+
+#: .\database\templates\course.html:194 .\database\templates\course2.html:152
+#: .\database\templates\departments.html:312 .\database\templates\home.html:271
+#: .\database\templates\libiary.html:132 .\database\templates\news.html:211
+#: .\database\templates\results.html:118 .\database\templates\scores.html:134
+#: .\database\templates\scores2.html:134 .\database\templates\search.html:271
+#: .\database\templates\upload.html:302
+msgid "Phone"
+msgstr ""
+
+#: .\database\templates\course.html:195 .\database\templates\course2.html:153
+#: .\database\templates\departments.html:211
+#: .\database\templates\departments.html:230
+#: .\database\templates\departments.html:249
+#: .\database\templates\departments.html:267
+#: .\database\templates\departments.html:285
+#: .\database\templates\departments.html:313 .\database\templates\home.html:272
+#: .\database\templates\libiary.html:133 .\database\templates\news.html:212
+#: .\database\templates\results.html:119 .\database\templates\scores.html:135
+#: .\database\templates\scores2.html:135 .\database\templates\search.html:272
+#: .\database\templates\upload.html:303
+msgid "Email"
+msgstr ""
+
+#: .\database\templates\course.html:196 .\database\templates\course2.html:154
+#: .\database\templates\departments.html:314 .\database\templates\home.html:273
+#: .\database\templates\libiary.html:134 .\database\templates\news.html:213
+#: .\database\templates\results.html:120 .\database\templates\scores.html:136
+#: .\database\templates\scores2.html:136 .\database\templates\search.html:273
+#: .\database\templates\upload.html:304
+msgid "Address"
+msgstr ""
+
+#: .\database\templates\course.html:197 .\database\templates\course2.html:155
+#: .\database\templates\departments.html:315 .\database\templates\home.html:274
+#: .\database\templates\libiary.html:135 .\database\templates\news.html:214
+#: .\database\templates\results.html:121 .\database\templates\scores.html:9
+#: .\database\templates\scores.html:137 .\database\templates\scores2.html:9
+#: .\database\templates\scores2.html:137 .\database\templates\search.html:274
+#: .\database\templates\upload.html:305
+msgid "Mandalay Technological University"
+msgstr ""
+
+#: .\database\templates\course.html:198 .\database\templates\course2.html:156
+#: .\database\templates\departments.html:316 .\database\templates\home.html:275
+#: .\database\templates\libiary.html:136 .\database\templates\news.html:215
+#: .\database\templates\results.html:122 .\database\templates\scores.html:138
+#: .\database\templates\scores2.html:138 .\database\templates\search.html:275
+#: .\database\templates\upload.html:306
+msgid "Patheingyi Township, Mandalay"
+msgstr ""
+
+#: .\database\templates\course.html:199 .\database\templates\course2.html:157
+#: .\database\templates\departments.html:317 .\database\templates\home.html:276
+#: .\database\templates\libiary.html:137 .\database\templates\news.html:216
+#: .\database\templates\results.html:123 .\database\templates\scores.html:139
+#: .\database\templates\scores2.html:139 .\database\templates\search.html:276
+#: .\database\templates\upload.html:307
+msgid "Myanmar"
+msgstr ""
+
+#: .\database\templates\course.html:204 .\database\templates\course2.html:162
+#: .\database\templates\departments.html:322 .\database\templates\home.html:281
+#: .\database\templates\libiary.html:142 .\database\templates\news.html:221
+#: .\database\templates\results.html:128 .\database\templates\scores.html:144
+#: .\database\templates\scores2.html:144 .\database\templates\search.html:281
+#: .\database\templates\upload.html:312
+msgid "Connect With Us"
+msgstr ""
+
+#: .\database\templates\course.html:217 .\database\templates\course2.html:175
+#: .\database\templates\departments.html:335 .\database\templates\home.html:294
+#: .\database\templates\libiary.html:155 .\database\templates\news.html:234
+#: .\database\templates\results.html:141 .\database\templates\scores.html:157
+#: .\database\templates\scores2.html:157 .\database\templates\search.html:294
+#: .\database\templates\upload.html:325
+msgid "Mandalay Technological University. All rights reserved."
+msgstr ""
+
+#: .\database\templates\course.html:219 .\database\templates\course2.html:177
+#: .\database\templates\departments.html:337 .\database\templates\home.html:296
+#: .\database\templates\libiary.html:157 .\database\templates\news.html:236
+#: .\database\templates\results.html:143 .\database\templates\scores.html:159
+#: .\database\templates\scores2.html:159 .\database\templates\search.html:296
+#: .\database\templates\upload.html:327
+msgid "Terms & Privacy"
+msgstr ""
+
+#: .\database\templates\course.html:220 .\database\templates\course2.html:178
+#: .\database\templates\departments.html:338 .\database\templates\home.html:297
+#: .\database\templates\libiary.html:158 .\database\templates\news.html:237
+#: .\database\templates\results.html:144 .\database\templates\scores.html:160
+#: .\database\templates\scores2.html:160 .\database\templates\search.html:297
+#: .\database\templates\upload.html:328
+msgid "Accessibility"
+msgstr ""
+
+#: .\database\templates\course.html:221 .\database\templates\course2.html:179
+#: .\database\templates\departments.html:339 .\database\templates\home.html:298
+#: .\database\templates\libiary.html:159 .\database\templates\news.html:238
+#: .\database\templates\results.html:145 .\database\templates\scores.html:161
+#: .\database\templates\scores2.html:161 .\database\templates\search.html:298
+#: .\database\templates\upload.html:329
+msgid "Contact"
+msgstr ""
+
+#: .\database\templates\course.html:239 .\database\templates\course2.html:197
+#: .\database\templates\departments.html:357 .\database\templates\home.html:316
+#: .\database\templates\libiary.html:177 .\database\templates\news.html:256
+#: .\database\templates\results.html:163 .\database\templates\scores.html:179
+#: .\database\templates\scores2.html:179 .\database\templates\search.html:316
+msgid "Multilingual support coming soon!"
+msgstr ""
+
+#: .\database\templates\course.html:273 .\database\templates\course2.html:231
+#: .\database\templates\departments.html:391 .\database\templates\home.html:350
+#: .\database\templates\libiary.html:211 .\database\templates\news.html:290
+#: .\database\templates\results.html:197 .\database\templates\scores.html:213
+#: .\database\templates\scores2.html:213 .\database\templates\search.html:350
+msgid "I'll connect you to our FAQ about"
+msgstr ""
+
+#: .\database\templates\course.html:287 .\database\templates\course2.html:245
+#: .\database\templates\departments.html:405 .\database\templates\home.html:364
+#: .\database\templates\libiary.html:225 .\database\templates\news.html:304
+#: .\database\templates\results.html:211 .\database\templates\scores.html:227
+#: .\database\templates\scores2.html:227 .\database\templates\search.html:364
+msgid "Searching our knowledge base..."
+msgstr ""
+
+#: .\database\templates\course.html:296 .\database\templates\course2.html:254
+#: .\database\templates\departments.html:414 .\database\templates\home.html:373
+#: .\database\templates\libiary.html:234 .\database\templates\news.html:313
+#: .\database\templates\results.html:220 .\database\templates\scores.html:236
+#: .\database\templates\scores2.html:236 .\database\templates\search.html:373
+msgid "AI Workshop"
+msgstr ""
+
+#: .\database\templates\course.html:296 .\database\templates\course2.html:254
+#: .\database\templates\departments.html:414 .\database\templates\home.html:373
+#: .\database\templates\libiary.html:234 .\database\templates\news.html:313
+#: .\database\templates\results.html:220 .\database\templates\scores.html:236
+#: .\database\templates\scores2.html:236 .\database\templates\search.html:373
+msgid "June 10, 2025"
+msgstr ""
+
+#: .\database\templates\course.html:297 .\database\templates\course2.html:255
+#: .\database\templates\departments.html:415 .\database\templates\home.html:374
+#: .\database\templates\libiary.html:235 .\database\templates\news.html:314
+#: .\database\templates\results.html:221 .\database\templates\scores.html:237
+#: .\database\templates\scores2.html:237 .\database\templates\search.html:374
+msgid "Research Symposium"
+msgstr ""
+
+#: .\database\templates\course.html:297 .\database\templates\course2.html:255
+#: .\database\templates\departments.html:415 .\database\templates\home.html:374
+#: .\database\templates\libiary.html:235 .\database\templates\news.html:314
+#: .\database\templates\results.html:221 .\database\templates\scores.html:237
+#: .\database\templates\scores2.html:237 .\database\templates\search.html:374
+msgid "July 5, 2025"
+msgstr ""
+
+#: .\database\templates\course.html:297 .\database\templates\course2.html:255
+#: .\database\templates\departments.html:415 .\database\templates\home.html:374
+#: .\database\templates\libiary.html:235 .\database\templates\news.html:314
+#: .\database\templates\results.html:221 .\database\templates\scores.html:237
+#: .\database\templates\scores2.html:237 .\database\templates\search.html:374
+msgid "All"
+msgstr ""
+
+#: .\database\templates\course.html:308 .\database\templates\course2.html:266
+#: .\database\templates\departments.html:426 .\database\templates\home.html:385
+#: .\database\templates\libiary.html:246 .\database\templates\news.html:325
+#: .\database\templates\results.html:232 .\database\templates\scores.html:248
+#: .\database\templates\scores2.html:248 .\database\templates\search.html:385
+msgid "Department"
+msgstr ""
+
+#: .\database\templates\departments.html:9
+#: .\database\templates\departments.html:192
+msgid "Academic Departments"
+msgstr ""
+
+#: .\database\templates\departments.html:193
+msgid "Leading innovation in science and engineering"
+msgstr ""
+
+#: .\database\templates\departments.html:199
+msgid "Computer Engineering and Information Technology"
+msgstr ""
+
+#: .\database\templates\departments.html:200
+msgid ""
+"The CEIT Department focuses on both hardware and software systems, equipping "
+"students with the knowledge to design intelligent computing solutions."
+msgstr ""
+
+#: .\database\templates\departments.html:201
+msgid "Key Focus Areas"
+msgstr ""
+
+#: .\database\templates\departments.html:203
+msgid "Software Development"
+msgstr ""
+
+#: .\database\templates\departments.html:204
+msgid "Cybersecurity Systems"
+msgstr ""
+
+#: .\database\templates\departments.html:205
+msgid "Databases"
+msgstr ""
+
+#: .\database\templates\departments.html:206
+msgid "Artificial Intelligence"
+msgstr ""
+
+#: .\database\templates\departments.html:208
+msgid "Contact Info"
+msgstr ""
+
+#: .\database\templates\departments.html:210
+#: .\database\templates\departments.html:229
+#: .\database\templates\departments.html:248
+#: .\database\templates\departments.html:266
+#: .\database\templates\departments.html:284
+msgid "Head of Department"
+msgstr ""
+
+#: .\database\templates\departments.html:218
+msgid "Civil Engineering Department"
+msgstr ""
+
+#: .\database\templates\departments.html:219
+msgid ""
+"The Civil Engineering Department trains students in planning, designing, and "
+"supervising infrastructure projects such as buildings, roads, and bridges. "
+"Emphasis is placed on structural integrity, sustainability, and "
+"environmental impact."
+msgstr ""
+
+#: .\database\templates\departments.html:220
+#: .\database\templates\departments.html:239
+#: .\database\templates\departments.html:257
+#: .\database\templates\departments.html:275
+#: .\database\templates\departments.html:293
+msgid "Key Focus Areas:"
+msgstr ""
+
+#: .\database\templates\departments.html:222
+msgid "Structural Analysis"
+msgstr ""
+
+#: .\database\templates\departments.html:223
+msgid "Construction Materials"
+msgstr ""
+
+#: .\database\templates\departments.html:224
+msgid "Transportation Engineering"
+msgstr ""
+
+#: .\database\templates\departments.html:225
+msgid "Geotechnical Engineering"
+msgstr ""
+
+#: .\database\templates\departments.html:227
+#: .\database\templates\departments.html:246
+#: .\database\templates\departments.html:264
+#: .\database\templates\departments.html:282
+msgid "Contact Info:"
+msgstr ""
+
+#: .\database\templates\departments.html:237
+msgid "Architectural Engineering Department"
+msgstr ""
+
+#: .\database\templates\departments.html:238
+msgid ""
+"This department integrates architecture and engineering principles to "
+"produce functional, safe, and aesthetically pleasing structures. Students "
+"learn about building systems, materials, and design methods through creative "
+"and technical training."
+msgstr ""
+
+#: .\database\templates\departments.html:241
+msgid "Architectural Design"
+msgstr ""
+
+#: .\database\templates\departments.html:242
+msgid "Building Systems"
+msgstr ""
+
+#: .\database\templates\departments.html:243
+msgid "Urban Planning"
+msgstr ""
+
+#: .\database\templates\departments.html:244
+msgid "Construction Technology"
+msgstr ""
+
+#: .\database\templates\departments.html:255
+msgid "Mechanical Engineering Department"
+msgstr ""
+
+#: .\database\templates\departments.html:256
+msgid ""
+"The Mechanical Engineering Department prepares students to design, analyze, "
+"and maintain mechanical systems. It covers thermodynamics, fluid mechanics, "
+"and manufacturing to address modern engineering challenges."
+msgstr ""
+
+#: .\database\templates\departments.html:259
+msgid "Thermodynamics"
+msgstr ""
+
+#: .\database\templates\departments.html:260
+msgid "Mechanical Design"
+msgstr ""
+
+#: .\database\templates\departments.html:261
+msgid "Fluid Mechanics"
+msgstr ""
+
+#: .\database\templates\departments.html:262
+msgid "Manufacturing Processes"
+msgstr ""
+
+#: .\database\templates\departments.html:273
+msgid "Electrical Power Engineering Department"
+msgstr ""
+
+#: .\database\templates\departments.html:274
+msgid ""
+"This department specializes in power generation, transmission, and "
+"distribution. Students learn to work with electrical systems and emerging "
+"technologies in sustainable energy and smart grids."
+msgstr ""
+
+#: .\database\templates\departments.html:277
+msgid "Power Systems"
+msgstr ""
+
+#: .\database\templates\departments.html:278
+msgid "Renewable Energy"
+msgstr ""
+
+#: .\database\templates\departments.html:279
+msgid "Electrical Machines"
+msgstr ""
+
+#: .\database\templates\departments.html:280
+msgid "Power Electronics"
+msgstr ""
+
+#: .\database\templates\departments.html:291
+msgid "Electronics Engineering Department"
+msgstr ""
+
+#: .\database\templates\departments.html:292
+msgid ""
+"Electronics Engineering equips students with the knowledge to develop and "
+"maintain modern electronic systems. Focus areas include microelectronics, "
+"signal processing, and embedded systems."
+msgstr ""
+
+#: .\database\templates\home.html:84 .\database\templates\home.html:105
+#: .\database\templates\search.html:84 .\database\templates\search.html:105
+msgid "Welcome to MTU"
+msgstr ""
+
+#: .\database\templates\home.html:85 .\database\templates\home.html:106
+#: .\database\templates\search.html:85 .\database\templates\search.html:106
+msgid "Leading Innovation and Excellence in Myanmar"
+msgstr ""
+
+#: .\database\templates\home.html:87 .\database\templates\home.html:108
+#: .\database\templates\search.html:87 .\database\templates\search.html:108
+msgid "Explore Programs"
+msgstr ""
+
+#: .\database\templates\home.html:95 .\database\templates\search.html:95
+msgid "A new event has arrived"
+msgstr ""
+
+#: .\database\templates\home.html:96 .\database\templates\search.html:96
+msgid "check it out"
+msgstr ""
+
+#: .\database\templates\home.html:120 .\database\templates\search.html:120
+msgid ""
+"Explore academic divisions leading innovation in science and engineering."
+msgstr ""
+
+#: .\database\templates\home.html:121 .\database\templates\search.html:121
+msgid "Explore"
+msgstr ""
+
+#: .\database\templates\home.html:126 .\database\templates\search.html:126
+msgid "News"
+msgstr ""
+
+#: .\database\templates\home.html:127 .\database\templates\search.html:127
+msgid ""
+"Stay current with campus updates, research highlights, and student "
+"achievements."
+msgstr ""
+
+#: .\database\templates\home.html:128 .\database\templates\search.html:128
+msgid "Stay Updated"
+msgstr ""
+
+#: .\database\templates\home.html:133 .\database\templates\search.html:133
+msgid "Events"
+msgstr ""
+
+#: .\database\templates\home.html:134 .\database\templates\search.html:134
+msgid ""
+"Join workshops, seminars, and events that enrich academic and campus life."
+msgstr ""
+
+#: .\database\templates\home.html:135 .\database\templates\search.html:135
+msgid "Check events"
+msgstr ""
+
+#: .\database\templates\home.html:141 .\database\templates\search.html:141
+msgid ""
+"From AI to sustainable energy — MTU leads in transformative research "
+"initiatives."
+msgstr ""
+
+#: .\database\templates\home.html:142 .\database\templates\search.html:142
+msgid "View Projects"
+msgstr ""
+
+#: .\database\templates\home.html:147 .\database\templates\home.html:155
+#: .\database\templates\search.html:147 .\database\templates\search.html:155
+msgid "Course Recommendation"
+msgstr ""
+
+#: .\database\templates\home.html:148 .\database\templates\home.html:156
+#: .\database\templates\search.html:148 .\database\templates\search.html:156
+msgid "Get AI-driven course suggestions aligned with your goals and strengths."
+msgstr ""
+
+#: .\database\templates\home.html:149 .\database\templates\search.html:149
+msgid "View Courses"
+msgstr ""
+
+#: .\database\templates\home.html:157 .\database\templates\search.html:157
+msgid "Find Courses"
+msgstr ""
+
+#: .\database\templates\home.html:162
+msgid "Predicted Grades"
+msgstr ""
+
+#: .\database\templates\home.html:163 .\database\templates\search.html:163
+msgid "Review AI-based academic performance forecasts and insights."
+msgstr ""
+
+#: .\database\templates\home.html:164 .\database\templates\search.html:164
+msgid "Analyze Performance"
+msgstr ""
+
+#: .\database\templates\home.html:169 .\database\templates\search.html:169
+msgid "Smart Search Engine"
+msgstr ""
+
+#: .\database\templates\home.html:170 .\database\templates\search.html:170
+msgid ""
+"Understand your questions with AI-powered semantic search for accurate "
+"results."
+msgstr ""
+
+#: .\database\templates\home.html:171 .\database\templates\search.html:171
+msgid "Try Smart Search"
+msgstr ""
+
+#: .\database\templates\home.html:176 .\database\templates\search.html:176
+msgid "AI Chatbot"
+msgstr ""
+
+#: .\database\templates\home.html:177 .\database\templates\search.html:177
+msgid ""
+"Chat instantly with our AI assistant for help with admissions, programs, and "
+"more."
+msgstr ""
+
+#: .\database\templates\home.html:178 .\database\templates\search.html:178
+msgid "Try Now"
+msgstr ""
+
+#: .\database\templates\home.html:184 .\database\templates\search.html:184
+msgid "Book recommendations"
+msgstr ""
+
+#: .\database\templates\home.html:185 .\database\templates\search.html:185
+msgid "Try It"
+msgstr ""
+
+#: .\database\templates\home.html:191 .\database\templates\search.html:191
+msgid "Trending Skills"
+msgstr ""
+
+#: .\database\templates\home.html:193 .\database\templates\search.html:193
+msgid "AI"
+msgstr ""
+
+#: .\database\templates\home.html:194 .\database\templates\search.html:194
+msgid "Cloud Computing"
+msgstr ""
+
+#: .\database\templates\home.html:195 .\database\templates\search.html:195
+msgid "IoT"
+msgstr ""
+
+#: .\database\templates\home.html:196 .\database\templates\home.html:233
+#: .\database\templates\search.html:196 .\database\templates\search.html:233
+msgid "Cybersecurity"
+msgstr ""
+
+#: .\database\templates\home.html:197 .\database\templates\search.html:197
+msgid "Data Science"
+msgstr ""
+
+#: .\database\templates\home.html:198 .\database\templates\search.html:198
+msgid "Robotics"
+msgstr ""
+
+#: .\database\templates\home.html:203 .\database\templates\home.html:221
+#: .\database\templates\search.html:203 .\database\templates\search.html:221
+msgid "Popular Courses"
+msgstr ""
+
+#: .\database\templates\home.html:206 .\database\templates\home.html:225
+#: .\database\templates\search.html:206 .\database\templates\search.html:225
+msgid "Introduction to AI"
+msgstr ""
+
+#: .\database\templates\home.html:207 .\database\templates\home.html:226
+#: .\database\templates\search.html:207 .\database\templates\search.html:226
+msgid ""
+"Learn the fundamentals of Artificial Intelligence and its real-world "
+"applications."
+msgstr ""
+
+#: .\database\templates\home.html:210 .\database\templates\search.html:210
+msgid "Cloud Infrastructure"
+msgstr ""
+
+#: .\database\templates\home.html:211 .\database\templates\search.html:211
+msgid "Understand cloud technologies and infrastructure management."
+msgstr ""
+
+#: .\database\templates\home.html:214 .\database\templates\search.html:214
+msgid "IoT for Engineers"
+msgstr ""
+
+#: .\database\templates\home.html:215 .\database\templates\search.html:215
+msgid ""
+"Explore the Internet of Things and how it's transforming modern engineering."
+msgstr ""
+
+#: .\database\templates\home.html:229 .\database\templates\search.html:229
+msgid "Networking"
+msgstr ""
+
+#: .\database\templates\home.html:230 .\database\templates\search.html:230
+msgid ""
+"ain insights into computer networks, protocols, routing, switching, and "
+"secure communication systems."
+msgstr ""
+
+#: .\database\templates\home.html:234 .\database\templates\search.html:234
+msgid ""
+"Understand threat analysis, cryptography, ethical hacking, and how to secure "
+"digital infrastructure."
+msgstr ""
+
+#: .\database\templates\home.html:249 .\database\templates\search.html:249
+msgid "About Mandalay Technological University"
+msgstr ""
+
+#: .\database\templates\home.html:251 .\database\templates\search.html:251
+msgid ""
+"Mandalay Technological University (MTU) is one of the most prestigious "
+"engineering universities in Myanmar, committed to academic excellence, "
+"cutting-edge research, and innovative teaching. With a rich history and "
+"state-of-the-art facilities, MTU fosters a vibrant learning environment that "
+"empowers students to become future-ready engineers, scientists, and leaders."
+msgstr ""
+
+#: .\database\templates\libiary.html:9
+msgid "Library Resources | MTU"
+msgstr ""
+
+#: .\database\templates\libiary.html:65
+msgid "Library Resources"
+msgstr ""
+
+#: .\database\templates\libiary.html:74
+msgid "Search books..."
+msgstr ""
+
+#: .\database\templates\libiary.html:100
+msgid "Author"
+msgstr ""
+
+#: .\database\templates\login.html:170
+msgid "Student Login"
+msgstr ""
+
+#: .\database\templates\login.html:176 .\database\templates\register.html:181
+msgid "Student ID"
+msgstr ""
+
+#: .\database\templates\login.html:181 .\database\templates\login.html:207
+#: .\database\templates\register.html:187
+msgid "Password"
+msgstr ""
+
+#: .\database\templates\login.html:186
+msgid "Login"
+msgstr ""
+
+#: .\database\templates\login.html:188
+msgid "Register instead?"
+msgstr ""
+
+#: .\database\templates\login.html:197 .\database\templates\login.html:212
+msgid "Admin Login"
+msgstr ""
+
+#: .\database\templates\login.html:202
+msgid "Admin Username"
+msgstr ""
+
+#: .\database\templates\login.html:219 .\database\templates\register.html:208
+msgid "© 2023 Mandalay Technological University"
+msgstr ""
+
+#: .\database\templates\news.html:178
+msgid "Active News and Events"
+msgstr ""
+
+#: .\database\templates\news.html:186
+msgid "Read more"
+msgstr ""
+
+#: .\database\templates\news.html:188
+msgid "Active until"
+msgstr ""
+
+#: .\database\templates\news.html:191
+msgid "No news or events at the moment."
+msgstr ""
+
+#: .\database\templates\register.html:10
+msgid "Registration Page"
+msgstr ""
+
+#: .\database\templates\register.html:175
+msgid "Create Account"
+msgstr ""
+
+#: .\database\templates\register.html:183
+msgid "Must match your official university ID"
+msgstr ""
+
+#: .\database\templates\register.html:189
+msgid "At least 8 characters"
+msgstr ""
+
+#: .\database\templates\register.html:193
+msgid "Confirm Password"
+msgstr ""
+
+#: .\database\templates\register.html:198
+msgid "Register"
+msgstr ""
+
+#: .\database\templates\register.html:200
+msgid "Login Here"
+msgstr ""
+
+#: .\database\templates\research.html:7 .\database\templates\research.html:248
+msgid "Research at MTU"
+msgstr ""
+
+#: .\database\templates\research.html:244
+msgid "RESEARCH"
+msgstr ""
+
+#: .\database\templates\research.html:249
+msgid "Explore our latest university research and publications."
+msgstr ""
+
+#: .\database\templates\research.html:252
+msgid "Summarize your research documents here"
+msgstr ""
+
+#: .\database\templates\research.html:255
+msgid "Search research..."
+msgstr ""
+
+#: .\database\templates\research.html:272
+msgid "Researcher"
+msgstr ""
+
+#: .\database\templates\research.html:280
+msgid "View Document"
+msgstr ""
+
+#: .\database\templates\research.html:287
+msgid "No research found."
+msgstr ""
+
+#: .\database\templates\results.html:85
+#, python-format
+msgid "Grade Predictions for %(student_name)s"
+msgstr ""
+
+#: .\database\templates\sample.html:96
+msgid "Welcome to MTU Search Engine"
+msgstr ""
+
+#: .\database\templates\sample.html:106
+msgid "Try: \"Project ideas\""
+msgstr ""
+
+#: .\database\templates\sample.html:114
+msgid "Books"
+msgstr ""
+
+#: .\database\templates\sample.html:135
+msgid "No books found."
+msgstr ""
+
+#: .\database\templates\sample.html:144
+msgid "Courses"
+msgstr ""
+
+#: .\database\templates\sample.html:161
+msgid "No courses found."
+msgstr ""
+
+#: .\database\templates\sample.html:169
+msgid "News Articles"
+msgstr ""
+
+#: .\database\templates\sample.html:187
+msgid "No news articles found."
+msgstr ""
+
+#: .\database\templates\sample.html:196
+msgid "Research Papers"
+msgstr ""
+
+#: .\database\templates\sample.html:215
+msgid "No research papers found."
+msgstr ""
+
+#: .\database\templates\sample.html:224
+msgid "Additional Resources"
+msgstr ""
+
+#: .\database\templates\scores.html:9 .\database\templates\scores2.html:9
+msgid "Academic Records"
+msgstr ""
+
+#: .\database\templates\scores.html:69 .\database\templates\scores2.html:69
+#, python-format
+msgid "Academic Records for %(student_name)s"
+msgstr ""
+
+#: .\database\templates\scores.html:82 .\database\templates\scores2.html:82
+msgid "Subject"
+msgstr ""
+
+#: .\database\templates\scores.html:83 .\database\templates\scores2.html:83
+msgid "Code"
+msgstr ""
+
+#: .\database\templates\scores.html:84 .\database\templates\scores2.html:84
+msgid "Attendance"
+msgstr ""
+
+#: .\database\templates\scores.html:85 .\database\templates\scores2.html:85
+msgid "Assignments"
+msgstr ""
+
+#: .\database\templates\scores.html:86 .\database\templates\scores2.html:86
+msgid "Tutorial"
+msgstr ""
+
+#: .\database\templates\scores.html:87 .\database\templates\scores2.html:87
+msgid "Final"
+msgstr ""
+
+#: .\database\templates\scores.html:88 .\database\templates\scores2.html:88
+msgid "Total"
+msgstr ""
+
+#: .\database\templates\scores.html:114 .\database\templates\scores2.html:114
+msgid "Generate Grade Prediction"
+msgstr ""
+
+#: .\database\templates\search.html:162
+msgid "Check Student Grades"
+msgstr ""
+
+#: .\database\templates\upload.html:259
+msgid "Upload PDF for Summarization"
+msgstr ""
+
+#: .\database\templates\upload.html:260
+msgid "Upload your research documents to generate AI-powered summaries"
+msgstr ""
+
+#: .\database\templates\upload.html:265
+msgid "Document Title"
+msgstr ""
+
+#: .\database\templates\upload.html:266
+msgid "Enter document title"
+msgstr ""
+
+#: .\database\templates\upload.html:269
+msgid "PDF File"
+msgstr ""
+
+#: .\database\templates\upload.html:273 .\database\templates\upload.html:347
+msgid "Choose a PDF file"
+msgstr ""
+
+#: .\database\templates\upload.html:277
+msgid "Only PDF files are accepted (max 10MB)"
+msgstr ""
+
+#: .\database\templates\upload.html:280
+msgid "Upload and Summarize"
+msgstr ""
+
+#: .\djangodb\settings.py:192
+msgid "English (US)"
+msgstr ""
+
+#: .\djangodb\settings.py:193
+msgid "English (UK)"
+msgstr ""
+
+#: .\djangodb\settings.py:195
+msgid "Español"
+msgstr ""

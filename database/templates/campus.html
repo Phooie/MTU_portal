@@ -1,0 +1,219 @@
+{% load static %} 
+{% load i18n lang_switcher %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %} 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% trans "AI-Powered Smart MTU Website" %}</title>
+  <link rel="stylesheet" href="{% static 'why2.css' %}">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <style>
+    :root {
+      --text-color: #fffbe6;
+      --main-color:rgb(198, 8, 8);
+      --bg-color: #ffd700;
+      --primary-color: hsl(212, 100%, 18%);
+      --secondary-color: #1e293b;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: var(--primary-color);
+      color: var(--text-color);
+      line-height: 1.6;
+    }
+
+    header {
+      font-size: 2.9rem;
+      background: var(--primary-color);
+      color: var(--bg-color);
+      padding: 2rem 5%;
+      text-align: center;
+    }
+
+    section {
+      margin: 0 auto 7rem auto;
+      padding: 7rem 5%;
+    }
+
+    .intro {
+      font-size: 1.2rem;
+      max-width: 800px;
+      margin: 0 auto 3rem auto;
+      text-align: center;
+      color: var(--text-color);
+    }
+
+    .life-section {
+      margin-bottom: 5rem;
+    }
+
+    .text {
+      margin-bottom: 1.5rem;
+    }
+
+    .text h2 {
+      color: var(--main-color);
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .text p {
+      font-size: 1.05rem;
+      max-width: 850px;
+    }
+
+    .image-gallery {
+      display: flex;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+    }
+
+    .image-gallery img {
+      width: 32%;
+      border-radius: 12px;
+      object-fit: cover;
+      height: 350px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      transition: transform 0.3s ease;
+    }
+
+    .image-gallery img:hover {
+      transform: scale(1.03);
+    }
+  </style>
+</head>
+<body style="height: 100%;">
+
+  <!-- nav-bar start -->
+<header class="main-header">
+  <div class="header-container">
+    <div class="left-section">
+
+      <div class="logo-section">
+        <img src="{% static 'images/Logo_of_MTU.png' %}" alt="{% trans 'University Logo' %}" class="logo">
+        <div class="university-name">
+          <span class="line1">{% trans "Mandalay" %}</span>
+          <span class="line2">{% trans "Technological" %}</span>
+          <span class="line3">{% trans "University" %}</span>
+        </div>
+      </div>
+
+      <div class="nav-links">
+        <div class="top-links">
+          <a href="{% url 'news' %}" class="btn btn-sm btn-outline-warning">{% trans "News & Events" %}</a>
+          <a href="{% url 'libiary' %}" class="btn btn-sm btn-outline-warning">{% trans "Library" %}</a>
+          <a href="{% url 'research' %}" class="btn btn-sm btn-outline-warning">{% trans "Research" %}</a>
+          <a href="{% url 'campus' %}">{% trans "Campus Life" %}</a>
+          
+        </div>
+        <div class="bottom-links">
+          <a href="{% url 'home' %}">{% trans "Home" %}</a>
+          <a href="{% url 'departments' %}">{% trans "Departments" %}</a>
+          <a href="#mtu-footer">{% trans "Contact us" %}</a>
+          <a onclick="openChatbot()">{% trans "Admission" %}</a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="right-section">
+      <a href="{% url 'logout' %}" class="logout-link"><i class='bx bxs-user'></i>{% trans "Logout" %}</a>
+
+
+        <!-- <div class="language-switcher">
+            <a href="{% change_lang 'us' %}" class="lang-option">
+                <img src="https://flagcdn.com/w40/us.png" alt="EN" class="flag-icon"> {% trans "English" %}</a>
+            <a href="{% change_lang 'my' %}" class="lang-option">
+                <img src="https://flagcdn.com/w40/mm.png" alt="MM" class="flag-icon"> {% trans "မြန်မာ" %}</a>
+        </div> -->
+
+
+         <div class="language-switcher">
+          <button class="lang-btn">
+           <img src="https://flagcdn.com/w40/us.png" alt="EN" class="flag-icon">English<i class='bx bx-chevron-down arrow'></i>
+          </button>
+        <div class="dropdown">
+         <a href="{% change_lang 'us' %}" class="lang-option">
+          <img src="https://flagcdn.com/w40/us.png" alt="EN" class="flag-icon"> English</a>
+         <a href="{% change_lang 'my' %}" class="lang-option">
+          <img src="https://flagcdn.com/w40/mm.png" alt="MM" class="flag-icon"> မြန်မာ</a>
+  </div>
+    </div>
+  </div>
+</header>
+<!-- nav bar end -->
+
+  <section>
+    <header>{% trans "Campus Life | Mandalay Technological University" %}</header>
+    <p class="intro">
+      {% trans "Mandalay Technological University offers a vibrant and diverse campus experience, blending academic pursuit with cultural, social, and extracurricular opportunities. Here's a glimpse into student life at MTU." %}
+    </p>
+
+    <!-- Campus Environment -->
+<div class="life-section">
+  <div class="text">
+    <h2>🏞️ {% trans "Campus Environment" %}</h2>
+    <p>
+      {% trans "Located in the northern part of Mandalay, MTU's campus blends academic excellence with a serene and green environment. Spread over a spacious area, the campus features modern academic buildings, technology-equipped lecture halls, libraries, research centers, and recreational zones.
+      The natural surroundings, shaded walkways, and gardens provide an inspiring atmosphere for learning and innovation. It’s a hub of energy during weekdays and a peaceful retreat for focused study during weekends." %}
+    </p>
+  </div>
+  <div class="image-gallery">
+    <img src="{%static 'images\image7.jpg'%}" alt="">
+    <img src="{%static 'images\image8.jpg'%}" alt="">
+    <img src="{%static 'images\image9.jpg'%}" alt="">
+  </div>
+</div>
+
+
+    <!-- Academic Culture -->
+    <div class="life-section">
+      <div class="text">
+        <h2>🎓 {% trans "Academic Culture" %}</h2>
+        <p>{% trans "Students engage in innovative research, hands-on lab work, and collaborative projects that prepare them for real-world challenges in engineering and technology fields." %}</p>
+      </div>
+      <div class="image-gallery">
+        <img src="{%static 'images\image1.jpg'%}" alt="">
+        <img src="{%static 'images\image3.jpg'%}" alt="">
+        <img src="{%static 'images\image2.jpg'%}" alt="">
+      </div>
+    </div>
+
+    <!-- Sports & Recreation -->
+    <div class="life-section">
+      <div class="text">
+        <h2>🏀 {% trans "Sports & Recreation" %}</h2>
+        <p>{% trans "Our campus includes modern sports facilities, from basketball courts to a full fitness center. Students actively participate in intramural and inter-university competitions." %}</p>
+      </div>
+      <div class="image-gallery">
+        <img src="{%static 'images\image4.jpg'%}" alt="">
+        <img src="{%static 'images\image5.jpeg'%}" alt="">
+        <img src="{%static 'images\image6.jpg'%}" alt="">
+      </div>
+    </div>
+
+    <!-- Cultural Activities -->
+    <div class="life-section">
+      <div class="text">
+        <h2>🎭 {% trans "Cultural Activities" %}</h2>
+        <p>{% trans "From traditional Myanmar festivals to modern art showcases, MTU celebrates cultural diversity and creativity through year-round student-led events." %}</p>
+      </div>
+      <div class="image-gallery">
+        <img src="{%static 'images\image10.jpeg'%}" alt="">
+        <img src="{%static 'images\image11.jpeg'%}" alt="">
+        <img src="{%static 'images\image12.jpg'%}" alt="">
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>

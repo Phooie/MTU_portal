@@ -1,0 +1,402 @@
+[
+     {
+        "title": "AI in Healthcare",
+        "researcher": "Dr. Alice Brown",
+        "abstract": "Exploring AI applications in healthcare for diagnostics and treatment.",
+        "publication_date": "2024-02-10",
+        "category": "CEIT",
+        "document_link": "https://example.com/research-ai"
+    },
+    {
+        "title": "Quantum Computing Breakthroughs",
+        "researcher": "Prof. John Doe",
+        "abstract": "Recent advancements in quantum computing and their implications.",
+        "publication_date": "2023-12-01",
+        "category": "CEIT",
+        "document_link": "https://example.com/research-quantum"
+    },
+    {
+        "title": "Cybersecurity in IoT",
+        "researcher": "Dr. Emily Clark",
+        "abstract": "Security challenges and solutions in Internet of Things devices.",
+        "publication_date": "2024-01-15",
+        "category": "CEIT",
+        "document_link": "https://example.com/research-iot-security"
+    },
+    {
+        "title": "Blockchain for Supply Chain",
+        "researcher": "Prof. Michael Lee",
+        "abstract": "Blockchain technology applications in supply chain management.",
+        "publication_date": "2023-11-20",
+        "category": "CEIT",
+        "document_link": "https://example.com/research-blockchain-supply"
+    },
+    {
+        "title": "Edge Computing Trends",
+        "researcher": "Dr. Sarah Kim",
+        "abstract": "Analyzing the growth and use-cases of edge computing.",
+        "publication_date": "2024-03-05",
+        "category": "CEIT",
+        "document_link": "https://example.com/research-edge-computing"
+    },
+     {
+        "title": "Sustainable Concrete Materials",
+        "researcher": "Dr. Richard Stone",
+        "abstract": "Innovations in eco-friendly concrete for construction.",
+        "publication_date": "2023-10-30",
+        "category": "Civil",
+        "document_link": "https://example.com/research-sustainable-concrete"
+    },
+    {
+        "title": "Earthquake-Resistant Structures",
+        "researcher": "Prof. Anna Ramirez",
+        "abstract": "Techniques for improving seismic resilience in buildings.",
+        "publication_date": "2024-01-22",
+        "category": "Civil",
+        "document_link": "https://example.com/research-earthquake-structures"
+    },
+    {
+        "title": "Smart Cities Infrastructure",
+        "researcher": "Dr. Kevin Wong",
+        "abstract": "Integration of IoT in urban infrastructure development.",
+        "publication_date": "2024-03-01",
+        "category": "Civil",
+        "document_link": "https://example.com/research-smart-cities"
+    },
+    {
+        "title": "Water Resource Management",
+        "researcher": "Prof. Laura Chen",
+        "abstract": "Strategies for sustainable water supply and treatment.",
+        "publication_date": "2023-12-10",
+        "category": "Civil",
+        "document_link": "https://example.com/research-water-management"
+    },
+    {
+        "title": "Bridge Design Optimization",
+        "researcher": "Dr. James Thompson",
+        "abstract": "Advanced modeling for efficient bridge engineering.",
+        "publication_date": "2024-02-14",
+        "category": "Civil",
+        "document_link": "https://example.com/research-bridge-design"
+    },
+    {
+        "title": "Green Building Technologies",
+        "researcher": "Dr. Michelle Adams",
+        "abstract": "Innovative materials and designs for energy-efficient buildings.",
+        "publication_date": "2023-11-12",
+        "category": "Architectural",
+        "document_link": "https://example.com/research-green-buildings"
+    },
+    {
+        "title": "Acoustic Design in Architecture",
+        "researcher": "Prof. David King",
+        "abstract": "Methods to optimize sound quality in architectural spaces.",
+        "publication_date": "2024-02-03",
+        "category": "Architectural",
+        "document_link": "https://example.com/research-acoustic-design"
+    },
+    {
+        "title": "Building Information Modeling (BIM)",
+        "researcher": "Dr. Samantha Lee",
+        "abstract": "Applications of BIM for construction project management.",
+        "publication_date": "2023-12-28",
+        "category": "Architectural",
+        "document_link": "https://example.com/research-bim"
+    },
+    {
+        "title": "Daylighting and Energy Savings",
+        "researcher": "Prof. Mark Robinson",
+        "abstract": "Using natural light to reduce building energy consumption.",
+        "publication_date": "2024-01-18",
+        "category": "Architectural",
+        "document_link": "https://example.com/research-daylighting"
+    },
+    {
+        "title": "Fire Safety Engineering",
+        "researcher": "Dr. Lisa Martinez",
+        "abstract": "Innovations in fire prevention and safety in buildings.",
+        "publication_date": "2023-10-05",
+        "category": "Architectural",
+        "document_link": "https://example.com/research-fire-safety"
+    },
+    {
+        "title": "Advanced Thermal Systems",
+        "researcher": "Dr. Peter Collins",
+        "abstract": "Development of efficient heat exchange systems.",
+        "publication_date": "2023-11-20",
+        "category": "Mechanical",
+        "document_link": "https://example.com/research-thermal-systems"
+    },
+    {
+        "title": "Robotics in Manufacturing",
+        "researcher": "Prof. Angela Brooks",
+        "abstract": "Use of robotics to enhance production efficiency.",
+        "publication_date": "2024-01-25",
+        "category": "Mechanical",
+        "document_link": "https://example.com/research-robotics-manufacturing"
+    },
+    {
+        "title": "Materials for Aerospace",
+        "researcher": "Dr. Carlos Sanchez",
+        "abstract": "Lightweight composites for aerospace applications.",
+        "publication_date": "2023-12-15",
+        "category": "Mechanical",
+        "document_link": "https://example.com/research-aerospace-materials"
+    },
+    {
+        "title": "Computational Fluid Dynamics",
+        "researcher": "Prof. Helen White",
+        "abstract": "Simulation techniques in fluid mechanics.",
+        "publication_date": "2024-02-10",
+        "category": "Mechanical",
+        "document_link": "https://example.com/research-cfd"
+    },
+    {
+        "title": "Renewable Energy Machines",
+        "researcher": "Dr. Samir Patel",
+        "abstract": "Design of machines for renewable energy production.",
+        "publication_date": "2023-10-30",
+        "category": "Mechanical",
+        "document_link": "https://example.com/research-renewable-machines"
+    },
+    {
+        "title": "Smart Grid Technologies",
+        "researcher": "Dr. Olivia Green",
+        "abstract": "Modernizing power grids for efficiency and reliability.",
+        "publication_date": "2024-01-10",
+        "category": "Electrical Power",
+        "document_link": "https://example.com/research-smart-grid"
+    },
+    {
+        "title": "Energy Storage Solutions",
+        "researcher": "Prof. Richard Park",
+        "abstract": "Innovative battery technologies for grid storage.",
+        "publication_date": "2023-11-18",
+        "category": "Electrical Power",
+        "document_link": "https://example.com/research-energy-storage"
+    },
+    {
+        "title": "Power Electronics Advances",
+        "researcher": "Dr. Linda Zhao",
+        "abstract": "Developments in semiconductor devices for power control.",
+        "publication_date": "2024-02-22",
+        "category": "Electrical Power",
+        "document_link": "https://example.com/research-power-electronics"
+    },
+    {
+        "title": "Renewable Energy Integration",
+        "researcher": "Prof. George Liu",
+        "abstract": "Challenges and solutions for integrating renewables into grids.",
+        "publication_date": "2023-12-05",
+        "category": "Electrical Power",
+        "document_link": "https://example.com/research-renewables-integration"
+    },
+    {
+        "title": "Electrical Safety Engineering",
+        "researcher": "Dr. Emma Clark",
+        "abstract": "Techniques to improve safety in electrical systems.",
+        "publication_date": "2023-10-12",
+        "category": "Electrical Power",
+        "document_link": "https://example.com/research-electrical-safety"
+    },
+    {
+        "title": "Nanoelectronics Research",
+        "researcher": "Dr. Kevin Huang",
+        "abstract": "Exploration of nanoscale electronic devices.",
+        "publication_date": "2023-11-28",
+        "category": "Electronics",
+        "document_link": "https://example.com/research-nanoelectronics"
+    },
+    {
+        "title": "Wireless Communication Systems",
+        "researcher": "Prof. Rachel Ng",
+        "abstract": "Advances in 5G and beyond wireless networks.",
+        "publication_date": "2024-01-05",
+        "category": "Electronics",
+        "document_link": "https://example.com/research-wireless-comms"
+    },
+    {
+        "title": "Semiconductor Device Fabrication",
+        "researcher": "Dr. Matthew Lopez",
+        "abstract": "Techniques for creating semiconductor chips.",
+        "publication_date": "2023-12-19",
+        "category": "Electronics",
+        "document_link": "https://example.com/research-semiconductors"
+    },
+    {
+        "title": "Embedded System Security",
+        "researcher": "Prof. Anita Sharma",
+        "abstract": "Protecting embedded devices from cyber threats.",
+        "publication_date": "2024-02-08",
+        "category": "Electronics",
+        "document_link": "https://example.com/research-embedded-security"
+    },
+    {
+        "title": "Flexible Electronics",
+        "researcher": "Dr. Omar Farooq",
+        "abstract": "Development of bendable and stretchable electronic devices.",
+        "publication_date": "2023-10-22",
+        "category": "Electronics",
+        "document_link": "https://example.com/research-flexible-electronics"
+    },
+    {
+        "title": "Sustainable Mining Practices",
+        "researcher": "Dr. Nina Patel",
+        "abstract": "Reducing environmental impact of mining operations.",
+        "publication_date": "2023-11-11",
+        "category": "Mining",
+        "document_link": "https://example.com/research-sustainable-mining"
+    },
+    {
+        "title": "Mine Safety Technology",
+        "researcher": "Prof. Tom Baker",
+        "abstract": "Innovations for improving underground mine safety.",
+        "publication_date": "2024-01-30",
+        "category": "Mining",
+        "document_link": "https://example.com/research-mine-safety"
+    },
+    {
+        "title": "Ore Processing Improvements",
+        "researcher": "Dr. Susan Lee",
+        "abstract": "New methods to enhance ore extraction efficiency.",
+        "publication_date": "2023-12-12",
+        "category": "Mining",
+        "document_link": "https://example.com/research-ore-processing"
+    },
+    {
+        "title": "Environmental Monitoring in Mines",
+        "researcher": "Prof. Mark Jensen",
+        "abstract": "Techniques for monitoring environmental parameters in mining.",
+        "publication_date": "2024-02-18",
+        "category": "Mining",
+        "document_link": "https://example.com/research-environmental-monitoring"
+    },
+    {
+        "title": "Automation in Mining",
+        "researcher": "Dr. Emily Chen",
+        "abstract": "Use of autonomous vehicles and robotics in mining.",
+        "publication_date": "2023-10-29",
+        "category": "Mining",
+        "document_link": "https://example.com/research-mining-automation"
+    },
+     {
+        "title": "Green Chemical Processes",
+        "researcher": "Dr. Hannah Wilson",
+        "abstract": "Designing environmentally friendly chemical manufacturing.",
+        "publication_date": "2023-12-02",
+        "category": "Chemical",
+        "document_link": "https://example.com/research-green-chemicals"
+    },
+    {
+        "title": "Catalyst Development",
+        "researcher": "Prof. James Kim",
+        "abstract": "New catalysts for energy-efficient reactions.",
+        "publication_date": "2024-01-20",
+        "category": "Chemical",
+        "document_link": "https://example.com/research-catalysts"
+    },
+    {
+        "title": "Process Safety Management",
+        "researcher": "Dr. Linda Garcia",
+        "abstract": "Risk assessment and management in chemical plants.",
+        "publication_date": "2023-11-10",
+        "category": "Chemical",
+        "document_link": "https://example.com/research-process-safety"
+    },
+    {
+        "title": "Biochemical Reactor Design",
+        "researcher": "Prof. Robert Lewis",
+        "abstract": "Optimizing reactors for biochemical processes.",
+        "publication_date": "2024-02-12",
+        "category": "Chemical",
+        "document_link": "https://example.com/research-bioreactors"
+    },
+    {
+        "title": "Polymer Science Advances",
+        "researcher": "Dr. Maria Sanchez",
+        "abstract": "Innovations in polymer synthesis and applications.",
+        "publication_date": "2023-10-25",
+        "category": "Chemical",
+        "document_link": "https://example.com/research-polymers"
+    },
+    {
+        "title": "Autonomous Robots",
+        "researcher": "Dr. James Miller",
+        "abstract": "Development of robots with autonomous navigation.",
+        "publication_date": "2024-01-05",
+        "category": "Mechatronics",
+        "document_link": "https://example.com/research-autonomous-robots"
+    },
+    {
+        "title": "Sensor Fusion Techniques",
+        "researcher": "Prof. Sophia Turner",
+        "abstract": "Combining data from multiple sensors for accuracy.",
+        "publication_date": "2023-12-22",
+        "category": "Mechatronics",
+        "document_link": "https://example.com/research-sensor-fusion"
+    },
+    {
+        "title": "Human-Robot Interaction",
+        "researcher": "Dr. Daniel Kim",
+        "abstract": "Improving interfaces between humans and robots.",
+        "publication_date": "2023-11-15",
+        "category": "Mechatronics",
+        "document_link": "https://example.com/research-human-robot"
+    },
+    {
+        "title": "Embedded Control Systems",
+        "researcher": "Prof. Emily Davis",
+        "abstract": "Design of embedded controllers for mechatronic devices.",
+        "publication_date": "2024-02-28",
+        "category": "Mechatronics",
+        "document_link": "https://example.com/research-embedded-control"
+    },
+    {
+        "title": "Actuator Technologies",
+        "researcher": "Dr. Victor Lee",
+        "abstract": "New developments in actuators for precise control.",
+        "publication_date": "2023-10-18",
+        "category": "Mechatronics",
+        "document_link": "https://example.com/research-actuators"
+    },
+    {
+        "title": "CRISPR Gene Editing",
+        "researcher": "Dr. Jennifer Doudna",
+        "abstract": "Exploring the CRISPR-Cas9 gene editing technology.",
+        "publication_date": "2024-01-17",
+        "category": "Biotechnology",
+        "document_link": "https://example.com/research-crispr"
+    },
+    {
+        "title": "Synthetic Biology",
+        "researcher": "Prof. George Church",
+        "abstract": "Designing new biological parts and systems.",
+        "publication_date": "2023-12-07",
+        "category": "Biotechnology",
+        "document_link": "https://example.com/research-synthetic-bio"
+    },
+    {
+        "title": "Bioprocess Optimization",
+        "researcher": "Dr. Anjali Kumar",
+        "abstract": "Improving yields in bioprocess engineering.",
+        "publication_date": "2023-11-20",
+        "category": "Biotechnology",
+        "document_link": "https://example.com/research-bioprocess"
+    },
+    {
+        "title": "Cell Therapy Advances",
+        "researcher": "Prof. Michael Young",
+        "abstract": "Developing therapies using cultured cells.",
+        "publication_date": "2024-02-25",
+        "category": "Biotechnology",
+        "document_link": "https://example.com/research-cell-therapy"
+    },
+    {
+        "title": "Bioinformatics Tools",
+        "researcher": "Dr. Lisa Nguyen",
+        "abstract": "Computational methods for biological data analysis.",
+        "publication_date": "2023-10-29",
+        "category": "Biotechnology",
+        "document_link": "https://example.com/research-bioinformatics"
+    }
+]

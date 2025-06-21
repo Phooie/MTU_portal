@@ -1,0 +1,212 @@
+[
+    {
+        "id": 1,
+        "title": "Civil Engineering Courses",
+        "instructor": "Various",
+        "course_link": "https://www.coursera.org/courses?query=civil+engineering",
+        "category": "CE"
+    },
+    {
+        "id": 2,
+        "title": "Civil Engineering Programs",
+        "instructor": "Various",
+        "course_link": "https://www.edx.org/learn/civil-engineering",
+        "category": "CE"
+    },
+    {
+        "id": 3,
+        "title": "AutoCAD, STAAD Pro Training",
+        "instructor": "Various",
+        "course_link": "https://www.udemy.com/topic/civil-engineering/",
+        "category": "CE"
+    },
+    {
+        "id": 4,
+        "title": "Mechanical Engineering Courses",
+        "instructor": "Various",
+        "course_link": "https://www.coursera.org/browse/physical-science-and-engineering/mechanical-engineering",
+        "category": "ME"
+    },
+    {
+        "id": 5,
+        "title": "Mechanical Engineering Programs",
+        "instructor": "Various",
+        "course_link": "https://www.edx.org/learn/mechanical-engineering",
+        "category": "ME"
+    },
+    {
+        "id": 6,
+        "title": "Machine Design & HVAC Training",
+        "instructor": "Various",
+        "course_link": "https://www.udemy.com/topic/mechanical-engineering/",
+        "category": "ME"
+    },
+    {
+        "id": 7,
+        "title": "Electrical Engineering Courses",
+        "instructor": "Various",
+        "course_link": "https://www.coursera.org/browse/physical-science-and-engineering/electrical-engineering",
+        "category": "EP"
+    },
+    {
+        "id": 8,
+        "title": "Electrical Engineering Programs",
+        "instructor": "Various",
+        "course_link": "https://www.edx.org/learn/electrical-engineering",
+        "category": "EP"
+    },
+    {
+        "id": 9,
+        "title": "Electrical Design & Power Systems",
+        "instructor": "Various",
+        "course_link": "https://www.udemy.com/topic/electrical-engineering/",
+        "category": "EP"
+    },
+    {
+        "id": 10,
+        "title": "Electronics Courses",
+        "instructor": "Various",
+        "course_link": "https://www.coursera.org/courses?query=electronics",
+        "category": "EC"
+    },
+    {
+        "id": 11,
+        "title": "Electronics Programs",
+        "instructor": "Various",
+        "course_link": "https://www.edx.org/learn/electronics",
+        "category": "EC"
+    },
+    {
+        "id": 12,
+        "title": "IoT & PCB Design Courses",
+        "instructor": "Various",
+        "course_link": "https://www.udemy.com/topic/electronics/",
+        "category": "EC"
+    },
+    {
+        "id": 13,
+        "title": "Computer Engineering Courses",
+        "instructor": "Various",
+        "course_link": "https://www.coursera.org/courses?query=computer+engineering",
+        "category": "CEIT"
+    },
+    {
+        "id": 14,
+        "title": "Computer Engineering Programs",
+        "instructor": "Various",
+        "course_link": "https://www.edx.org/learn/computer-engineering",
+        "category": "CEIT"
+    },
+    {
+        "id": 15,
+        "title": "Programming & System Design",
+        "instructor": "Various",
+        "course_link": "https://www.udemy.com/topic/computer-engineering/",
+        "category": "CEIT"
+    },
+    {
+        "id": 16,
+        "title": "Mechatronics Overview",
+        "instructor": "Various",
+        "course_link": "https://www.classcentral.com/subject/mechatronics",
+        "category": "MC"
+    },
+    {
+        "id": 17,
+        "title": "Mechatronics Programs",
+        "instructor": "Various",
+        "course_link": "https://www.edx.org/learn/mechatronics",
+        "category": "MC"
+    },
+    {
+        "id": 18,
+        "title": "Multimechatronics Courses",
+        "instructor": "Various",
+        "course_link": "https://multimechatronics.com/",
+        "category": "MC"
+    },
+    {
+        "id": 19,
+        "title": "Chemical Engineering Courses",
+        "instructor": "Various",
+        "course_link": "https://www.coursera.org/courses?query=chemical+engineering",
+        "category": "ChE"
+    },
+    {
+        "id": 20,
+        "title": "Chemical Engineering Programs",
+        "instructor": "Various",
+        "course_link": "https://www.edx.org/learn/chemical-engineering",
+        "category": "ChE"
+    },
+    {
+        "id": 21,
+        "title": "LearnChemE Resources",
+        "instructor": "Various",
+        "course_link": "https://learncheme.com/",
+        "category": "ChE"
+    },
+    {
+        "id": 22,
+        "title": "Nuclear Engineering Courses",
+        "instructor": "Various",
+        "course_link": "https://www.coursera.org/courses?query=nuclear",
+        "category": "NT"
+    },
+    {
+        "id": 23,
+        "title": "IAEA Online Training",
+        "instructor": "Various",
+        "course_link": "https://www.iaea.org/services/education-and-training/online-learning",
+        "category": "NT"
+    },
+    {
+        "id": 24,
+        "title": "MIT Nuclear Science",
+        "instructor": "Various",
+        "course_link": "https://openlearning.mit.edu/news/power-your-learning-free-mit-courses-nuclear-science",
+        "category": "NT"
+    },
+    {
+        "id": 25,
+        "title": "Mining Courses",
+        "instructor": "Various",
+        "course_link": "https://www.edx.org/learn/mining",
+        "category": "MinE"
+    },
+    {
+        "id": 26,
+        "title": "AusIMM Mining Courses",
+        "instructor": "Various",
+        "course_link": "https://www.ausimm.com/courses/",
+        "category": "MinE"
+    },
+    {
+        "id": 27,
+        "title": "MiningDoc Courses",
+        "instructor": "Various",
+        "course_link": "https://www.miningdoc.tech/online-courses/",
+        "category": "MinE"
+    },
+    {
+        "id": 28,
+        "title": "Architecture Courses",
+        "instructor": "Various",
+        "course_link": "https://www.coursera.org/courses?query=architecture",
+        "category": "Arch"
+    },
+    {
+        "id": 29,
+        "title": "Architecture Programs",
+        "instructor": "Various",
+        "course_link": "https://www.edx.org/learn/architecture",
+        "category": "Arch"
+    },
+    {
+        "id": 30,
+        "title": "Harvard Architectural Imagination",
+        "instructor": "Harvard",
+        "course_link": "https://pll.harvard.edu/course/architectural-imagination",
+        "category": "Arch"
+    }
+]

@@ -1,0 +1,354 @@
+{% load static %} {% load i18n lang_switcher %} 
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+  <meta charset="UTF-8" /> 
+  <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+  <title>{% trans "Research at MTU" %}</title>
+  
+  <link rel="stylesheet" href="{% static 'why2.css' %}">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <style> 
+    :root { 
+      --bg-dark: #1e293b; 
+      --bg-light: #f3f4f6; 
+      --accent-red: #a10000; 
+      --accent-gold: #ffd700; 
+      --text-dark: #1f2937; 
+      --text-light: #f9fafb; 
+      --primary-color: hsl(212, 100%, 18%); 
+    } 
+ 
+    * {  
+        margin: 0;  
+        padding: 0;  
+        box-sizing: border-box;  
+    } 
+ 
+    body { 
+      font-family: 'Segoe UI', sans-serif; 
+      display: flex; 
+      min-height: 100vh; 
+      background: var(--primary-color); 
+      color: var(--text-dark); 
+      padding-top: 120px; /* Add padding to account for fixed header */
+    } 
+ 
+    /* Sidebar strip */ 
+    .sidebar { 
+      background: var(--accent-red); 
+      padding: 2rem 1rem; 
+      color: white; 
+      writing-mode: vertical-rl; 
+      text-orientation: upright; 
+      font-size: 1.2rem; 
+      font-weight: bold; 
+    } 
+ 
+    /* Main content */ 
+    .main { 
+      flex: 1; 
+      padding: 2rem; 
+      overflow-y: auto; 
+    } 
+ 
+    .main .header { 
+      text-align: left; 
+      margin-bottom: 1rem; 
+    } 
+ 
+    .main .header h1 { 
+      color: white; 
+      font-size: 2.5rem; 
+      margin-bottom: 0.25rem; 
+    } 
+ 
+    .main .header p { 
+      color: rgb(142, 172, 220); 
+      margin-bottom: 1.5rem; 
+      font-size: 17px; 
+    } 
+ 
+    .upload-link { 
+      display: inline-block; 
+      background: rgb(195, 201, 211); 
+      color: var(--text-dark); 
+      padding: 10px 20px; 
+      border-radius: 25px; 
+      text-decoration: none; 
+      font-weight: bold; 
+      margin-bottom: 2rem; 
+      transition: background 0.3s; 
+    } 
+ 
+    .upload-link:hover { 
+      background: #e0c200; 
+    } 
+ 
+    .search-bar { 
+      display: flex; 
+      flex-wrap: wrap; 
+      gap: 1rem; 
+      margin-bottom: 2rem; 
+    } 
+ 
+    .search-bar input, 
+    .search-bar select { 
+      flex: 1 1 200px; 
+      padding: 10px; 
+      border: 2px solid var(--accent-red); 
+      border-radius: 25px; 
+    } 
+ 
+    .search-bar button { 
+      background: var(--accent-red); 
+      color: white; 
+      padding: 10px 20px; 
+      border-radius: 25px; 
+      border: none; 
+      cursor: pointer; 
+      transition: background 0.3s; 
+    } 
+ 
+    .search-bar button:hover { 
+      background: #e0c200; 
+    } 
+ 
+    .entry { 
+      display: flex; 
+      flex-wrap: wrap; 
+      justify-content: space-between; 
+      background: #2c3e60; 
+      padding: 1.5rem; 
+      margin-bottom: 1.5rem; 
+      border-left: 5px solid var(--accent-gold); 
+      border-radius: 4px; 
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05); 
+    } 
+ 
+    .entry-content { 
+      flex: 1; 
+    } 
+ 
+    .entry-content h2 { 
+      font-size: 1.4rem; 
+      color: #e0c200; 
+      margin-bottom: 0.5rem; 
+    } 
+     
+    .entry-content .meta { 
+      color:rgb(195, 201, 211); 
+      font-size: 0.9rem; 
+      margin-bottom: 0.8rem; 
+    } 
+     
+    .entry-content .abstract { 
+      font-size: 1rem; 
+      line-height: 1.6; 
+      margin-bottom: 0.8rem; 
+      color: rgb(142, 172, 220); 
+    } 
+ 
+    .entry-link { 
+      align-self: start; 
+      background: rgb(195, 201, 211); 
+      color: var(--text-dark); 
+      padding: 8px 16px; 
+      text-decoration: none; 
+      border-radius: 20px; 
+      font-weight: bold; 
+      height: fit-content; 
+      transition: background 0.3s; 
+    } 
+ 
+    .entry-link:hover { 
+      background: #e0c200; 
+    } 
+ 
+    .no-results { 
+      text-align: center; 
+      color: var(--accent-red); 
+      font-weight: bold; 
+      margin-top: 4rem; 
+    } 
+ 
+    /* Header positioning fix without changing colors */
+    .main-header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 1000;
+      width: 100%;
+      /* Remove any background color or box-shadow that was added */
+    }
+    
+    @media (max-width: 768px) { 
+      body { 
+        flex-direction: column; 
+        padding-top: 100px; /* Adjust for smaller header on mobile */
+      } 
+      .sidebar { display: none; } 
+      .entry { flex-direction: column; } 
+      .entry-link { margin-top: 1rem; } 
+    } 
+  </style> 
+</head> 
+
+<body>
+  <header class="main-header">
+    <div class="header-container">
+      <div class="left-section">
+        <div class="logo-section">
+          <img src="{% static 'images/Logo_of_MTU.png' %}" alt="{% trans 'University Logo' %}" class="logo">
+          <div class="university-name">
+            <span class="line1">{% trans "Mandalay" %}</span>
+            <span class="line2">{% trans "Technological" %}</span>
+            <span class="line3">{% trans "University" %}</span>
+          </div>
+        </div>
+
+        <div class="nav-links">
+          <div class="top-links">
+            <a href="{% url 'news' %}" class="btn btn-sm btn-outline-warning">{% trans "News & Events" %}</a>
+            <a href="{% url 'libiary' %}" class="btn btn-sm btn-outline-warning">{% trans "Library" %}</a>
+            <a href="{% url 'research' %}" class="btn btn-sm btn-outline-warning">{% trans "Research" %}</a>
+          </div>
+          <div class="bottom-links">
+            <a href="{% url 'home' %}">{% trans "Home" %}</a>
+            <a href="{% url 'departments' %}">{% trans "Departments" %}</a>
+            <a href="#mtu-footer">{% trans "Contact us" %}</a>
+            <a onclick="openChatbot()">{% trans "Admission" %}</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="right-section">
+        <a href="{% url 'logout' %}" class="logout-link"><i class='bx bxs-user'></i>{% trans "Logout" %}</a>
+
+        <div class="language-switcher">
+          <button class="lang-btn">
+           <img src="https://flagcdn.com/w40/us.png" alt="EN" class="flag-icon">English<i class='bx bx-chevron-down arrow'></i>
+          </button>
+          <div class="dropdown">
+            <a href="{% change_lang 'us' %}" class="lang-option">
+              <img src="https://flagcdn.com/w40/us.png" alt="EN" class="flag-icon"> English</a>
+            <a href="{% change_lang 'my' %}" class="lang-option">
+              <img src="https://flagcdn.com/w40/mm.png" alt="MM" class="flag-icon"> မြန်မာ</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="sidebar">{% trans "RESEARCH" %}</div> 
+ 
+  <div class="main"> 
+    <div class="header"> 
+      <h1>{% trans "Research at MTU" %}</h1>
+      <p>{% trans "Explore our latest university research and publications." %}</p> 
+    </div> 
+ 
+    <a href="{% url 'upload_document' %}" class="upload-link">{% trans "Summarize your research documents here" %}</a> 
+ 
+    <form method="get" action="{% url 'research' %}" class="search-bar"> 
+      <input type="text" name="q" value="{{ query }}" placeholder="{% trans 'Search research...' %}" autocomplete="off" autofocus/>
+      
+
+      <select name="category"> 
+        <option value="">{% trans "All Categories" %}</option> 
+        {% for cat in categories %} 
+          <option value="{{ cat }}" {% if cat == category %}selected{% endif %}>{{ cat }}</option> 
+        {% endfor %} 
+      </select> 
+      <button type="submit">{% trans "Search" %}</button> 
+    </form> 
+ 
+    {% if resources %}
+  {% for item in resources %}
+    <div class="entry">
+      <div class="entry-content">
+        <h2>{{ item.title }}</h2>
+        <div class="meta">{% trans "Researcher" %}: {{ item.researcher }}</div>
+        <div class="abstract">{{ item.abstract|truncatewords:45 }}</div>
+      </div>
+      
+      {% if item.document_link %}
+        <div class="entry-actions">
+          <!-- View Button -->
+          <a href="{{ item.document_link }}" class="entry-link" target="_blank">
+            <i class="fas fa-eye"></i> {% trans "View Document" %}
+          </a>
+        </div>
+      {% endif %}
+    </div>
+  {% endfor %}
+{% else %}
+  <div class="no-results">{% trans "No research found." %}</div>
+{% endif %}
+  </div>
+
+</body>
+</html>
+
+
+
+<script>
+// Force download from external link using fetch and blob
+function downloadFile(url, fileName) {
+    fetch(url, {
+        mode: 'cors'
+    })
+    .then(response => {
+        if (!response.ok) {
+            throw new Error('Network response was not ok');
+        }
+        return response.blob();
+    })
+    .then(blob => {
+        const blobUrl = window.URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = blobUrl;
+        a.download = fileName || 'research_document';
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        window.URL.revokeObjectURL(blobUrl);
+    })
+    .catch(error => {
+        console.error('Download failed:', error);
+        // Fallback: open in new tab
+        window.open(url, '_blank');
+    });
+
+    // Track download
+    trackDownload(url);
+}
+
+// Optional: Track file downloads
+function trackDownload(url) {
+    fetch('/api/track-download/', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+            'X-CSRFToken': '{{ csrf_token }}'
+        },
+        body: JSON.stringify({ url: url })
+    }).catch(error => console.error('Tracking failed:', error));
+}
+
+// Clear search bar after form submission
+document.addEventListener('DOMContentLoaded', function() {
+    const searchForm = document.querySelector('form[method="get"]');
+    if (searchForm) {
+        searchForm.addEventListener('submit', function() {
+            const input = searchForm.querySelector('input[name="q"]');
+            if (input) {
+                setTimeout(() => {
+                    input.value = '';
+                }, 100);
+            }
+        });
+    }
+});
+</script>
